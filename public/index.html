@@ -1,0 +1,33 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Todo-Backend</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <h1>Todo-Backend</h1>
+    <h2>a shared example to showcase backend tech stacks</h2>
+  <article>
+    <p>
+      The Todo-Backend project helps showcase and compare different options for building web services. It defines <strong>a specification</strong> for a simple web API, and then provides <strong>example implementations</strong> for that same API using various tech stacks. The problem domain for this API is maintaining a list of todos. This problem domain - and the Todo-Backend project generally - was inspired by the <a href="http://todomvc.com/">TodoMVC project</a>, and some code (specifically the web client implementation) was borrowed directly from TodoMVC.
+    </p>
+    <h2>the spec</h2>
+    <p>The Todo-Backend API is specified by <a href="specs/specs.html">a suite of automated tests</a> which run in a browser and can be pointed at any running Todo-Backend implementation. If your Todo-Backend implementation passes all the tests, then it is compliant with the spec.</p>
+    <h2>a web client</h2>
+    <p>In addition to the test specs there is also a <a href="client/index.html">web client</a> which uses the API to maintain a list of todos. You can point the web client at any Todo-Backend implementation to play with it and manually verify that it performs as expected.</p>
+  </article>
+  <article class="implementations">
+  <h1>example implementations</h1>
+  <section>
+    <h1>sinatra</h1>
+    <a href="specs/specs.html?http://todo-backend-sinatra.herokuapp.com/todos">run the specs against it</a>
+    <a href="client/index.html?http://todo-backend-sinatra.herokuapp.com/todos">point the Todo web client towards it</a>
+    <a href="https://github.com/moredip/todo-backend-sinatra">view the code</a>
+    <p>
+      A simple ruby implementation using the lightweight <a href="http://www.sinatrarb.com/">Sinatra</a> web framework. This implementation 'cheats' and does not persist the todos anywhere; they are just stored in memory in a simple ruby Hash.
+    </p>
+  </section>
+  </article>
+</body>
+</html>
+

@@ -1,0 +1,61 @@
+body {
+  font-size: 16pt;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 2em 2em;
+  background: #eee;
+  color: #222;
+}
+
+a {
+  font-style: italic;
+  color: black;
+}
+
+article {
+  margin-bottom: 4em;
+}
+
+h1,h2 {
+  font-weight: 100;
+}
+
+body > h1 {
+  font-size: 2.5em;
+}
+
+article > h1 {
+  font-size: 2.5em;
+}
+
+section > h1 {
+  font-size: 1.6em;
+}
+
+body > h2 {
+  font-style: italic;
+  margin-top: -1em;
+}
+article.implementations {
+  border-top: 1px gray dashed;
+}
+
+article.implementations section {
+  border: 2px solid gray;
+  padding: 0.4em 1em;
+  background-color: white;
+}
+
+article.implementations section h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+article.implementations section > a {
+  display: block;
+  font-weight: 100;
+}
+
+
+p {
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+}
