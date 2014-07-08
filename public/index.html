@@ -19,12 +19,21 @@
   <article class="implementations">
   <h1>example implementations</h1>
   <section>
-    <h1>sinatra</h1>
+    <h1>Ruby w. Sinatra</h1>
     <a href="specs/index.html?http://todo-backend-sinatra.herokuapp.com/todos">run the specs against it</a>
     <a href="client/index.html?http://todo-backend-sinatra.herokuapp.com/todos">point the Todo web client towards it</a>
     <a href="https://github.com/moredip/todo-backend-sinatra">view the code</a>
     <p>
       A simple ruby implementation using the lightweight <a href="http://www.sinatrarb.com/">Sinatra</a> web framework. This implementation 'cheats' and does not persist the todos anywhere; they are just stored in memory in a simple ruby Hash.
+    </p>
+  </section>
+  <section>
+    <h1>Node.js w. Express</h1>
+    <a href="specs/index.html?http://todo-backend-express.herokuapp.com/">run the specs against it</a>
+    <a href="client/index.html?http://todo-backend-express.herokuapp.com/">point the Todo web client towards it</a>
+    <a href="https://github.com/dtao/todo-backend-express">view the code</a>
+    <p>
+      Node.js + Express, courtesy of <a href="https://github.com/dtao">Daniel Tao</a>. Like the example Sinatra implementation, this one 'cheats' by not actually saving TODOs in any sort of persistent structure (e.g., a database). It simply keeps them in memory.
     </p>
   </section>
   </article>

@@ -9,6 +9,10 @@ body {
 a {
   font-style: italic;
   color: black;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
 }
 
 article {
@@ -44,6 +48,7 @@ article.implementations {
 article.implementations section {
   border: 2px solid gray;
   padding: 0.4em 1em;
+  margin: 2em 0;
   background-color: white;
 }
 
@@ -55,6 +60,7 @@ article.implementations section h1 {
 article.implementations section > a {
   display: block;
   font-weight: 100;
+  margin: 0.3em 0;
 }
 
 
