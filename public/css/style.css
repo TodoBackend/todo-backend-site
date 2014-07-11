@@ -1,17 +1,69 @@
 body {
   font-size: 16pt;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 2em 2em;
   background: #eee;
   color: #222;
+  margin: 0;
 }
 
-a {
+body > * {
+  padding: 0em 2em;
+}
+
+nav {
+  position: relative;
+  background-color:#333;
+  color: #eee;
+  height:50px;
+  display: block;
+}
+nav h1 {
+  position: relative;
+  float: left;
+  font-weight: bolder;
+  margin: 0;
+  padding-right: 2em;
+  line-height:50px;
+}
+nav h1 a {
+  color: #ddd;
+}
+
+nav ul li {
+  display: block;
+  position: relative;
+  float: left;
+  list-style: none;
+  line-height: 50px;
+  padding: 0 0 0 0.5em;
+  font-size: 30px;
+}
+
+nav ul {
+  float: right;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav li a {
+  font-style: none;
+  font-weight: lighter;
+  letter-spacing: 0.05em;
+  color: #ddd;
+}
+nav a:hover {
+  color: white;
+}
+
+article a {
   font-style: italic;
   color: black;
   text-decoration: none;
 }
-a:hover{
+article a:hover{
   text-decoration: underline;
 }
 
@@ -23,24 +75,46 @@ h1,h2 {
   font-weight: 100;
 }
 
-body > h1 {
-  font-size: 2.5em;
+header {
+  background-color: white;
+  padding: 0.8em 2em 1em 2em;
+  margin: 2em;
+  border: 4px solid #ccc;
+}
+header > h1 {
+  font-size: 4em;
   font-weight: bolder;
   letter-spacing: -0.05em;
+  margin: 0;
+  padding-right: 0.2em;
+  text-align: center;
+}
+header > h2 {
+  font-style: italic;
+  margin: 0;
+  text-align: center;
+}
+
+article {
 }
 
 article > h1 {
   font-size: 2.5em;
 }
 
+article > h2 {
+  margin: 0;
+}
+
+article > p {
+  margin-top: 0.3em;
+  margin-bottom: 0.8em;
+}
+
 section > h1 {
   font-size: 1.6em;
 }
 
-body > h2 {
-  font-style: italic;
-  margin-top: -1em;
-}
 article.implementations {
   border-top: 1px gray dashed;
 }
