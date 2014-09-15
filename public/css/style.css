@@ -35,8 +35,8 @@ nav ul li {
   float: left;
   list-style: none;
   line-height: 50px;
-  padding: 0 0 0 0.5em;
-  font-size: 30px;
+  padding: 0 0 0 1em;
+  font-size: 24px;
 }
 
 nav ul {
@@ -59,11 +59,11 @@ nav a:hover {
 }
 
 article a {
-  font-style: italic;
   color: black;
 }
 article a:hover{
   text-decoration: underline;
+  color: #555555;
 }
 
 article {
