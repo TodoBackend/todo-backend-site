@@ -6,8 +6,18 @@ body {
   margin: 0;
 }
 
-body > * {
+.page {
   padding: 0em 2em;
+}
+
+.nav-bar {
+    width: 100%;
+    display: inline-block;
+    background-color: black;
+}
+
+#nav-bar-right {
+    float: right;
 }
 
 /*Strip the ul of padding and list styling*/
@@ -33,7 +43,8 @@ li a {
     line-height: 50px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #fff;
-    background: #2f3036;
+    padding-left: 10px;
+    padding-right: 10px;
     text-decoration: none;
 }
 
@@ -157,6 +168,11 @@ input[type=checkbox]:checked ~ #menu{
     .show-menu {
         display:block;
     }
+
+    #nav-bar-right {
+        float: none;
+    }
+
 }
 
 article {
