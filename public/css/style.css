@@ -10,53 +10,75 @@ body > * {
   padding: 0em 2em;
 }
 
-nav {
-  position: relative;
-  background-color:#333;
-  color: #eee;
-  height:50px;
-  display: block;
-}
-nav h1 {
-  position: relative;
-  float: left;
-  font-weight: bolder;
-  margin: 0;
-  padding-right: 2em;
-  line-height:50px;
-}
-nav h1 a {
-  color: #ddd;
+/*Strip the ul of padding and list styling*/
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
 }
 
-nav ul li {
-  display: block;
-  position: relative;
-  float: left;
-  list-style: none;
-  line-height: 50px;
-  padding: 0 0 0 1em;
-  font-size: 24px;
+/*Create a horizontal list with spacing*/
+li {
+    display:inline-block;
+    float: left;
+    margin-right: 1px;
 }
 
-nav ul {
-  float: right;
-  margin: 0;
+/*Style for menu links*/
+li a {
+    display:block;
+    min-width:140px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    background: #2f3036;
+    text-decoration: none;
 }
 
-nav a {
-  text-decoration: none;
+/*Hover state for top level links*/
+li:hover a {
+    background: #19c589;
 }
 
-nav li a {
-  font-style: none;
-  font-weight: lighter;
-  letter-spacing: 0.05em;
-  color: #ddd;
+/*Style for dropdown links*/
+li:hover ul a {
+    background: #f3f3f3;
+    color: #2f3036;
+    height: 40px;
+    line-height: 40px;
 }
-nav a:hover {
-  color: white;
+
+/*Hover state for dropdown links*/
+li:hover ul a:hover {
+    background: #19c589;
+    color: #fff;
 }
+
+/*Hide dropdown links until they are needed*/
+li ul {
+    display: none;
+}
+
+/*Make dropdown links vertical*/
+li ul li {
+    display: block;
+    float: none;
+}
+
+/*Prevent text wrapping*/
+li ul li a {
+    width: auto;
+    min-width: 100px;
+    padding: 0 20px;
+}
+
+/*Display the dropdown on hover*/
+ul li a:hover + .hidden, .hidden:hover {
+    display: block;
+}
+
 
 article a {
   color: black;
@@ -74,9 +96,10 @@ h1,h2 {
   font-weight: 100;
 }
 
-header {
-  margin: 2em;
+.implementations-header {
+    border-top: 1px dashed;
 }
+
 header > h1 {
   font-size: 4em;
   font-weight: bolder;
@@ -84,11 +107,56 @@ header > h1 {
   margin: 0;
   padding-right: 0.2em;
   text-align: center;
+  display: inline-block;
 }
 header > h2 {
   font-style: italic;
   margin: 0;
   text-align: center;
+}
+
+/*Style 'show menu' label button and hide it by default*/
+.show-menu {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: #fff;
+    background: #19c589;
+    text-align: center;
+    padding: 10px 0;
+    display: none;
+}
+
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
+}
+
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+
+/*Responsive Styles*/
+
+@media screen and (max-width : 760px){
+    /*Make dropdown links appear inline*/
+    ul {
+        position: static;
+        display: none;
+    }
+    /*Create vertical spacing*/
+    li {
+        margin-bottom: 1px;
+    }
+    /*Make all menu links full width*/
+    ul li, li a {
+        width: 100%;
+    }
+
+    /*Display 'show menu' link*/
+    .show-menu {
+        display:block;
+    }
 }
 
 article {
@@ -138,10 +206,10 @@ article.implementations section.teaser {
   border: 2px dotted gray;
   background-color: inherit;
 }
+
 article.implementations section.teaser h1 {
   font-style: italic;
 }
-
 
 p {
   font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;

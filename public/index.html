@@ -3,18 +3,27 @@
     <meta charset="utf-8">
     <title>Todo-Backend</title>
     <link rel="stylesheet" href="css/style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <base target="_blank">
 </head>
 <body>
-<nav>
-    <h1><a href="index.html">todo-backend</a></h1>
-    <ul>
+
+<div>
+    <label for="show-menu" class="show-menu">Menu</label>
+    <input type="checkbox" id="show-menu" role="button">
+    <ul id="menu">
+        <li><a href="index.html">Todo-Backend</a></li>
         <li><a href="index.html#implementations">Implementions</a></li>
-        <li><a href="implementing.html">Contribute</a></li>
-        <li><a href="client/index.html">Client</a></li>
-        <li><a href="specs/index.html">Tests</a></li>
+        <li>
+            <a href="implementing.html">Contribute</a>
+            <ul class="hidden">
+                <li><a href="client/index.html">Client</a></li>
+                <li><a href="specs/index.html">Tests</a></li>
+            </ul>
+        </li>
     </ul>
-</nav>
+</div>
+
 <header>
     <h1>Todo-Backend</h1>
 
@@ -33,14 +42,14 @@
 
 </article>
 <a name="implementations"></a>
-<article class="implementations">
-<h1>Example Implementations</h1>
+<article id="implementations">
+<h1 class="implementations-header">Example Implementations</h1>
 <section>
     <h1>Ruby / Sinatra</h1>
 
     <div class="links">
         <a href="specs/index.html?http://todo-backend-sinatra.herokuapp.com/todos">Run the Specs</a>
-         <a href="https://github.com/moredip/todo-backend-sinatra">View the Code</a>
+        <a href="https://github.com/moredip/todo-backend-sinatra">View the Code</a>
 
         <a href="client/index.html?http://todo-backend-sinatra.herokuapp.com/todos">Example Implementation</a>
     </div>
