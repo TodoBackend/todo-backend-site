@@ -1,7 +1,5 @@
 body {
-  font-size: 16pt;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background: #eee;
+  background: #ffffff;
   color: #222;
   margin: 0;
 }
@@ -36,6 +34,7 @@ li {
 
 /*Style for menu links*/
 li a {
+    font-size: 16pt;
     display:block;
     min-width:140px;
     height: 50px;
@@ -90,42 +89,6 @@ ul li a:hover + .hidden, .hidden:hover {
     display: block;
 }
 
-
-article a {
-  color: black;
-}
-article a:hover{
-  text-decoration: underline;
-  color: #555555;
-}
-
-article {
-  margin-bottom: 4em;
-}
-
-h1,h2 {
-  font-weight: 100;
-}
-
-.implementations-header {
-    border-top: 1px dashed;
-}
-
-header > h1 {
-  font-size: 4em;
-  font-weight: bolder;
-  letter-spacing: -0.05em;
-  margin: 0;
-  padding-right: 0.2em;
-  text-align: center;
-  display: inline-block;
-}
-header > h2 {
-  font-style: italic;
-  margin: 0;
-  text-align: center;
-}
-
 /*Style 'show menu' label button and hide it by default*/
 .show-menu {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -172,14 +135,68 @@ input[type=checkbox]:checked ~ #menu{
     #nav-bar-right {
         float: none;
     }
+}
+
+.intro {
+    margin-bottom: 3em;
+}
+
+.main-title {
+    font-size: 4em;
+    font-weight: bolder;
+    letter-spacing: -0.05em;
+    margin: 0;
+    padding-top: 20px;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.sub-title {
+    font-size: 21px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    margin: 0;
+    padding-bottom: 15px;
+    text-align: center;
+    font-weight: 100;
+}
+
+.secondary-title {
+    border-bottom: 1px solid;
+    font-size: 21px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding-bottom: 2px;
+    padding-top: 5px;
+    font-weight: 100;
+}
+
+.implementation-title {
+    font-size: 26px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 }
 
-article {
+.implementation-links {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    color: gray;
+    text-decoration: none;
 }
 
-article > h1 {
-  font-size: 2.5em;
+.todo-list-example {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    color: green;
+    text-decoration: none;
+}
+
+p > a {
+    color: purple;
+}
+p > a:hover{
+    text-decoration: underline;
+    color: #555555;
 }
 
 article > h2 {
@@ -189,44 +206,7 @@ article > h2 {
 article > p {
   margin-top: 0.3em;
   margin-bottom: 0.8em;
-}
-
-section > h1 {
-  font-size: 1.6em;
-}
-
-article.implementations {
-  border-top: 1px gray dashed;
-}
-
-article.implementations section {
-  border: 2px solid gray;
-  padding: 0.4em 1em;
-  margin: 2em 0;
-  background-color: white;
-}
-
-article.implementations section h1 {
-  margin: 0;
-  font-size: 2em;
-}
-
-article.implementations .links a {
-  display: block;
-  font-weight: 100;
-  text-decoration: none;
-  margin: 0.3em 0;
-}
-
-article.implementations section.teaser {
-  border: 2px dotted gray;
-  background-color: inherit;
-}
-
-article.implementations section.teaser h1 {
-  font-style: italic;
-}
-
-p {
   font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 }
+
+
