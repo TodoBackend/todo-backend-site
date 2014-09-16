@@ -11,7 +11,7 @@ body {
 .nav-bar {
     width: 100%;
     display: inline-block;
-    background-color: black;
+    background-color: #2F4259;
 }
 
 #nav-bar-right {
@@ -49,7 +49,7 @@ li a {
 
 /*Hover state for top level links*/
 li:hover a {
-    background: #19c589;
+    background: #BD2227;
 }
 
 /*Style for dropdown links*/
@@ -62,7 +62,7 @@ li:hover ul a {
 
 /*Hover state for dropdown links*/
 li:hover ul a:hover {
-    background: #19c589;
+    background: #BD2227;
     color: #fff;
 }
 
@@ -94,7 +94,7 @@ ul li a:hover + .hidden, .hidden:hover {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-decoration: none;
     color: #fff;
-    background: #19c589;
+    background: #BD2227;
     text-align: center;
     padding: 10px 0;
     display: none;
@@ -143,6 +143,7 @@ input[type=checkbox]:checked ~ #menu{
 
 .main-title {
     font-size: 4em;
+    color: #2F4259;
     font-weight: bolder;
     letter-spacing: -0.05em;
     margin: 0;
@@ -163,40 +164,59 @@ input[type=checkbox]:checked ~ #menu{
 
 .secondary-title {
     border-bottom: 1px solid;
-    font-size: 21px;
+    border-bottom-color: #BD2227;
+    color: gray;
+    font-size: 24px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0;
     padding-bottom: 2px;
     padding-top: 5px;
     font-weight: 100;
+
 }
 
 .implementation-title {
     font-size: 26px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-
+    padding-bottom: 0;
+    padding-top: 40px;
+    margin:0;
 }
 
-.implementation-links {
+.implementation-buttons {
+    font-size: 14px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 100;
-    color: gray;
+    color: black;
     text-decoration: none;
+    padding: 7px;
+    background: #B2D5DE;
 }
 
-.todo-list-example {
+.example-implementation-button {
+    font-size: 14px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 100;
-    color: green;
+    color: white;
     text-decoration: none;
+    padding: 7px;
+    background: #C5C5C5;
+}
+
+p {
+    padding-top: 0;
+    padding-bottom: 30px;
+    margin:0;
 }
 
 p > a {
-    color: purple;
+    color: #344399;
+    text-decoration: none;
 }
 p > a:hover{
+    color: #344399;
     text-decoration: underline;
-    color: #555555;
+
 }
 
 article > h2 {
@@ -204,8 +224,7 @@ article > h2 {
 }
 
 article > p {
-  margin-top: 0.3em;
-  margin-bottom: 0.8em;
+  margin: 0;
   font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 }
 
