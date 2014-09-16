@@ -110,6 +110,18 @@ input[type=checkbox]:checked ~ #menu{
     display: block;
 }
 
+.column-one {
+    margin: 0;
+    display: inline-block;
+    width: 49%;
+}
+
+.column-two {
+    margin: 0;
+    display: inline-block;
+    width: 50%;
+}
+
 /*Responsive Styles*/
 
 @media screen and (max-width : 760px){
@@ -134,6 +146,16 @@ input[type=checkbox]:checked ~ #menu{
 
     #nav-bar-right {
         float: none;
+    }
+
+    .column-two {
+        display: block;
+        width: 100%;
+    }
+
+    .column-one {
+        display: block;
+        width: 100%;
     }
 }
 
@@ -227,5 +249,4 @@ article > p {
   margin: 0;
   font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 }
-
 
