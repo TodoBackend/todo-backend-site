@@ -14,6 +14,7 @@ body {
     width: 100%;
     display: inline-block;
     background-color: #2F4259;
+    max-height: 50px;
 }
 
 .column-one {
@@ -31,41 +32,6 @@ body {
     vertical-align: text-top;
     padding-left: 2%;
     padding-right: 2%;
-}
-
-@media screen and (max-width : 760px){
-    #menu, .hidden {
-        position: static;
-        display: none;
-    }
-
-    .nav-bar-links, .drop-downs {
-        margin-bottom: 1px;
-    }
-
-    .nav-bar-links, .nav-bar-links a {
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-    }
-
-    .show-menu {
-        display:block;
-    }
-
-    #nav-bar-right {
-        float: none;
-    }
-
-    .column-two {
-        display: block;
-        width: 100%;
-    }
-
-    .column-one {
-        display: block;
-        width: 100%;
-    }
 }
 
 .intro {
@@ -103,7 +69,6 @@ body {
     padding-bottom: 2px;
     padding-top: 5px;
     font-weight: 100;
-
 }
 
 .implementation-title {
@@ -149,7 +114,6 @@ p > a {
 p > a:hover{
     color: #344399;
     text-decoration: underline;
-
 }
 
 article > h2 {
@@ -161,3 +125,41 @@ article > p {
   font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 }
 
+@media screen and (max-width : 760px){
+    #menu, .hidden {
+        position: static;
+        display: none;
+    }
+
+    .nav-bar {
+        max-height: none;
+    }
+
+    .nav-bar-links, .drop-downs {
+        margin-bottom: 1px;
+    }
+
+    .nav-bar-links, .nav-bar-links a {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .show-menu {
+        display:block;
+    }
+
+    #nav-bar-right {
+        float: none;
+    }
+
+    .column-two {
+        display: block;
+        width: 100%;
+    }
+
+    .column-one {
+        display: block;
+        width: 100%;
+    }
+}
