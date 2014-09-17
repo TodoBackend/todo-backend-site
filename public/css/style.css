@@ -1,3 +1,5 @@
+@import url("navbar.css");
+
 body {
   background: #ffffff;
   color: #222;
@@ -12,102 +14,6 @@ body {
     width: 100%;
     display: inline-block;
     background-color: #2F4259;
-}
-
-#nav-bar-right {
-    float: right;
-}
-
-/*Strip the ul of padding and list styling*/
-ul {
-    list-style-type:none;
-    margin:0;
-    padding:0;
-}
-
-/*Create a horizontal list with spacing*/
-li {
-    display:inline-block;
-    float: left;
-    margin-right: 1px;
-}
-
-/*Style for menu links*/
-li a {
-    font-size: 16pt;
-    display:block;
-    min-width:140px;
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #fff;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-decoration: none;
-}
-
-/*Hover state for top level links*/
-li:hover a {
-    background: #BD2227;
-}
-
-/*Style for dropdown links*/
-li:hover ul a {
-    background: #f3f3f3;
-    color: #2f3036;
-    height: 40px;
-    line-height: 40px;
-}
-
-/*Hover state for dropdown links*/
-li:hover ul a:hover {
-    background: #BD2227;
-    color: #fff;
-}
-
-/*Hide dropdown links until they are needed*/
-li ul {
-    display: none;
-}
-
-/*Make dropdown links vertical*/
-li ul li {
-    display: block;
-    float: none;
-}
-
-/*Prevent text wrapping*/
-li ul li a {
-    width: auto;
-    min-width: 100px;
-    padding: 0 20px;
-}
-
-/*Display the dropdown on hover*/
-ul li a:hover + .hidden, .hidden:hover {
-    display: block;
-}
-
-/*Style 'show menu' label button and hide it by default*/
-.show-menu {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-decoration: none;
-    color: #fff;
-    background: #BD2227;
-    text-align: center;
-    padding: 10px 0;
-    display: none;
-}
-
-/*Hide checkbox*/
-input[type=checkbox]{
-    display: none;
-}
-
-/*Show menu when invisible checkbox is checked*/
-input[type=checkbox]:checked ~ #menu{
-    display: block;
 }
 
 .column-one {
@@ -127,24 +33,22 @@ input[type=checkbox]:checked ~ #menu{
     padding-right: 2%;
 }
 
-/*Responsive Styles*/
-
 @media screen and (max-width : 760px){
-    /*Make dropdown links appear inline*/
-    ul {
+    #menu, .hidden {
         position: static;
         display: none;
     }
-    /*Create vertical spacing*/
-    li {
+
+    .nav-bar-links, .drop-downs {
         margin-bottom: 1px;
     }
-    /*Make all menu links full width*/
-    ul li, li a {
+
+    .nav-bar-links, .nav-bar-links a {
+        margin-left: auto;
+        margin-right: auto;
         width: 100%;
     }
 
-    /*Display 'show menu' link*/
     .show-menu {
         display:block;
     }
@@ -219,7 +123,6 @@ input[type=checkbox]:checked ~ #menu{
     padding: 7px;
     background: #B2D5DE;
     border-radius: 3px;
-
 }
 
 .example-implementation-button {
