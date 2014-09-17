@@ -1,3 +1,10 @@
+.nav-bar {
+    width: 100%;
+    display: inline-block;
+    background-color: #2F4259;
+    max-height: 50px;
+}
+
 #nav-bar-right {
     float: right;
 }

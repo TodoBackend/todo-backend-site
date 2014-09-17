@@ -10,13 +10,6 @@ body {
   padding: 0em 2em;
 }
 
-.nav-bar {
-    width: 100%;
-    display: inline-block;
-    background-color: #2F4259;
-    max-height: 50px;
-}
-
 .column-one {
     margin: 0;
     display: inline-block;
