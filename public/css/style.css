@@ -8,6 +8,7 @@ body {
 
 .page {
   padding: 0em 2em;
+    margin-bottom: 20px;
 }
 
 .column-one {
@@ -31,7 +32,7 @@ body {
     font-size: 4em;
     color: #2F4259;
     font-weight: bolder;
-    letter-spacing: -0.05em;
+    letter-spacing: -0.04em;
     margin: 0;
     padding-top: 20px;
     text-align: center;
@@ -72,24 +73,26 @@ body {
     font-size: 14px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 100;
-    color: black;
+    color: white;
     text-decoration: none;
     padding: 7px;
-    background: #B2D5DE;
+    background: #089ea4;
     border-radius: 3px;
     display: inline-block;
+
 }
 
 .example-implementation-button {
     font-size: 14px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 100;
-    color: white;
+    color: black;
     text-decoration: none;
     padding: 7px;
-    background: #C5C5C5;
+    background: #b2d5de;
     border-radius: 3px;
     display: inline-block;
+
 }
 
 .contribute-headers {
@@ -100,11 +103,22 @@ body {
 }
 
 .teaser{
-    border: 2px dashed gray;
-    background-color: inherit;
+    border: 3px dashed #BD2227;
     padding: 0.4em 1em;
-    margin: 2em 0;
-    background-color: white;
+    margin-top: 2em;
+}
+.teaser > p{
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.teaser > h1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    padding: 0;
+    padding-top: 10px;
+    letter-spacing: .5px;
 }
 
 p {
@@ -132,7 +146,6 @@ p > a:hover{
     text-decoration: underline;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
 
 article > h2 {
   margin: 0;
@@ -179,5 +192,9 @@ article > p {
     .column-one {
         display: block;
         width: 100%;
+    }
+
+    .implementation-buttons {
+       margin-bottom: 4px;
     }
 }
