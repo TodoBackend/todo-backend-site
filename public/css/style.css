@@ -53,12 +53,13 @@ body {
     border-bottom: 1px solid;
     border-bottom-color: #58C9E8;
     color: gray;
-    font-size: 30px;
+    font-size: 28px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0;
     padding-bottom: 2px;
     padding-top: 30px;
-    font-weight: 100;
+    font-weight: 200;
+
 }
 
 .implementation-title {
@@ -115,7 +116,7 @@ body {
 
 .teaser > h1 {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 30px;
+    font-size: 26px;
     padding: 0;
     padding-top: 10px;
     letter-spacing: .5px;
