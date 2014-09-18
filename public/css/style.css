@@ -27,10 +27,6 @@ body {
     padding-right: 2%;
 }
 
-.intro {
-    margin-bottom: 3em;
-}
-
 .main-title {
     font-size: 4em;
     color: #2F4259;
@@ -43,7 +39,7 @@ body {
 }
 
 .sub-title {
-    font-size: 21px;
+    font-size: 24px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
     margin: 0;
@@ -54,13 +50,13 @@ body {
 
 .secondary-title {
     border-bottom: 1px solid;
-    border-bottom-color: #BD2227;
+    border-bottom-color: #58C9E8;
     color: gray;
-    font-size: 24px;
+    font-size: 30px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0;
     padding-bottom: 2px;
-    padding-top: 5px;
+    padding-top: 30px;
     font-weight: 100;
 }
 
@@ -96,6 +92,21 @@ body {
     display: inline-block;
 }
 
+.contribute-headers {
+    font-size: 18px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.teaser{
+    border: 2px dashed gray;
+    background-color: inherit;
+    padding: 0.4em 1em;
+    margin: 2em 0;
+    background-color: white;
+}
+
 p {
     padding-top: 0;
     padding-bottom: 30px;
@@ -110,6 +121,18 @@ p > a:hover{
     color: #344399;
     text-decoration: underline;
 }
+
+.resources > a {
+    color: #344399;
+    text-decoration: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.resources > a:hover{
+    color: #344399;
+    text-decoration: underline;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 
 article > h2 {
   margin: 0;

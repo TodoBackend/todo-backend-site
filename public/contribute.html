@@ -26,43 +26,43 @@
         </div>
     </ul>
 </div>
-<article>
-    <h1>Creating a new Todo-Backend API implementation</h1>
 
+<div class="page">
+<article>
+    <h1 class="secondary-title">Creating a new Todo-Backend API implementation</h1>
+    <br>
     <p>It's pretty simple to implement the Todo-Backend API. The entire API consists of about 5 distinct operations
         (create a todo, view a todo, modify a todo, list all todos, delete all todos).</p>
 
-    <h2>drive the implementation out with tests</h2>
 
+    <h1 class="contribute-headers">Drive the implementation out with tests</h1>
     <p>
         The API is defined using a <a href="/specs/index.html">series of automated tests</a>. You can point the test
         suite at any url you want, and it will attempt to verify that the url correctly implements the API spec.
-    </p>
-
-    <p>
+        <br><br>
         The tests are intentionally designed in a kata-like structure. Getting the first test to pass is the start of
         your journey implementing the API, and each subsequent test should lead you further towards a fully functioning
         implementation. When all the tests are passing you have a fully compliant Todo-Backend API implementation.
     </p>
 
-    <h2>enable CORS (Cross-Origin Resource Sharing)</h2>
+    <h1 class="contribute-headers">Enable CORS (Cross-Origin Resource Sharing)</h1>
 
     <p>The most common initial gotcha when implementing Todo-Backend is getting CORS headers right. Both the
         Todo-Backend web client and the Todo-Backend specs themselves will be running javascript from a different domain
         than the one where your API implementation will live. That means that your API implementation will need to <a
                 href="http://enable-cors.org/server.html">enable CORS support</a> by including a couple of custom HTTP
-        headers and responding to the relevant OPTIONS HTTP requests.</p>
-
-    <p>The automated spec tests are designed to guide you towards implementing CORS correctly. Additionally, you may
-        find these resources helpful:</p>
-    <ul>
-        <li><a href="http://enable-cors.org">enable-cors.org</a></li>
-        <li><a href="http://www.html5rocks.com/en/tutorials/cors/">html5rocks.com CORS tutorial</a></li>
-        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS">Mozilla Developer
+        headers and responding to the relevant OPTIONS HTTP requests.
+        <br><br>
+        The automated spec tests are designed to guide you towards implementing CORS correctly. Additionally, you may
+        find these resources helpful:
+        <li class="resources"><a href="http://enable-cors.org">Enable-cors.org</a></li>
+        <li class="resources"><a href="http://www.html5rocks.com/en/tutorials/cors/">html5rocks.com CORS tutorial</a></li>
+        <li class="resources"><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS">Mozilla Developer
             Network</a></li>
-        <li>Studying the existing Todo-Backend implementations</li>
+        <li class="resources">Studying the existing Todo-Backend implementations</li>
     </ul>
-    <h2>get your implementation listed</h2>
+    </p>
+    <h1 class="contribute-headers">Get your implementation listed</h1>
 
     <p>To have your implementation listed on this site you simple need to have it running somewhere live. <a
             href="http://heroku.com">Heroku</a> is an free and easy way to host a live instance of your site. Once you
@@ -72,5 +72,6 @@
         creation entirely in the browser if you want. editing <a
                 href="https://github.com/moredip/todo-backend-site/blob/master/index.html">this page.</a></p>
 </article>
+</div>
 </body>
 </html> 
