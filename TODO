@@ -1,0 +1,4 @@
+- generate implementations section from JSON file
+- SASS-ify
+- somehow automatically check all links are valid
+- auto-deploy to S3 (maybe with pre-prod too?)
