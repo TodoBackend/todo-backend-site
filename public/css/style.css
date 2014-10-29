@@ -11,20 +11,19 @@ body {
     margin-bottom: 20px;
 }
 
-.column-one {
+.column {
     margin: 0;
     display: inline-block;
-    width: 47%;
     vertical-align: text-top;
     padding-right: 2%;
 }
 
-.column-two {
-    margin: 0;
-    display: inline-block;
+.column.one {
+    width: 47%;
+}
+
+.column.two {
     width: 46%;
-    vertical-align: text-top;
-    padding-left: 2%;
     padding-right: 2%;
 }
 
@@ -70,30 +69,25 @@ body {
     margin:0;
 }
 
-.implementation-buttons {
+.links a {
     font-size: 14px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 100;
-    color: white;
     text-decoration: none;
     padding: 7px;
-    background: #089ea4;
     border-radius: 3px;
     display: inline-block;
+}
+
+.implementation-buttons {
+    color: white;
+    background: #089ea4;
 
 }
 
 .example-implementation-button {
-    font-size: 14px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 100;
     color: black;
-    text-decoration: none;
-    padding: 7px;
     background: #b2d5de;
-    border-radius: 3px;
-    display: inline-block;
-
 }
 
 .contribute-headers {
