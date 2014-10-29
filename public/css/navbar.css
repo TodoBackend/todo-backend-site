@@ -1,0 +1,90 @@
+.nav-bar {
+    width: 100%;
+    display: inline-block;
+    background-color: #2F4259;
+    max-height: 50px;
+}
+
+#nav-bar-right {
+    float: right;
+}
+
+#menu, .hidden {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+.nav-bar-links  {
+    display:inline-block;
+    float: left;
+    margin-right: 1px;
+}
+
+.nav-bar-links  a {
+    font-size: 16pt;
+    display:block;
+    min-width:140px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.nav-bar-links:hover a {
+    background: #BD2227;
+}
+
+.nav-bar-links:hover .drop-down-links {
+    background: #f3f3f3;
+    color: #2f3036;
+    height: 40px;
+    line-height: 40px;
+}
+
+.nav-bar-links:hover .drop-down-links:hover {
+    background: #B2D5DE;
+    color: #fff;
+}
+
+.hidden {
+    display: none;
+}
+
+.drop-downs {
+    position: relative;
+    display: block;
+    float: none;
+}
+
+.drop-down-links {
+    width: auto;
+    min-width: 100px;
+    padding: 0 20px;
+}
+
+a:hover + .hidden, .hidden:hover {
+    display: block;
+}
+
+.show-menu {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: #fff;
+    background: #BD2227;
+    text-align: center;
+    padding: 10px 0;
+    display: none;
+}
+
+input[type=checkbox]{
+    display: none;
+}
+
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
