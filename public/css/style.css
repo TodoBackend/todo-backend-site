@@ -8,138 +8,138 @@ body {
 
 .page {
   padding: 0em 2em;
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .column {
-    margin: 0;
-    display: inline-block;
-    vertical-align: text-top;
-    padding-right: 2%;
+  margin: 0;
+  display: inline-block;
+  vertical-align: text-top;
+  padding-right: 2%;
 }
 
 .column.one {
-    width: 47%;
+  width: 47%;
 }
 
 .column.two {
-    width: 46%;
-    padding-right: 2%;
+  width: 46%;
+  padding-right: 2%;
 }
 
 .main-title {
-    font-size: 4em;
-    color: #2F4259;
-    font-weight: bolder;
-    letter-spacing: -0.04em;
-    margin: 0;
-    padding-top: 20px;
-    text-align: center;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 4em;
+  color: #2F4259;
+  font-weight: bolder;
+  letter-spacing: -0.04em;
+  margin: 0;
+  padding-top: 20px;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .sub-title {
-    font-size: 24px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-style: italic;
-    margin: 0;
-    padding-bottom: 15px;
-    text-align: center;
-    font-weight: 100;
+  font-size: 24px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  margin: 0;
+  padding-bottom: 15px;
+  text-align: center;
+  font-weight: 100;
 }
 
 .secondary-title {
-    border-bottom: 1px solid;
-    border-bottom-color: #58C9E8;
-    color: gray;
-    font-size: 28px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin: 0;
-    padding-bottom: 2px;
-    padding-top: 30px;
-    font-weight: 200;
+  border-bottom: 1px solid;
+  border-bottom-color: #58C9E8;
+  color: gray;
+  font-size: 28px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding-bottom: 2px;
+  padding-top: 30px;
+  font-weight: 200;
 
 }
 
 .implementation-title {
-    font-size: 26px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    padding-bottom: 0;
-    padding-top: 40px;
-    margin:0;
+  font-size: 26px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-bottom: 0;
+  padding-top: 40px;
+  margin:0;
 }
 
 .links a {
-    font-size: 14px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 100;
-    text-decoration: none;
-    padding: 7px;
-    border-radius: 3px;
-    display: inline-block;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  text-decoration: none;
+  padding: 7px;
+  border-radius: 3px;
+  display: inline-block;
 }
 
 .implementation-buttons {
-    color: white;
-    background: #089ea4;
+  color: white;
+  background: #089ea4;
 
 }
 
 .example-implementation-button {
-    color: black;
-    background: #b2d5de;
+  color: black;
+  background: #b2d5de;
 }
 
 .contribute-headers {
-    font-size: 18px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    padding-bottom: 0;
-    margin: 0;
+  font-size: 18px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-bottom: 0;
+  margin: 0;
 }
 
 .teaser{
-    border: 3px dashed #BD2227;
-    padding: 0.4em 1em;
-    margin-top: 2em;
+  border: 3px dashed #BD2227;
+  padding: 0.4em 1em;
+  margin-top: 2em;
 }
 .teaser > p{
-    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
-    font-size: 16px;
-    padding-bottom: 10px;
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+  font-size: 16px;
+  padding-bottom: 10px;
 }
 
 .teaser > h1 {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 26px;
-    padding: 0;
-    padding-top: 10px;
-    letter-spacing: .5px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 26px;
+  padding: 0;
+  padding-top: 10px;
+  letter-spacing: .5px;
 }
 
 p {
-    padding-top: 0;
-    padding-bottom: 30px;
-    margin:0;
+  padding-top: 0;
+  padding-bottom: 30px;
+  margin:0;
 }
 
 p > a {
-    color: #344399;
-    text-decoration: none;
+  color: #344399;
+  text-decoration: none;
 }
 p > a:hover{
-    color: #344399;
-    text-decoration: underline;
+  color: #344399;
+  text-decoration: underline;
 }
 
 .resources > a {
-    color: #344399;
-    text-decoration: none;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #344399;
+  text-decoration: none;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .resources > a:hover{
-    color: #344399;
-    text-decoration: underline;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #344399;
+  text-decoration: underline;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 article > h2 {
@@ -152,44 +152,44 @@ article > p {
 }
 
 @media screen and (max-width : 760px){
-    #menu, .hidden {
-        position: static;
-        display: none;
-    }
+  #menu, .hidden {
+    position: static;
+    display: none;
+  }
 
-    .nav-bar {
-        max-height: none;
-    }
+  .nav-bar {
+    max-height: none;
+  }
 
-    .nav-bar-links, .drop-downs {
-        margin-bottom: 1px;
-    }
+  .nav-bar-links, .drop-downs {
+    margin-bottom: 1px;
+  }
 
-    .nav-bar-links, .nav-bar-links a {
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-    }
+  .nav-bar-links, .nav-bar-links a {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
 
-    .show-menu {
-        display:block;
-    }
+  .show-menu {
+    display:block;
+  }
 
-    #nav-bar-right {
-        float: none;
-    }
+  #nav-bar-right {
+    float: none;
+  }
 
-    .column-two {
-        display: block;
-        width: 100%;
-    }
+  .column-two {
+    display: block;
+    width: 100%;
+  }
 
-    .column-one {
-        display: block;
-        width: 100%;
-    }
+  .column-one {
+    display: block;
+    width: 100%;
+  }
 
-    .implementation-buttons {
-       margin-bottom: 4px;
-    }
+  .implementation-buttons {
+    margin-bottom: 4px;
+  }
 }
