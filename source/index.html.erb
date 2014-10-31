@@ -20,21 +20,23 @@
       <h1 class="secondary-title">Implementations</h1>
 
       <article class="column one">
-
+        <%# TO ADD AN IMPLEMENTATION, edit data/implementations.yaml %>
+        <% data.implementations.each do |title,details| %>
         <section>
-          <h1 class="implementation-title">Ruby / Sinatra</h1>
+          <h1 class="implementation-title"><%=title%></h1>
 
           <p>
-            A simple ruby implementation using the lightweight <a href="http://www.sinatrarb.com/">Sinatra</a> web
-            framework, saving todos to a Postgres DB.
+            <%=details[:description]%>
           </p>
 
           <div class="links">
-            <a class="implementation-buttons" href="specs/index.html?http://todo-backend-sinatra.herokuapp.com/todos">Run the Specs</a>
-            <a class="implementation-buttons" href="https://github.com/moredip/todo-backend-sinatra">View the Code</a>
-            <a class="example-implementation-button" href="client/index.html?http://todo-backend-sinatra.herokuapp.com/todos">Example Implementation</a>
+            <a class="implementation-buttons" href="specs/index.html?<%=details[:live_url]%>">Run the Specs</a>
+            <a class="implementation-buttons" href="<%=details[:sourcecode_url]%>">View the Code</a>
+            <a class="example-implementation-button" href="client/index.html?<%=details[:live_url]%>">Example Implementation</a>
           </div>
         </section>
+        <% end %>
+
         <section>
           <h1 class="implementation-title">Node.js / Express</h1>
 

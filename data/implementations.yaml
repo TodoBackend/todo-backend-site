@@ -1,0 +1,6 @@
+"Ruby / Sinatra":
+  description: 
+    A simple ruby implementation using the lightweight <a href="http://www.sinatrarb.com/">Sinatra</a> web
+    framework, saving todos to a Postgres DB.
+  sourcecode_url: https://github.com/moredip/todo-backend-sinatra
+  live_url: http://todo-backend-sinatra.herokuapp.com/todos
