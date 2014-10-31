@@ -1,4 +1,15 @@
-- generate implementations section from JSON file
+DOING
+=====
+- generate implementations section from data file
+
+TODO
+=====
+- google analytics
 - SASS-ify
 - somehow automatically check all links are valid
 - auto-deploy to S3 (maybe with pre-prod too?)
+- don't deploy bower_components
+
+DONE
+=====
+- middleman
