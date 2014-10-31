@@ -9,6 +9,8 @@ TODO
 - somehow automatically check all links are valid
 - auto-deploy to S3 (maybe with pre-prod too?)
 - don't deploy bower_components
+- tag-based search
+ - framework logo-based tag search
 
 DONE
 =====

@@ -12,7 +12,7 @@
           implementation is identical to the base implementation.
           <br><br>
           The Todo-Backend project was inspired by <a href="http://todomvc.com/">TodoMVC project</a>, and some code
-          (specifically the todo-list API) was borrowed directly from TodoMVC.
+          (specifically the todo client app) was borrowed directly from TodoMVC.
         </p>
       </article>
 
@@ -37,131 +37,6 @@
         </section>
         <% end %>
 
-        <section>
-          <h1 class="implementation-title">Node.js / Express</h1>
-
-          <p>
-            Node.js + Express, saving to Postgres. Courtesy of <a href="https://github.com/dtao">Daniel Tao</a>.
-          </p>
-
-          <div class="links">
-            <a class="implementation-buttons" href="specs/index.html?http://todo-backend-express.herokuapp.com/">Run the Specs</a>
-            <a class="implementation-buttons" href="https://github.com/dtao/todo-backend-express">View the Code</a>
-            <a class="example-implementation-button" href="client/index.html?http://todo-backend-express.herokuapp.com/">Example Implementation</a>
-          </div>
-        </section>
-        <section>
-          <h1 class="implementation-title">Python / web.py</h1>
-
-          <p>
-            A simple Python implementation using <a href="http://webpy.org/">web.py</a>. This implementation "cheats" by
-            just storing todos in memory in a Dictionary globalton.
-          </p>
-
-          <div class="links">
-            <a class="implementation-buttons" href="specs/index.html?http://todo-backend-webpy.herokuapp.com">Run the Specs</a>
-            <a class="implementation-buttons" href="https://github.com/moredip/todo-backend-py">View the Code</a>
-            <a class="example-implementation-button" href="client/index.html?http://todo-backend-webpy.herokuapp.com">Example Implementation</a>
-          </div>
-        </section>
-        <section>
-          <h1 class="implementation-title">Clojure / Compojure</h1>
-
-          <p>
-            A simple Compojure implementation courtesy of <a href="https://twitter.com/akiellor">Andrew Kiellor</a>.
-            This implementation "cheats" by storing todos in an in-memory map plus a clojure atom.
-          </p>
-
-          <div class="links">
-            <a class="implementation-buttons" href="specs/index.html?http://todo-backend-compojure.herokuapp.com/todos">Run the Specs</a>
-            <a class="implementation-buttons" href="https://github.com/akiellor/todo-backend-compojure">View the Code</a>
-            <a class="example-implementation-button" href="client/index.html?http://todo-backend-compojure.herokuapp.com/todos">Example Implementation</a>
-          </div>
-        </section>
-        <section>
-          <h1 class="implementation-title">Python / Django</h1>
-
-          <p>
-            A database-backed Django implementation courtesy of <a href="https://github.com/mihirk">Mihir Khatwani</a>.
-          </p>
-
-          <div class="links">
-            <a class="implementation-buttons" href="specs/index.html?http://todo-backend-django.herokuapp.com/todos">Run the Specs</a>
-            <a class="implementation-buttons" href="https://github.com/mihirk/todo-backend-django">View the Code</a>
-            <a class="example-implementation-button"
-              href="client/index.html?http://todo-backend-django.herokuapp.com/todos">Example Implementation</a>
-          </div>
-        </section>
-        <section>
-          <h1 class="implementation-title">Vanilla Rails</h1>
-
-          <p>
-            A simple Rails implementation courtesy of <a href="https://github.com/hammerdr">Derek Hammer</a>.
-          </p>
-
-          <div class="links">
-            <a class="implementation-buttons" href="specs/index.html?http://todo-backend-rails.herokuapp.com">Run the Specs</a>
-            <a class="implementation-buttons" href="https://github.com/hammerdr/todo-backend-rails">View the Code</a>
-            <a class="example-implementation-button" href="client/index.html?http://todo-backend-rails.herokuapp.com">Example Implementation</a>
-          </div>
-        </section>
-        <section>
-          <h1 class="implementation-title">Java 8 with Spring 4 Boot</h1>
-
-          <p>
-            A version using Spring 4 Boot + Java 8 from <a href="https://github.com/jcsantosbr">Jefferson Santos</a>.
-          </p>
-
-          <div class="links">
-            <a class="implementation-buttons" href="specs/index.html?http://todo-backend-spring4-java8.herokuapp.com/todos">Run the Specs</a>
-            <a class="implementation-buttons" href="https://github.com/jcsantosbr/todo-backend-spring4-java8">View the Code</a>
-            <a class="example-implementation-button" href="client/index.html?http://todo-backend-spring4-java8.herokuapp.com/todos">Example Implementation</a>
-          </div>
-        </section>
-        <section>
-          <h1 class="implementation-title">Jersey2 with RDF for data storage</h1>
-
-          <p>
-            A version using Jersey2 with Sesame RDF for data storage from <a href="https://github.com/pepperbob">Michael
-              Leuthold</a>.
-          </p>
-
-          <div class="links">
-            <a class="implementation-buttons" href="specs/index.html?http://pacific-harbor-5702.herokuapp.com/">Run the Specs</a>
-            <a class="implementation-buttons" href="https://github.com/pepperbob/todo-backend-jersey2-rdf">View the Code</a>
-            <a class="example-implementation-button" href="client/index.html?http://pacific-harbor-5702.herokuapp.com/">Example Implementation</a>
-          </div>
-        </section>
-        <section>
-          <h1 class="implementation-title">Golang / Gin</h1>
-
-          <p>
-            A <a href="http://golang.org/">Golang</a> implementation using the <a
-              href="http://gin-gonic.github.io/gin/">Gin</a> web framework, courtesy of <a
-              href="https://github.com/savaki">Matt Ho</a>.
-          </p>
-
-          <div class="links">
-            <a class="implementation-buttons" href="specs/index.html?http://todo-backend-golang.herokuapp.com/todos">Run the Specs</a>
-            <a class="implementation-buttons" href="https://github.com/savaki/todo-backend-gin">View the Code</a>
-            <a class="example-implementation-button" href="client/index.html?http://todo-backend-golang.herokuapp.com/todos">Example Implementation</a>
-          </div>
-        </section>
-        <section>
-          <h1 class="implementation-title">Scala / Finatra</h1>
-
-          <p>
-            A <a href="http://ww/scala-lang.org/">Scala</a> implementation using Twitter's <a
-              href="http://finatra.info/">Finatra</a> web framework. Courtesy of the prolific <a
-              href="https://github.com/savaki">Matt Ho</a>.
-          </p>
-
-          <div class="links">
-            <a class="implementation-buttons" href="specs/index.html?http://todo-backend-finatra.herokuapp.com/todos">Run the Specs</a>
-            <a class="implementation-buttons" href="https://github.com/savaki/todo-backend-finatra">View the Code</a>
-            <a class="example-implementation-button" href="client/index.html?http://todo-backend-finatra.herokuapp.com/todos">Example Implementation</a>
-          </div>
-        </section>
       </article>
 
       <article class="column two">
