@@ -7,11 +7,11 @@
 
       <article class="intro">
         <p>The Todo-Backend project helps showcase and compare different language and framework combinations for building
-          web services. This website defines a simple web API in the form of a todo-list and users can create their own
+          web services. This website defines a simple web API in the form of a todo list and users can create their own
           identical APIs using various tech stacks. This website then provides a spec runner to verify that the user
           implementation is identical to the base implementation.
           <br><br>
-          The Todo-Backend project was inspired by <a href="http://todomvc.com/">TodoMVC project</a>, and some code
+          The Todo-Backend project was inspired by the <a href="http://todomvc.com/">TodoMVC project</a>, and some code
           (specifically the todo client app) was borrowed directly from TodoMVC.
         </p>
       </article>
@@ -19,7 +19,16 @@
       <a id="implementations"></a>
       <h1 class="secondary-title">Implementations</h1>
 
-      <article class="column one">
+      <article class="implementations">
+
+        <section class="implementation teaser">
+          <h1 class="implementation-title">{YOUR IMPLEMENTATION HERE}</h1>
+          <br>
+          <p>
+            It's very simple to build your own Todo-Backend implementation. It shouldn't take more than a few hours. <a href="contribute.html" target="_self">Read more.</a>
+          </p>
+        </section>
+
         <%# 
 
           *************************************************************
@@ -30,7 +39,7 @@
         
         %>
         <% data.implementations.each do |title,details| %>
-        <section>
+        <section class="implementation">
           <h1 class="implementation-title"><%=title%></h1>
 
           <p>
@@ -45,18 +54,5 @@
         </section>
         <% end %>
 
-      </article>
-
-      <article class="column two">
-        <section class="teaser">
-          <h1 class="implementation-title">{YOUR IMPLEMENTATION HERE}</h1>
-          <br>
-          <p>
-            It's very simple to build your own todo-backend implementation. The entire API consists of about 5
-            operations, and there is a automated test suite which will guide you through the implementation process in
-            small steps.<br><br>
-            There is detailed guidance on building your own implementation <a href="contribute.html">here</a>.
-          </p>
-        </section>
       </article>
     </div>

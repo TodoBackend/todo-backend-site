@@ -7,6 +7,7 @@ body {
 }
 
 p {
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
   font-size: 14pt;
 }
 
@@ -69,7 +70,6 @@ p {
   font-size: 26px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding-bottom: 0;
-  padding-top: 40px;
   margin:0;
 }
 
@@ -103,16 +103,13 @@ p {
 
 .teaser{
   border: 3px dashed #BD2227;
-  padding: 0.4em 1em;
-  margin-top: 2em;
 }
+
 .teaser > p{
-  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
   padding-bottom: 10px;
 }
 
 .teaser > h1 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 26px;
   padding: 0;
   padding-top: 10px;
@@ -154,7 +151,30 @@ article > p {
   font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 }
 
+
+article.implementations {
+  width: 100%;
+  padding-top: 20px;
+}
+
+section.implementation {
+  width: 43%;
+  display: inline-block;
+  padding: 20px;
+  vertical-align: top;
+}
+
+section.implementation .links a {
+  padding: 10px;
+  margin: 6px 2px;
+}
+
+
 @media screen and (max-width : 760px){
+  section.implementation {
+    width: initial;
+  }
+
   #menu, .hidden {
     position: static;
     display: none;
