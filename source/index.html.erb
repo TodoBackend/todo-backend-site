@@ -20,7 +20,15 @@
       <h1 class="secondary-title">Implementations</h1>
 
       <article class="column one">
-        <%# TO ADD AN IMPLEMENTATION, edit data/implementations.yaml %>
+        <%# 
+
+          *************************************************************
+          *                                                           *
+          * TO ADD AN IMPLEMENTATION MODIFY data/implementations.yaml *
+          *                                                           *
+          *************************************************************
+        
+        %>
         <% data.implementations.each do |title,details| %>
         <section>
           <h1 class="implementation-title"><%=title%></h1>
@@ -48,111 +56,6 @@
             operations, and there is a automated test suite which will guide you through the implementation process in
             small steps.<br><br>
             There is detailed guidance on building your own implementation <a href="contribute.html">here</a>.
-          </p>
-        </section>
-        <section>
-          <h1 class="implementation-title">Node.js / Koa</h1>
-
-          <p>
-            <a href="http://nodejs.org/">Node.js</a> + <a href="http://koajs.com">Koa</a>, saving to <a
-              href="http://redis.io/">redis</a>.
-          </p>
-
-          <div class="links">
-            <a class="implementation-buttons" href="specs/index.html?http://todo-backend-node-koa.herokuapp.com/todos">Run the Specs</a>
-            <a class="implementation-buttons" href="https://github.com/selvakn/todo-backend-node-koa-redis">View the Code</a>
-            <a class="example-implementation-button" href="client/index.html?http://todo-backend-node-koa.herokuapp.com/todos">Example Implementation</a>
-          </div>
-        </section>
-        <section>
-          <h1 class="implementation-title">SWI-Prolog</h1>
-
-          <p>
-            <a href="http://ww/swi-prolog.org/">SWI-Prolog 7</a> implementation using the Prolog database with
-            persistency. Extensively documented.
-          </p>
-
-          <div class="links">
-            <a class="implementation-buttons" href="specs/index.html?http://demo.swi-prolog.org/todo">Run the Specs</a>
-            <a class="implementation-buttons" href="https://github.com/JanWielemaker/todo-backend-swi-prolog">View the Code</a>
-            <a class="example-implementation-button" href="client/index.html?http://demo.swi-prolog.org/todo">Example Implementation</a>
-          </div>
-        </section>
-        <section>
-          <h1 class="implementation-title">C# - Nancy (ASP.NET)</h1>
-
-          <p>
-            <a href="http://todobackend.apphb.com/todo-backend">C# with NancyFx</a> implementation using the <a
-              href="http://nancyfx.org/">Nancy Framework</a> and <a
-              href="http://ndatabase.codeplex.com/">NDatabase</a>, an inmemory object database.
-          </p>
-
-          <div class="links">
-            <a class="implementation-buttons" href="specs/index.html?http://todobackend.apphb.com/todo-backend">Run theSpecs</a>
-            <a class="implementation-buttons" href="https://github.com/sriv/todo-backend-nancy">View the Code</a>
-            <a class="example-implementation-button" href="client/index.html?http://todobackend.apphb.com/todo-backend">Example Implementation</a>
-          </div>
-        </section>
-        <section>
-          <h1 class="implementation-title">F# - Dyfrig (OWIN)</h1>
-
-          <p>
-            <a href="http://todomvcfsharp.azurewebsites.net/">F# with Dyfrig</a> implementation using the <a
-              href="https://github.com/fsprojects/dyfrig">Dyfrig</a> <a href="http://fsharp.org/">F#</a> <a
-              href="http://owin.org/">OWIN</a> wrapper and an in-memory store built with an F# `MailboxProcessor`.
-          </p>
-
-          <div class="links">
-            <a class="implementation-buttons" href="specs/index.html?http://todomvcfsharp.azurewebsites.net/">Run the Specs</a>
-            <a class="implementation-buttons" href="https://github.com/panesofglass/TodoBackendFSharp">View the Code</a>
-            <a class="example-implementation-button" href="client/index.html?http://todomvcfsharp.azurewebsites.net/">Example Implementation</a>
-          </div>
-        </section>
-        <section>
-          <h1 class="implementation-title">Java Spring 4.0 and MongoLab DbaaS</h1>
-
-          <p>
-            <a href="http://todo-backend-spring.herokuapp.com/todos">Java Spring MongoLab DbaaS</a> implementation using
-            the Java 1.7, Spring 4.0 and MongoDB using MongoLab's database as a service
-          </p>
-
-          <div class="links">
-            <a class="implementation-buttons" href="specs/index.html?http://todo-backend-spring.herokuapp.com/todos">Run the Specs</a>
-            <a class="implementation-buttons" href="https://github.com/mihirk/todo-backend-spring">View the Code</a>
-            <a class="example-implementation-button" href="client/index.html?http://todo-backend-spring.herokuapp.com/todos">Example Implementation</a>
-          </div>
-        </section>
-        <section>
-          <h1 class="implementation-title">F# - ASP.NET Web API</h1>
-          <div class="links">
-            <a class="implementation-buttons" href="specs/index.html?http://todo-backend-fsharp.azurewebsites.net/webapi">Run the Specs</a>
-            <a class="implementation-buttons" href="https://github.com/panesofglass/TodoBackendFSharp">View the Code</a>
-            <a class="example-implementation-button" href="client/index.html?http://todo-backend-fsharp.azurewebsites.net/webapi">Example implementation</a>
-          </div>
-          <p>
-            <a href="http://todo-backend-fsharp.azurewebsites.net/webapi">F# with ASP.NET Web API</a> implementation using <a href="http://asp.net/web-api">ASP.NET Web API 2.2</a>, <a href="http://fsharp.org/">F#</a>, hosted via <a href="http://owin.org/">OWIN</a>, and using an in-memory store built with an F# `MailboxProcessor`.
-          </p>
-        </section>
-        <section>
-          <h1 class="implementation-title">F# - Frank</h1>
-          <div class="links">
-            <a class="implementation-buttons" href="specs/index.html?http://todo-backend-fsharp.azurewebsites.net/frank">Run the Specs</a>
-            <a class="implementation-buttons" href="https://github.com/panesofglass/TodoBackendFSharp">View the Code</a>
-            <a class="example-implementation-button" href="client/index.html?http://todo-backend-fsharp.azurewebsites.net/frank">Example implementation</a>
-          </div>
-          <p>
-            <a href="http://todo-backend-fsharp.azurewebsites.net/frank">F# with Frank</a> implementation using <a href="http://frankfs.net/">Frank</a>, a minimal combinator library built on top of <code>System.Net.Http</code> types in <a href="http://fsharp.org/">F#</a>, hosted via <a href="http://owin.org/">OWIN</a>, and using an in-memory store built with an F# `MailboxProcessor`.
-          </p>
-        </section>
-        <section>
-          <h1 class="implementation-title">Java with Dropwizard</h1>
-          <div class="links">
-            <a class="implementation-buttons" href="specs/index.html?http://todo-backend-dropwizard.herokuapp.com/todo">Run the Specs</a>
-            <a class="implementation-buttons" href="https://github.com/danielsiwiec/todo-backend-dropwizard">View the Code</a>
-            <a class="example-implementation-button" href="client/index.html?http://todo-backend-dropwizard.herokuapp.com/todo">Example implementation</a>
-          </div>
-          <p>
-            Simple implementation with Java + Dropwizard from <a href="https://github.com/danielsiwiec">Dan Siwiec</a>. 
           </p>
         </section>
       </article>
