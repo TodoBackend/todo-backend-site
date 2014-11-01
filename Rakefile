@@ -21,4 +21,4 @@ task "build" => ["bower","middleman-build"]
 desc "build, deploy"
 task :build_and_deploy => [:build,:deploy]
 
-task :default => :build_and_deploy
+task :default => :build

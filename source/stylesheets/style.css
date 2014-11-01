@@ -16,22 +16,6 @@ p {
   margin-bottom: 20px;
 }
 
-.column {
-  margin: 0;
-  display: inline-block;
-  vertical-align: text-top;
-  padding-right: 2%;
-}
-
-.column.one {
-  width: 47%;
-}
-
-.column.two {
-  width: 46%;
-  padding-right: 2%;
-}
-
 .main-title {
   font-size: 4em;
   color: #2F4259;
@@ -109,13 +93,6 @@ p {
   padding-bottom: 10px;
 }
 
-.teaser > h1 {
-  font-size: 26px;
-  padding: 0;
-  padding-top: 10px;
-  letter-spacing: .5px;
-}
-
 p {
   padding-top: 0;
   padding-bottom: 30px;
@@ -173,6 +150,14 @@ section.implementation .links a {
 @media screen and (max-width : 760px){
   section.implementation {
     width: initial;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  section.implementation.teaser {
+    padding: 10px;
+  }
+  .implementation-title {
+    font-size: 22px;
   }
 
   #menu, .hidden {
@@ -202,17 +187,11 @@ section.implementation .links a {
     float: none;
   }
 
-  .column-two {
-    display: block;
-    width: 100%;
-  }
-
-  .column-one {
-    display: block;
-    width: 100%;
-  }
-
   .implementation-buttons {
     margin-bottom: 4px;
+  }
+  
+  .page {
+    padding: 0em 1em;
   }
 }
