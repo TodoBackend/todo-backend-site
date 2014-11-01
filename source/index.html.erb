@@ -1,0 +1,62 @@
+    <div class="page">
+
+      <header>
+        <h1 class="main-title">Todo-Backend</h1>
+        <h2 class="sub-title">a shared example to showcase backend tech stacks</h2>
+      </header>
+
+      <article class="intro">
+        <p>The Todo-Backend project helps showcase and compare different language and framework combinations for building
+          web services. This website defines a simple web API in the form of a todo-list and users can create their own
+          identical APIs using various tech stacks. This website then provides a spec runner to verify that the user
+          implementation is identical to the base implementation.
+          <br><br>
+          The Todo-Backend project was inspired by <a href="http://todomvc.com/">TodoMVC project</a>, and some code
+          (specifically the todo client app) was borrowed directly from TodoMVC.
+        </p>
+      </article>
+
+      <a id="implementations"></a>
+      <h1 class="secondary-title">Implementations</h1>
+
+      <article class="column one">
+        <%# 
+
+          *************************************************************
+          *                                                           *
+          * TO ADD AN IMPLEMENTATION MODIFY data/implementations.yaml *
+          *                                                           *
+          *************************************************************
+        
+        %>
+        <% data.implementations.each do |title,details| %>
+        <section>
+          <h1 class="implementation-title"><%=title%></h1>
+
+          <p>
+            <%=details[:description]%>
+          </p>
+
+          <div class="links">
+            <a class="implementation-buttons" href="specs/index.html?<%=details[:live_url]%>">Run the Specs</a>
+            <a class="implementation-buttons" href="<%=details[:sourcecode_url]%>">View the Code</a>
+            <a class="example-implementation-button" href="client/index.html?<%=details[:live_url]%>">Example Implementation</a>
+          </div>
+        </section>
+        <% end %>
+
+      </article>
+
+      <article class="column two">
+        <section class="teaser">
+          <h1 class="implementation-title">{YOUR IMPLEMENTATION HERE}</h1>
+          <br>
+          <p>
+            It's very simple to build your own todo-backend implementation. The entire API consists of about 5
+            operations, and there is a automated test suite which will guide you through the implementation process in
+            small steps.<br><br>
+            There is detailed guidance on building your own implementation <a href="contribute.html">here</a>.
+          </p>
+        </section>
+      </article>
+    </div>
