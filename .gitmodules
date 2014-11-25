@@ -1,6 +1,6 @@
 [submodule "specs"]
 	path = source/specs
-	url = git@github.com:moredip/todo-backend.git
+	url = git@github.com:TodoBackend/todo-backend-js-spec.git
 [submodule "client"]
 	path = source/client
-	url = git@github.com:moredip/todo-backend-client.git
+	url = git@github.com:TodoBackend/todo-backend-client.git
