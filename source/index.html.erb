@@ -16,10 +16,20 @@
         </p>
       </article>
 
-      <a id="implementations"></a>
-      <h1 class="secondary-title">Verified implementations</h1>
+      <h1 id="implementations" class="secondary-title">Verified implementations</h1>
 
       <article class="implementations">
+        <section class="logos">
+          <h2>filter by implementation technology</h2>
+          <%-data.impl_tags.each do |(tag,info)|
+            logo_file = info.fetch("logo","#{tag}.svg")
+          %>
+            <div class="tag-block" data-tag="<%=tag%>">
+              <img class="tag-logo" src="/images/logos/<%=logo_file%>"/>
+              <span class="tag-label"><%=info["label"]%></span>
+            </div>
+          <%- end %>
+        </section>
 
         <section class="implementation teaser">
           <h1 class="implementation-title">{YOUR IMPLEMENTATION HERE}</h1>

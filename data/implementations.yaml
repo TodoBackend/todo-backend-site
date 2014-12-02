@@ -4,14 +4,21 @@
     framework, saving todos to a Postgres DB.
   sourcecode_url: https://github.com/moredip/todo-backend-sinatra
   live_url: http://todo-backend-sinatra.herokuapp.com/todos
-
+  tags:
+    - ruby
+    - sinatra
+    - postgres
 
 "Node.js / Express":
   description:
     Node.js + Express, saving to Postgres. Courtesy of <a href="https://github.com/dtao">Daniel Tao</a>.
   sourcecode_url: https://github.com/dtao/todo-backend-express
   live_url: http://todo-backend-express.herokuapp.com/
-
+  tags:
+    - javascript
+    - nodejs
+    - expressjs
+    - postgres
 
 "Python / web.py":
   description:
@@ -19,6 +26,9 @@
     just storing todos in memory in a Dictionary globalton.
   sourcecode_url: https://github.com/moredip/todo-backend-py
   live_url: http://todo-backend-webpy.herokuapp.com
+  tags:
+    - python
+    - webpy
 
 "Clojure / Compojure":
   description:

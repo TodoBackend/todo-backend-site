@@ -47,7 +47,41 @@ p {
   padding-bottom: 2px;
   padding-top: 30px;
   font-weight: 200;
+}
 
+section.logos {
+  margin-bottom: 20px;
+}
+
+.tag-block {
+  border: 3px solid transparent;
+  margin: 10px;
+  display: inline-block;
+  cursor: pointer;
+  width: 90px;
+  height: 115px;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+}
+
+.tag-block:hover {
+  border: 3px solid #eee;
+}
+.tag-logo {
+  max-width: 80px;
+  max-height: 80px;
+  margin-top:50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.tag-label {
+  display: inline-block;
+  padding-top: 4px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .implementation-title {

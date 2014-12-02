@@ -1,0 +1,64 @@
+---
+  javascript:
+    label: JavaScript
+  ruby:
+    label: Ruby
+  sinatra:
+    label: Sinatra
+    logo: sinatra.png
+  postgres:
+    label: Postgres
+  nodejs:
+    label: node.js
+  expressjs:
+    label: express.js
+    logo: expressjs.png
+  python:
+    label: Python
+  webpy:
+    label: web.py
+    logo: webpy.gif
+  clojure:
+    label: Clojure
+  compojure:
+    label: Compojure
+    logo: no-logo.svg
+  django:
+    label: Django
+  rails:
+    label: Rails
+  java:
+    label: Java
+  jvm:
+    label: JVM
+  spring-boot:
+    label: Spring Boot
+    logo: spring.png
+  jersey:
+    label: Jersey
+    logo: jersey.png
+  sesame:
+    label: Sesame
+    logo: sesame.png
+  golang:
+    label: Golang
+    logo: golang.png
+  gin:
+    label: Gin
+    logo: no-logo.svg
+  scala :
+    label: Scala 
+  #finatra
+  #koa
+  #swi-prolog
+  #c#
+  #nancy
+  #ndatabase
+  #f#
+  #dyfrig
+  #mongo
+  #asp-web-api
+  #frank
+  #owin
+  #dropwizard
+
