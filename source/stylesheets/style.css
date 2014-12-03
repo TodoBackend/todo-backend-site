@@ -49,16 +49,24 @@ p {
   font-weight: 200;
 }
 
-section.logos {
+section.technologies {
   margin-bottom: 20px;
 }
 
-.tag-block {
+.tech-block {
   border: 3px solid transparent;
   margin-right: 10px;
   margin-bottom: 25px;
   display: inline-block;
+
   cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+   -khtml-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+
   width: 82px;
   height: 104px;
   text-align: center;
@@ -66,17 +74,17 @@ section.logos {
   position: relative;
 }
 
-.tag-block:hover {
+.tech-block:hover {
   border: 3px solid #eee;
 }
-.tag-logo {
+.tech-logo {
   max-width: 80px;
   max-height: 80px;
   margin-top:50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
-.tag-label {
+.tech-label {
   font-size: 10pt;
   display: inline-block;
   position: absolute;
@@ -90,6 +98,46 @@ section.logos {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding-bottom: 0;
   margin:0;
+}
+
+.impl-filters {
+  margin: 20px 0;
+}
+
+.impl-filters > h1 {
+  font-size: 20px;
+}
+
+.filter-tag {
+  display: inline-block;
+
+  padding: 6px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+
+  border-radius: 3px;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 200;
+
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+   -khtml-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+
+  border: solid 1px #089ea4;
+}
+
+.filter-tag:hover {
+  background: #b2d5de;
+}
+
+.filter-tag.selected {
+  color: white;
+  background: #089ea4;
 }
 
 .contribute-headers {
@@ -169,7 +217,6 @@ section.implementation {
 .implementation-buttons {
   color: white;
   background: #089ea4;
-
 }
 
 .example-implementation-button {
