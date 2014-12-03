@@ -46,19 +46,34 @@
   gin:
     label: Gin
     logo: no-logo.svg
-  scala :
-    label: Scala 
-  #finatra
-  #koa
-  #swi-prolog
-  #c#
-  #nancy
-  #ndatabase
-  #f#
-  #dyfrig
-  #mongo
-  #asp-web-api
-  #frank
-  #owin
-  #dropwizard
-
+  scala:
+    label: Scala
+  finatra:
+    label: Finatra
+    logo: finatra.jpeg
+  koa:
+    label: Koa
+    logo: koa.png
+  swi-prolog:
+    label: SWI-Prolog
+    logo: swi-prolog.jpg
+  csharp:
+    label: C#
+  nancy:
+    label: Nancy
+    logo: nancy.png
+  ndatabase:
+    label: NDatabase
+    logo: ndatabase.png
+  fsharp:
+    label: F#
+    logo: fsharp.png
+  mongodb:
+    label: MongoDB
+    logo: mongodb.png
+  owin:
+    label: OWIN
+    logo: no-logo.svg
+  dropwizard:
+    label: Dropwizard
+    logo: dropwizard.png

@@ -55,11 +55,12 @@ section.logos {
 
 .tag-block {
   border: 3px solid transparent;
-  margin: 10px;
+  margin-right: 10px;
+  margin-bottom: 25px;
   display: inline-block;
   cursor: pointer;
-  width: 90px;
-  height: 115px;
+  width: 82px;
+  height: 104px;
   text-align: center;
   vertical-align: middle;
   position: relative;
@@ -76,8 +77,8 @@ section.logos {
           transform: translateY(-50%);
 }
 .tag-label {
+  font-size: 10pt;
   display: inline-block;
-  padding-top: 4px;
   position: absolute;
   bottom: 0;
   left: 0;
