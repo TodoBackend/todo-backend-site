@@ -55,8 +55,11 @@
           *************************************************************
         
         %>
-        <% data.implementations.each do |title,details| %>
-        <section class="implementation">
+        <%- data.implementations.each do |title,details|
+          tags = details.fetch('tags',[]).join(" ")
+      %>
+
+        <section data-tags="<%=tags%>" class="implementation">
           <h1 class="implementation-title"><%=title%></h1>
 
           <p>

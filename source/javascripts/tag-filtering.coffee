@@ -1,40 +1,50 @@
-tagForTagsEl = (tagEl)->
+containsAnyOf = ( haystack, needles )->
+  !_.isEmpty( _.intersection( haystack, needles ) )
+
+containsAllOf = ( haystack, needles )->
+  _.isEmpty( _.difference( needles, haystack ) )
+
+tagForEl = (tagEl)->
     $(tagEl).data('tag')
 
-createTagsComponent = ($tags)->
-  onTagHandler = ->
+tagsForEl = (tagEl)->
+    $(tagEl).data('tags').split(' ')
 
-  $tags.on 'click', ->
-    tag = tagForTagsEl(@)
-    onTagHandler( tag )
+toggleMembership = ( array, thing )->
+  if _.contains( array, thing )
+    _.without( array, thing )
+  else
+    array.concat( thing )
 
-  allTags = -> 
-    $tags.map -> tagForTagsEl(@)
+tagClickStreamFor = ($tags)->
+  $tags
+    .asEventStream('click')
+    .map (e)-> tagForEl(e.target)
 
-  onTag = (handler)-> 
-    onTagHandler = handler
+refreshTagSelection = ( $filters, selectedTags )->
+  $filters.each ->
+    tag = tagForEl(@)
+    isSelected = _.contains(selectedTags,tag)
+    $(@).toggleClass( 'selected', isSelected )
 
-  refreshTagState = (tagState)->
-    $tags.each ->
-      isSelected = tagState[tagForTagsEl(@)]
-      $(@).toggleClass( 'selected', isSelected )
+refreshImplementationFiltering = ($implSections, filterTags)->
+  $implSections.each ->
+    implTags = tagsForEl(@)
+    isShown = containsAllOf( implTags, filterTags )
+    $(@).toggle( isShown )
 
-  { allTags, onTag, refreshTagState }
-
-toggleTagState = (tagState,tag)->
-  newTagState = _.clone(tagState)
-  newTagState[tag] = !newTagState[tag]
-  newTagState
-
-createController = (tagsComponent)->
-  tagState = _.object(_.map( tagsComponent.allTags(), (t)-> [t,false] ) )
-  console.log( 'tags: ', tagState )
-
-  tagsComponent.onTag (tag)->
-    console.log("clicked on #{tag}")
-    tagState = toggleTagState(tagState,tag)
-    tagsComponent.refreshTagState(tagState)
 
 $ ->
-  tagsComponent = createTagsComponent( $(".filter-tag") )
-  controller = createController(tagsComponent)
+  $filterTags = $(".filter-tag")
+  $implSections = $(".implementation[data-tags]")
+  $teaserImpl = $(".implementation.teaser")
+
+  selectedTags = tagClickStreamFor( $filterTags )
+    .scan( [], toggleMembership )
+
+  selectedTags.onValue (selectedTags)->
+    refreshTagSelection($filterTags,selectedTags)
+    refreshImplementationFiltering($implSections, selectedTags)
+
+    showImplementationTeaser = _.isEmpty( selectedTags )
+    $teaserImpl.toggle( showImplementationTeaser )
