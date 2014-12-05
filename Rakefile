@@ -11,6 +11,11 @@ task "bower" do
   sh "bower install -p"
 end
 
+desc "serve a local development version of the site"
+task "serve" do
+  sh "middleman server"
+end
+
 task "middleman-build" do
   sh "middleman build"
 end
