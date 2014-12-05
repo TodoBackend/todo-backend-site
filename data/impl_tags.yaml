@@ -37,8 +37,8 @@
   dotnet:
     label: .NET
     logo: dotnet.png
-  spring-boot:
-    label: Spring Boot
+  spring:
+    label: Spring
     logo: spring.png
   jersey:
     label: Jersey
