@@ -79,6 +79,7 @@
   tags:
     - java
     - jvm
+    - jersey
     - sesame
 
 "Golang / Gin":
@@ -189,6 +190,6 @@
   live_url: http://todo-backend-dropwizard.herokuapp.com/todo
   tags:
    - java
+   - jvm
    - dropwizard
-   - owin
-   - frank
+   - jersey
