@@ -67,7 +67,7 @@ section.technologies {
       -ms-user-select: none;
           user-select: none;
 
-  width: 82px;
+  width: 72px;
   height: 104px;
   text-align: center;
   vertical-align: middle;
@@ -78,8 +78,8 @@ section.technologies {
   border: 3px solid #eee;
 }
 .tech-logo {
-  max-width: 80px;
-  max-height: 80px;
+  max-width: 70px;
+  max-height: 70px;
   margin-top:50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);

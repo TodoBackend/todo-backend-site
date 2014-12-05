@@ -8,6 +8,9 @@
     logo: sinatra.png
   postgres:
     label: Postgres
+  redis:
+    label: Redis
+    logo: redis.png
   nodejs:
     label: node.js
   expressjs:
@@ -31,6 +34,9 @@
     label: Java
   jvm:
     label: JVM
+  dotnet:
+    label: .NET
+    logo: dotnet.png
   spring-boot:
     label: Spring Boot
     logo: spring.png

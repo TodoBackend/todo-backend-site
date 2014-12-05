@@ -1,26 +1,3 @@
-containsAnyOf = ( haystack, needles )->
-  !_.isEmpty( _.intersection( haystack, needles ) )
-
-containsAllOf = ( haystack, needles )->
-  _.isEmpty( _.difference( needles, haystack ) )
-
-tagForEl = (tagEl)->
-    $(tagEl).data('tag')
-
-tagsForEl = (tagEl)->
-    $(tagEl).data('tags').split(' ')
-
-toggleMembership = ( array, thing )->
-  if _.contains( array, thing )
-    _.without( array, thing )
-  else
-    array.concat( thing )
-
-tagClickStreamFor = ($tags)->
-  $tags
-    .asEventStream('click')
-    .map (e)-> tagForEl(e.target)
-
 refreshTagSelection = ( $filters, selectedTags )->
   $filters.each ->
     tag = tagForEl(@)
@@ -33,18 +10,38 @@ refreshImplementationFiltering = ($implSections, filterTags)->
     isShown = containsAllOf( implTags, filterTags )
     $(@).toggle( isShown )
 
-
 $ ->
+  $logos = $('.tech-block')
   $filterTags = $(".filter-tag")
   $implSections = $(".implementation[data-tags]")
-  $teaserImpl = $(".implementation.teaser")
+  topOfImplementationsArea = $("#implementations").offset().top
 
-  selectedTags = tagClickStreamFor( $filterTags )
-    .scan( [], toggleMembership )
+  scrollImplementationsIntoView = ->
+    $(document.body).animate({
+      scrollTop: topOfImplementationsArea
+    }, 300);
+
+  logoClicks = tagClickStreamFor($logos)
+  filterClicks = tagClickStreamFor($filterTags)
+
+  logoClicks.onValue ->
+    # wait a moment for filtering to take effect, since that will change where the bottom of the page is and therefore affect where we can scroll the viewport to.
+    window.setTimeout( scrollImplementationsIntoView, 10 )
+
+
+  allClicks = Bacon.mergeAll(
+    logoClicks.map( (x) -> ['logoClick', x] ),
+    filterClicks.map( (x) -> ['filterClick', x] )
+  )
+
+  selectedTags = allClicks.scan [], (selectedTags,[clickType,clickedTag])->
+    if clickType == 'logoClick'
+      [clickedTag]
+    else
+      toggleMembership( selectedTags, clickedTag )
 
   selectedTags.onValue (selectedTags)->
     refreshTagSelection($filterTags,selectedTags)
     refreshImplementationFiltering($implSections, selectedTags)
 
-    showImplementationTeaser = _.isEmpty( selectedTags )
-    $teaserImpl.toggle( showImplementationTeaser )
+

@@ -31,21 +31,13 @@
       <h1 id="implementations" class="secondary-title">Implementations</h1>
       <section class="impl-filters">
         <h1>filter by tag</h1>
-        <%-data.impl_tags.each do |(tag,info)|%>
+        <%-data.impl_tags.sort_by{ |tag,info| tag }.each do |(tag,info)|%>
           <span class="filter-tag" data-tag="<%=tag%>">
             <%=info.fetch("label")%>
           </span>
         <%- end %>
       </section>
       <article class="implementations">
-        <section class="implementation teaser">
-          <h1 class="implementation-title">{YOUR IMPLEMENTATION HERE}</h1>
-          <br>
-          <p>
-            It's very simple to build your own Todo-Backend implementation. It shouldn't take more than a few hours. <a href="contribute.html" target="_self">Read more.</a>
-          </p>
-        </section>
-
         <%# 
 
           *************************************************************
@@ -73,6 +65,14 @@
           </div>
         </section>
         <% end %>
+        <section class="implementation teaser">
+          <h1 class="implementation-title">{YOUR IMPLEMENTATION HERE}</h1>
+          <br>
+          <p>
+            It's very simple to build your own Todo-Backend implementation. It shouldn't take more than a few hours. <a href="contribute.html" target="_self">Read more.</a>
+          </p>
+        </section>
+
 
       </article>
     </div>
