@@ -138,10 +138,10 @@
     - nancyfx
     - ndatabase
 
-"F# - Dyfrig (OWIN)":
+"F# - Freya (OWIN)":
   description: 
-    <a href="http://todomvcfsharp.azurewebsites.net/">F# with Dyfrig</a> implementation using the 
-    <a href="https://github.com/fsprojects/dyfrig">Dyfrig</a> <a href="http://fsharp.org/">F#</a> 
+    <a href="http://todo-backend-fsharp.azurewebsites.net/owin">F# with Freya</a> implementation using the 
+    <a href="https://github.com/freya-fs/freya">Freya</a> <a href="http://fsharp.org/">F#</a> 
     <a href="http://owin.org/">OWIN</a> wrapper and an in-memory store built with an F# `MailboxProcessor`.
   sourcecode_url: https://github.com/panesofglass/TodoBackendFSharp
   live_url: http://todomvcfsharp.azurewebsites.net/
