@@ -144,7 +144,7 @@
     <a href="https://github.com/freya-fs/freya">Freya</a> <a href="http://fsharp.org/">F#</a> 
     <a href="http://owin.org/">OWIN</a> wrapper and an in-memory store built with an F# `MailboxProcessor`.
   sourcecode_url: https://github.com/panesofglass/TodoBackendFSharp
-  live_url: http://todomvcfsharp.azurewebsites.net/
+  live_url: http://todo-backend-fsharp.azurewebsites.net/owin
   tags:
     - fsharp
     - dotnet
