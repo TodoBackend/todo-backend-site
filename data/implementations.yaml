@@ -196,7 +196,7 @@
 
 "C# with ServiceStack":
   description:
-    An implementation using the <a href="http://www.servicestack.net">ServiceStack</a> framework, ormlite, sqlite, NUnit.
+    An implementation using the <a href="http://www.servicestack.net">ServiceStack</a> framework, ormlite, sqlite, NUnit by <a href="http://www.kylehodgson.com/">Kyle Hodgson</a>.
   sourcecode_url: https://github.com/kylehodgson/servicestack-todo-backend
   live_url: http://sstodo.azurewebsites.net/items/
   tags:
