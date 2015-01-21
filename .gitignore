@@ -12,3 +12,5 @@
 
 /.sass-cache
 /.cache
+
+.DS_Store

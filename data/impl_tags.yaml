@@ -83,3 +83,7 @@
   dropwizard:
     label: Dropwizard
     logo: dropwizard.png
+  servicestack:
+    label: ServiceStack
+    logo: servicestack.png
+
