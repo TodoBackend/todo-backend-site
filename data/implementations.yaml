@@ -200,8 +200,9 @@
   sourcecode_url: https://github.com/kylehodgson/servicestack-todo-backend
   live_url: http://sstodo.azurewebsites.net/items/
   tags:
-     - csharp
-     - servicestack
+   - csharp
+   - dotnet
+   - servicestack
 
 "C# - ASP.NET Web API":
   description: 
