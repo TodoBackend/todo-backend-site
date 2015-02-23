@@ -5,7 +5,7 @@ ruby "2.1.5"
 source 'http://rubygems.org'
 
 gem "rake"
-gem "microstatic"
+gem "microstatic", '~>0.5.1'
 
 gem "middleman", "~>3.3.6"
 gem "middleman-livereload", "~> 3.1.0"
