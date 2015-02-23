@@ -70,6 +70,16 @@
     - spring
     - java
     - jvm
+    
+"Java 7 with Spring for JBoss":
+  description:
+    A version using Spring and Java 7 to be deployed to a JBoss Application Server from <a href="https://github.com/pamo">Pamela Ocampo</a>, <a href="https://github.com/dgcoffman">Dan Coffman</a>, and <a href="https://github.com/alisonps">Alison Polton-Simon</a>.
+  sourcecode_url: https://github.com/pamo/TodoBackend-Spring/
+  tags:
+    - spring
+    - java
+    - jvm 
+    - jboss
 
 "Jersey2 with RDF for data storage":
   description:
