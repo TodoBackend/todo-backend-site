@@ -47,6 +47,12 @@
 #   end
 # end
 
+activate :google_analytics do |ga|
+  ga.tracking_id = 'UA-60170222-1'
+  ga.anonymize_ip = false
+  ga.development = false
+end
+
 set :css_dir, 'stylesheets'
 
 set :js_dir, 'javascripts'
