@@ -1,6 +1,7 @@
 [submodule "specs"]
 	path = source/specs
-	url = git@github.com:TodoBackend/todo-backend-js-spec.git
+  url = https://github.com/TodoBackend/todo-backend-js-spec.git
+
 [submodule "client"]
 	path = source/client
-	url = git@github.com:TodoBackend/todo-backend-client.git
+  url = https://github.com/TodoBackend/todo-backend-client.git
