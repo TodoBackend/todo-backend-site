@@ -86,4 +86,6 @@
   servicestack:
     label: ServiceStack
     logo: servicestack.png
-
+  coffeescript:
+    label: CoffeeScript
+    logo: coffeescript.png
