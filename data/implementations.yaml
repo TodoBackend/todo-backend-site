@@ -212,3 +212,15 @@
   tags:
    - csharp
    - dotnet
+
+"Node.js / Express / CoffeeScript / Mongo":
+  description:
+    <a href="http://nodejs.org/">Node.js</a> + <a href="http://expressjs.com/">Express</a>, written in <a href="http://coffeescript.org/">CoffeeScript</a> and saving to <a href="http://www.mongodb.org/">MongoDB</a>.
+  sourcecode_url: https://github.com/danielsiwiec/todo-backend-node-coffee-mongo
+  live_url: http://mighty-sands-8773.herokuapp.com
+  tags:
+    - javascript
+    - nodejs
+    - expressjs
+    - mongodb
+    - coffeescript
