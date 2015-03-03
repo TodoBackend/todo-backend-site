@@ -224,3 +224,13 @@
     - expressjs
     - mongodb
     - coffeescript
+
+"F# - Suave":
+  description:
+    A simple implementation using <a href="http://suave.io">Suave</a>
+  sourcecode_url: https://github.com/JonCanning/TodoBackendSuave
+  live_url: http://todobackend.joncanning.com:8080/
+  tags:
+    - fsharp
+    - suave
+    - dotnet
