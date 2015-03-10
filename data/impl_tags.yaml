@@ -6,6 +6,9 @@
   sinatra:
     label: Sinatra
     logo: sinatra.png
+  grape:
+    label: Grape
+    logo: grape.png
   postgres:
     label: Postgres
   redis:
