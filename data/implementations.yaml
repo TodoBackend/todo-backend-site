@@ -1,3 +1,13 @@
+"Perl / Mojolicious":
+  description:
+    todo backend implemented with perl and <a href="http://mojolicio.us">mojolicious</a>. Backed 
+    with a plain file on disk.
+  sourcecode_url: https://github.com/kjellkvinge/mojo-todo-backend/blob/master/myapp.pl
+  live_url: http://mojo-todo-backend.herokuapp.com/
+  tags:
+    - mojolicious
+    - perl
+
 "Ruby / Sinatra":
   description:
     A simple ruby implementation using the lightweight <a href="http://www.sinatrarb.com/">Sinatra</a> web
