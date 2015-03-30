@@ -29,6 +29,17 @@
     - expressjs
     - postgres
 
+"Node.js / Hapi.js":
+  description:
+    [Hapi.js](http://hapijs.com) saving to a MongoDB collection via [MongooseJS](http://mongoosejs.com/) by <a href="https://github.com/pamo">Pamela Ocampo</a>.
+  sourcecode_url: https://github.com/pamo/hapi-todo/
+  live_url: http://hapi-todo.herokuapp.com/
+  tags:
+    - javascript
+    - nodejs
+    - hapijs
+    - mongodb
+
 "Python / web.py":
   description:
     A simple Python implementation using <a href="http://webpy.org/">web.py</a>. This implementation "cheats" by
@@ -81,7 +92,7 @@
     - jvm
 
 "Java 7 and Spring MVC":
-  description:
+  description: 
     <a href="https://todobackend-spring.herokuapp.com">Java 7 and Spring MVC</a> implementation using
     the Java 1.7 and Spring MVC. Deployed to Heroku using a Tomcat runner.
   sourcecode_url: https://github.com/pamo/TodoBackend-Spring
@@ -91,7 +102,7 @@
    - jvm
    - spring
    - tomcat
-
+ 
 "Jersey2 with RDF for data storage":
   description:
     A version using Jersey2 with Sesame RDF for data storage from <a href="https://github.com/pepperbob">Michael Leuthold</a>.
@@ -214,7 +225,7 @@
    - jvm
    - dropwizard
    - jersey
-
+  
 "C# with ServiceStack":
   description:
     An implementation using the <a href="http://www.servicestack.net">ServiceStack</a> framework, ormlite, sqlite, NUnit by <a href="http://www.kylehodgson.com/">Kyle Hodgson</a>.
