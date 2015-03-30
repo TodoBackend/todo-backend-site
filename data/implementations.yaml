@@ -91,18 +91,6 @@
     - java
     - jvm
 
-"Java 7 and Spring MVC":
-  description:
-    <a href="https://todobackend-spring.herokuapp.com">Java 7 and Spring MVC</a> implementation using
-    the Java 1.7 and Spring MVC. Deployed to Heroku using a Tomcat runner.
-  sourcecode_url: https://github.com/pamo/TodoBackend-Spring
-  live_url: https://todobackend-spring.herokuapp.com
-  tags:
-   - java
-   - jvm
-   - spring
-   - tomcat
-
 "Jersey2 with RDF for data storage":
   description:
     A version using Jersey2 with Sesame RDF for data storage from <a href="https://github.com/pepperbob">Michael Leuthold</a>.
