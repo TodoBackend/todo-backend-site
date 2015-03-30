@@ -1,9 +1,15 @@
 require 'microstatic/rake'
 
-desc "deploy to todo-backend.thepete.net"
+desc "deploy to www.todobackend.com"
 Microstatic::Rake.s3_deploy_task(:deploy) do |task|
   task.source_dir = File.expand_path("../build",__FILE__)
   task.bucket_name = "www.todobackend.com"
+end
+
+desc "deploy to preview.todobackend.com"
+Microstatic::Rake.s3_deploy_task(:deploy_preview) do |task|
+  task.source_dir = File.expand_path("../build",__FILE__)
+  task.bucket_name = "preview.todobackend.com"
 end
 
 task "bower" do 
