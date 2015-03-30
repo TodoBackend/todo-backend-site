@@ -31,7 +31,7 @@
 
 "Node.js / Hapi.js":
   description:
-    [Hapi.js](http://hapijs.com) saving to a MongoDB collection via [MongooseJS](http://mongoosejs.com/) by <a href="https://github.com/pamo">Pamela Ocampo</a>.
+    <a href="http://hapijs.com">Hapi.js</a> saving to a MongoDB collection via <a href="http://mongoosejs.com/">MongooseJS</a> by <a href="https://github.com/pamo">Pamela Ocampo</a>.
   sourcecode_url: https://github.com/pamo/hapi-todo/
   live_url: http://hapi-todo.herokuapp.com/
   tags:
