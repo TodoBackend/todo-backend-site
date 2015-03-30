@@ -92,3 +92,6 @@
   coffeescript:
     label: CoffeeScript
     logo: coffeescript.png
+  hapijs:
+    label: Hapi.js
+    logo: hapijs.png
