@@ -41,11 +41,11 @@
 # end
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+ helpers do
+   def buildstamp
+     ENV.fetch('BUILDSTAMP',false)
+   end
+ end
 
 activate :google_analytics do |ga|
   ga.tracking_id = 'UA-60170222-1'

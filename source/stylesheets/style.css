@@ -274,3 +274,11 @@ section.implementation {
     padding: 0em 1em;
   }
 }
+
+footer {
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+  font-size: 14pt;
+  color: #bbb;
+  float: right;
+  padding-right: 10px;
+}
