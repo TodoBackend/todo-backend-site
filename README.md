@@ -1,7 +1,7 @@
 todo-backend-site
 =================
 
-Source for www.todobackend.com. This is a [middleman](www.middlemanapp.com)-based static website. 
+Source for www.todobackend.com. This is a [middleman](https://middlemanapp.com)-based static website. 
 
 [![Build Status](https://snap-ci.com/TodoBackend/todo-backend-site/branch/master/build_image)](https://snap-ci.com/TodoBackend/todo-backend-site/branch/master)
 built and deployed to S3 via SnapCI.
