@@ -135,7 +135,7 @@ GEM
       celluloid (>= 0.15.2)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
-    microstatic (0.5.1)
+    microstatic (0.5.2)
       fog (>= 1)
       rainbow (>= 2.0)
       rake
