@@ -1,4 +1,10 @@
 ---
+  perl:
+    label: Perl
+    logo: Perl-camel-small.png
+  mojolicious:
+    label: Mojolicious
+    logo: mojolicious.png
   javascript:
     label: JavaScript
   ruby:
