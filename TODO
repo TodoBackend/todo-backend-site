@@ -6,7 +6,6 @@ TODO
 - SASS-ify
 - somehow automatically check all links are valid
 - don't deploy bower_components
-- include SHA and build # in website somewhere as part of build process
 
 DONE
 =====
@@ -16,3 +15,4 @@ DONE
 - auto-deploy to preview site S3, push-button deploy to live site S3.
 - tag-based search
  - framework logo-based tag search
+- include SHA and build # in website somewhere as part of build process
