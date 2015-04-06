@@ -62,8 +62,7 @@
 
 "Clojure / Compojure":
   description:
-    A simple Compojure implementation courtesy of <a href="https://twitter.com/akiellor">Andrew Kiellor</a>.
-    This implementation "cheats" by storing todos in an in-memory map plus a clojure atom.
+    A simple Compojure implementation storing to Postgres via <a href="https://github.com/clojure/java.jdbc">clojure.java.jdbc</a> courtesy of <a href="https://twitter.com/akiellor">Andrew Kiellor</a>.
   sourcecode_url: https://github.com/akiellor/todo-backend-compojure
   live_url: http://todo-backend-compojure.herokuapp.com/todos
   tags:
