@@ -287,3 +287,14 @@
     - fsharp
     - suave
     - dotnet
+
+"Scala - Play!":
+  description:
+    Scala implementation on the <a href="https://www.playframework.com/">Play framework</a> backed by Postgres
+  live_url: https://todo-backend-play.herokuapp.com/
+  sourcecode_url: https://github.com/hythloday/todo-backend-play
+  tags:
+    - scala
+    - jvm
+    - play
+    - postgres
