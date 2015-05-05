@@ -66,6 +66,9 @@
   finatra:
     label: Finatra
     logo: finatra.jpeg
+  akka:
+    label: Akka
+    logo: akka.png
   koa:
     label: Koa
     logo: koa.png
