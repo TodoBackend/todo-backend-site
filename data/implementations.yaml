@@ -302,7 +302,7 @@
 "OCaml":
   description:
     OCaml implementation. Courtesy of <a href="http://arnout.engelen.eu">Arnout Engelen</a>
-  live_url: http://todo-backend-ocaml:3000/todos
+  live_url: http://todo-backend-ocaml.bzzt.net:3000/todos
   sourcecode_url: https://github.com/raboof/todo-backend-ocaml
   tags:
     - ocaml
