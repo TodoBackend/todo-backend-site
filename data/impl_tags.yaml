@@ -107,3 +107,6 @@
   play:
     label: Play!
     logo: play.png
+  ocaml:
+    label: OCaml
+    logo: ocaml.png
