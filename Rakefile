@@ -12,9 +12,15 @@ Microstatic::Rake.s3_deploy_task(:deploy_preview) do |task|
   task.bucket_name = "preview.todobackend.com"
 end
 
-task "bower" do 
-  cd "source/client"
-  sh "bower install -p"
+task "client-build" do 
+  cd "submodules/client"
+  sh "npm install"
+  sh "grunt"
+
+  dest_dir = "../../build/client"
+  rm_rf dest_dir
+  mkdir_p dest_dir
+  cp_r FileList["index.html","js","css"], dest_dir
 end
 
 desc "serve a local development version of the site"
@@ -27,7 +33,7 @@ task "middleman-build" do
 end
 
 desc "ensure dependencies are all installed and ready for deployment"
-task "build" => ["bower","middleman-build"]
+task "build" => ["middleman-build","client-build"]
 
 desc "build, deploy"
 task :build_and_deploy => [:build,:deploy]
