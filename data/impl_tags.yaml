@@ -110,3 +110,9 @@
   ocaml:
     label: OCaml
     logo: ocaml.png
+  elixir:
+    label: Elixir
+    logo: elixir.png
+  phoenix:
+    label: Phoenix Framework
+    logo: phoenix.png

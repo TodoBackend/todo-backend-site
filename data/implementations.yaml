@@ -306,3 +306,13 @@
   sourcecode_url: https://github.com/raboof/todo-backend-ocaml
   tags:
     - ocaml
+
+"Elixir - Phoenix / Postgres":
+  description:
+    <a href="http://elixir-lang.org">Elixir</a> implementation using the <a href="http://phoenixframework.org">Phoenix Framework</a> backed by Postgres. Deployed to Heroku using the Elixir buildpack. Courtesy of <a href="http://jeffweiss.org">Jeff Weiss</a>
+  live_url: http://todobackend-phoenix.herokuapp.com/api/todos
+  sourcecode_url: https://github.com/jeffweiss/todobackend-phoenix
+  tags:
+    - elixir
+    - phoenix
+    - postgres
