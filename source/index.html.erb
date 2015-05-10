@@ -18,7 +18,7 @@
 
       <section class="technologies">
         <h2>featuring HTTP APIs built with:</h2>
-        <%-data.impl_tags.each do |(tag,info)|
+        <%-data.impl_tags.sort.each do |(tag,info)|
           logo_file = info.fetch("logo","#{tag}.svg")
         %>
           <div class="tech-block" data-tag="<%=tag%>">
