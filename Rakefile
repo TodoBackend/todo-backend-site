@@ -1,4 +1,5 @@
 require 'microstatic/rake'
+require_relative 'tasks/deploy_commit_preview'
 
 desc "deploy to www.todobackend.com"
 Microstatic::Rake.s3_deploy_task(:deploy) do |task|
