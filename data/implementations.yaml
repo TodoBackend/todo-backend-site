@@ -39,6 +39,18 @@
     - expressjs
     - postgres
 
+"Node.js / Express":
+  description:
+    Node.js + Express + JS-CSP, saving to Postgres. Courtesy of <a href="https://github.com/akiellor">Andrew Kiellor</a>.
+  sourcecode_url: https://github.com/akiellor/todo-backend-express-csp
+  live_url: http://todo-backend-express-csp.herokuapp.com/
+  tags:
+    - javascript
+    - nodejs
+    - js-csp
+    - expressjs
+    - postgres
+
 "Node.js / Hapi.js":
   description:
     <a href="http://hapijs.com">Hapi.js</a> saving to a MongoDB collection via <a href="http://mongoosejs.com/">MongooseJS</a> by <a href="https://github.com/pamo">Pamela Ocampo</a>.
