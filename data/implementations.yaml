@@ -39,9 +39,9 @@
     - expressjs
     - postgres
 
-"Node.js / Express":
+"Node.js / Express / JS-CSP":
   description:
-    Node.js + Express + JS-CSP, saving to Postgres. Courtesy of <a href="https://github.com/akiellor">Andrew Kiellor</a>.
+    Node.js + Express + JS-CSP (an alternative to Promises and callbacks), saving to Postgres. Courtesy of <a href="https://github.com/akiellor">Andrew Kiellor</a>.
   sourcecode_url: https://github.com/akiellor/todo-backend-express-csp
   live_url: http://todo-backend-express-csp.herokuapp.com/
   tags:
