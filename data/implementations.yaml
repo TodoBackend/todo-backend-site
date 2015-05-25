@@ -328,3 +328,12 @@
     - elixir
     - phoenix
     - postgres
+
+"Haskell - Scotty / Persistent":
+  description:
+      Haskell implementation using <a href="http://hackage.haskell.org/package/scotty">Scotty</a>.
+  live_url: http://todobackend-scotty.herokuapp.com/todos
+  sourcecode_url: https://github.com/jhedev/todobackend-scotty-persistent
+  tags:
+    - haskell
+    - scotty
