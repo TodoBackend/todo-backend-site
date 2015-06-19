@@ -337,3 +337,14 @@
   tags:
     - haskell
     - scotty
+    
+"Java - Axon + Spring Boot":
+  description:
+    Implementation using <a href="http://www.axonframework.org/">Axon</a>, a Java CQRS framework, + <a href="http://projects.spring.io/spring-boot/">Spring Boot</a>. This version "cheats" by storing todos in an in-memory repository. By <a href="http://ryanoglesby08.github.io/">Ryan Oglesby</a>
+  live_url: https://todo-backend-axon.herokuapp.com/todos
+  sourcecode_url: https://github.com/ryanoglesby08/todo-backend-axon
+  tags:
+    - java
+    - jvm
+    - axon
+    - spring
