@@ -116,3 +116,6 @@
   phoenix:
     label: Phoenix Framework
     logo: phoenix.png
+  axon:
+    label: Axon Framework
+    logo: axon.png
