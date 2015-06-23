@@ -349,7 +349,7 @@
     - axon
     - spring
 
-"Python / Flask"
+"Python / Flask":
   description:
       Implementation written in Python with <a href="http://flask.pocoo.org/">Flask</a>.
   live_url: https://todo-backend-flask.herokuapp.com
