@@ -1,6 +1,6 @@
 "Perl / Mojolicious":
   description:
-    todo backend implemented with perl and <a href="http://mojolicio.us">mojolicious</a>. Backed 
+    todo backend implemented with perl and <a href="http://mojolicio.us">mojolicious</a>. Backed
     with a plain file on disk.
   sourcecode_url: https://github.com/kjellkvinge/mojo-todo-backend/blob/master/myapp.pl
   live_url: http://mojo-todo-backend.herokuapp.com/
@@ -113,7 +113,7 @@
     - jvm
 
 "Java 7 and Spring MVC":
-  description: 
+  description:
     <a href="https://todobackend-spring.herokuapp.com">Java 7 and Spring MVC</a> implementation using
     the Java 1.7 and Spring MVC. Deployed to Heroku using a Tomcat runner.
   sourcecode_url: https://github.com/pamo/TodoBackend-Spring
@@ -123,7 +123,7 @@
    - jvm
    - spring
    - tomcat
- 
+
 "Jersey2 with RDF for data storage":
   description:
     A version using Jersey2 with Sesame RDF for data storage from <a href="https://github.com/pepperbob">Michael Leuthold</a>.
@@ -258,7 +258,7 @@
    - jvm
    - dropwizard
    - jersey
-  
+
 "C# with ServiceStack":
   description:
     An implementation using the <a href="http://www.servicestack.net">ServiceStack</a> framework, ormlite, sqlite, NUnit by <a href="http://www.kylehodgson.com/">Kyle Hodgson</a>.
@@ -337,7 +337,7 @@
   tags:
     - haskell
     - scotty
-    
+
 "Java - Axon + Spring Boot":
   description:
     Implementation using <a href="http://www.axonframework.org/">Axon</a>, a Java CQRS framework, + <a href="http://projects.spring.io/spring-boot/">Spring Boot</a>. This version "cheats" by storing todos in an in-memory repository. By <a href="http://ryanoglesby08.github.io/">Ryan Oglesby</a>
@@ -348,3 +348,12 @@
     - jvm
     - axon
     - spring
+
+"Python / Flask":
+  description:
+      Implementation written in Python with <a href="http://flask.pocoo.org/">Flask</a>.
+  live_url: https://todo-backend-flask.herokuapp.com
+  sourcecode_url: https://github.com/Faerbit/todo-backend-flask
+  tags:
+    - python
+    - flask

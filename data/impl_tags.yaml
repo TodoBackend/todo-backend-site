@@ -119,3 +119,6 @@
   axon:
     label: Axon Framework
     logo: axon.png
+  flask:
+    label: Flask
+    logo: flask.png
