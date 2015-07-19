@@ -122,3 +122,6 @@
   flask:
     label: Flask
     logo: flask.png
+  haskell:
+    label: Haskell
+    logo: haskell.png
