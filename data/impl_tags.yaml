@@ -125,3 +125,18 @@
   haskell:
     label: Haskell
     logo: haskell.png
+  scotty:
+    label: Scotty
+    logo: no-logo.svg
+  servant:
+    label: Servant
+    logo: no-logo.svg
+  snap:
+    label: Snap
+    logo: no-logo.svg
+  spock:
+    label: Spock
+    logo: no-logo.svg
+  yesod:
+    label: Yesod
+    logo: no-logo.svg
