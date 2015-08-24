@@ -329,14 +329,6 @@
     - phoenix
     - postgres
 
-"Haskell - Scotty / Persistent":
-  description:
-      Haskell implementation using <a href="http://hackage.haskell.org/package/scotty">Scotty</a>.
-  live_url: http://todobackend-scotty.herokuapp.com/todos
-  sourcecode_url: https://github.com/jhedev/todobackend-scotty-persistent
-  tags:
-    - haskell
-    - scotty
 
 "Java - Axon + Spring Boot":
   description:
@@ -357,3 +349,48 @@
   tags:
     - python
     - flask
+
+"Haskell - Scotty / Persistent":
+  description:
+      Haskell implementation using <a href="http://hackage.haskell.org/package/scotty">Scotty</a>.
+  live_url: http://todobackend-scotty.sloppy.zone/todos
+  sourcecode_url: https://github.com/jhedev/todobackend-haskell/tree/master/todobackend-scotty
+  tags:
+    - haskell
+    - scotty
+
+"Haskell - Servant / Persistent":
+  description:
+      Haskell implementation using <a href="http://haskell-servant.github.io/">Servant</a>.
+  live_url: http://todobackend-servant.sloppy.zone/todos
+  sourcecode_url: https://github.com/jhedev/todobackend-haskell/tree/master/todobackend-servant
+  tags:
+    - haskell
+    - servant
+
+"Haskell - Snap / Persistent":
+  description:
+      Haskell implementation using <a href="http://snapframework.com/">Snap</a>.
+  live_url: http://todobackend-snap.sloppy.zone/todos
+  sourcecode_url: https://github.com/jhedev/todobackend-haskell/tree/master/todobackend-snap
+  tags:
+    - haskell
+    - snap
+
+"Haskell - Spock / Persistent":
+  description:
+      Haskell implementation using <a href="https://www.spock.li/">Spock</a>.
+  live_url: http://todobackend-spock.sloppy.zone/todos
+  sourcecode_url: https://github.com/jhedev/todobackend-haskell/tree/master/todobackend-spock
+  tags:
+    - haskell
+    - spock
+
+"Haskell - Yesod / Persistent":
+  description:
+      Haskell implementation using <a href="http://www.yesodweb.com/">Yesod</a>.
+  live_url: http://todobackend-yesod.sloppy.zone/todos
+  sourcecode_url: https://github.com/jhedev/todobackend-haskell/tree/master/todobackend-yesod
+  tags:
+    - haskell
+    - yesod
