@@ -28,6 +28,15 @@
     - ruby
     - grape
 
+"Rust / Iron":
+  description:
+    A Rust implementation using <a href="http://ironframework.io/">Iron</a> with a thread safe in-memory repository
+  sourcecode_url: https://githubcom/dudadornelles/todo-backend-rust-iron
+  live_url: https://floating-hamlet-5988.herokuapp.com/todos
+  tags:
+    - rust
+    - iron
+
 "Node.js / Express":
   description:
     Node.js + Express, saving to Postgres. Courtesy of <a href="https://github.com/dtao">Daniel Tao</a>.
