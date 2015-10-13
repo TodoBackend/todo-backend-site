@@ -403,3 +403,13 @@
   tags:
     - haskell
     - yesod
+
+"Rust / Rustful":
+  description:
+    Rust implementation using <a href="https://crates.io/crates/rustful">Rustful</a>.
+  live_url: https://todo-backend-rustful.herokuapp.com
+  sourcecode_url: https://github.com/RoPP/todo-backend-rustful
+  tags:
+    - rust
+    - rustful
+
