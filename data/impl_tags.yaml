@@ -140,3 +140,7 @@
   yesod:
     label: Yesod
     logo: yesod.png
+  rust:
+    label: Rust
+    logo: no-logo.svg
+
