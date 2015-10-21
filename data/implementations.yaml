@@ -359,6 +359,15 @@
     - python
     - flask
 
+"Python / aiohttp":
+  description:
+      Implementation written in Python 3.5 with <a href="http://aiohttp.readthedocs.org/">aiohttp</a> by <a href="https://github.com/justuswilhelm">Justus Perlwitz</a>.
+  live_url: http://todobackend-aiohttp.herokuapp.com
+  sourcecode_url: https://github.com/justuswilhelm/todobackend-aiohttp
+  tags:
+    - python
+    - aiohttp
+
 "Haskell - Scotty / Persistent":
   description:
       Haskell implementation using <a href="http://hackage.haskell.org/package/scotty">Scotty</a>.
