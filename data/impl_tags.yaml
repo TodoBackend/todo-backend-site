@@ -143,4 +143,6 @@
   rust:
     label: Rust
     logo: no-logo.svg
-
+  aiohttp:
+    label: aiohttp
+    logo: aiohttp.svg
