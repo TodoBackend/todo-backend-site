@@ -145,3 +145,6 @@
   aiohttp:
     label: aiohttp
     logo: aiohttp.svg
+  maru:
+    label: maru
+    logo: maru.png

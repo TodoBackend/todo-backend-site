@@ -340,7 +340,7 @@
 
 "Elixir - Maru / Postgres":
   description:
-    <a href="http://elixir-lang.org">Elixir</a> implementation using the <a href="https://maru.readme.io/">Maru Framework</a> backed by Postgres. Deployed to Heroku using the Elixir buildpack. Courtesy of <a href="http://jeffweiss.org">Jeff Weiss</a>
+    <a href="http://elixir-lang.org">Elixir</a> implementation using the <a href="https://maru.readme.io/">Maru Framework</a> and Ecto ORM backed by Postgres. Deployed to Heroku using the <a href="https://github.com/HashNuke/heroku-buildpack-elixir">Elixir buildpack</a>. By <a href="http://github.com/whitfieldc">Charles Whitfield</a>
   live_url: http://maru-todo.herokuapp.com/tasks
   sourcecode_url: https://github.com/whitfieldc/maru_todo
   tags:
