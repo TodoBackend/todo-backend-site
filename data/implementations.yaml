@@ -369,6 +369,15 @@
     - python
     - flask
 
+"Python / Circuits":
+  description:
+      Implementation written in Python with <a href="http://circuitsframework.com/">Circuits Framework</a>.
+  live_url: https://todo-circuits.herokuapp.com
+  sourcecode_url: https://github.com/shyba/todo-circuits
+  tags:
+    - python
+    - circuits
+
 "Python / aiohttp":
   description:
       Implementation written in Python 3.5 with <a href="http://aiohttp.readthedocs.org/">aiohttp</a> by <a href="https://github.com/justuswilhelm">Justus Perlwitz</a>.
