@@ -347,7 +347,16 @@
     - elixir
     - maru
     - postgres
-
+    
+"Elixir - Plug / Postgres":
+  description:
+    <a href="http://elixir-lang.org">Elixir</a> implementation using the <a href="http://hexdocs.pm/plug/extra-readme.html">Elixir Plug</a> and Ecto ORM backed by Postgres. Deployed to Heroku using the <a href="https://github.com/HashNuke/heroku-buildpack-elixir">Elixir buildpack</a>. By <a href="http://github.com/deepredsky">Rajesh Sharma</a>
+  live_url: https://todobackend-plug.herokuapp.com
+  sourcecode_url: https://github.com/deepredsky/todobackend-plug
+  tags:
+    - elixir
+    - plug
+    - postgres
 
 "Java - Axon + Spring Boot":
   description:
