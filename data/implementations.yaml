@@ -287,6 +287,14 @@
    - csharp
    - dotnet
 
+"Golang / stdlib":
+  description:
+    A <a href="http://golang.org/">Golang</a> implementation using only the standard libraries
+  sourcecode_url: https://github.com/mforman/todo-backend-golang
+  live_url: https://todo-backend-golang-stdlib.herokuapp.com/todos
+  tags:
+    - golang
+
 "Node.js / Express / CoffeeScript / Mongo":
   description:
     <a href="http://nodejs.org/">Node.js</a> + <a href="http://expressjs.com/">Express</a>, written in <a href="http://coffeescript.org/">CoffeeScript</a> from <a href="https://github.com/danielsiwiec">Dan Siwiec</a>. Data is persisted to <a href="http://www.mongodb.org/">MongoDB</a> using <a href="http://mongoosejs.com/">Mongoose</a>
