@@ -355,7 +355,7 @@
     - elixir
     - maru
     - postgres
-    
+
 "Elixir - Plug / Postgres":
   description:
     <a href="http://elixir-lang.org">Elixir</a> implementation using the <a href="http://hexdocs.pm/plug/extra-readme.html">Elixir Plug</a> and Ecto ORM backed by Postgres. Deployed to Heroku using the <a href="https://github.com/HashNuke/heroku-buildpack-elixir">Elixir buildpack</a>. By <a href="http://github.com/deepredsky">Rajesh Sharma</a>
@@ -466,3 +466,15 @@
   tags:
     - php
     - symfony2
+
+"Node.js / Restify / Redux":
+  description:
+    <a href="http://nodejs.org/">Node.js</a> + <a href="http://restify.com//">Restify</a>, written with pure ES6 from <a href="https://github.com/danielsiwiec">Dan Siwiec</a>. State is maintained with <a href="http://redux.js.org/">Redux</a>
+  sourcecode_url: https://github.com/danielsiwiec/todo-backend-restify-redux
+  live_url: https://todo-backend-restify-redux.herokuapp.com
+  tags:
+    - javascript
+    - es6
+    - nodejs
+    - restify
+    - redux
