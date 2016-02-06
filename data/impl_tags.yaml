@@ -157,5 +157,7 @@
   es6:
     label: ES6
     logo: es6.png
-    php:
-      label: PHP
+  php:
+    label: PHP
+  symfony:
+    label: Symfony
