@@ -159,5 +159,6 @@
     logo: es6.png
   php:
     label: PHP
-  symfony:
-    label: Symfony
+  symfony2:
+    label: Symfony2
+    logo: symfony.svg
