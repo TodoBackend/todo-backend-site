@@ -478,7 +478,7 @@
     - nodejs
     - restify
     - redux
-    
+
 "TypeScript / Node.js / Express":
   description:
     <a href="http://www.typescriptlang.org/">TypeScript</a> + <a href="http://nodejs.org/">Node.js</a> + Express, saving to Postgres.
@@ -489,3 +489,12 @@
     - nodejs
     - expressjs
     - postgres
+
+"Slim 3 / Spot":
+  description:
+    PHP implementation with <a href="http://www.slimframework.com/">Slim 3</a> and <a href="http://phpdatamapper.com/">Spot</a>.
+  sourcecode_url: https://github.com/tuupola/slim-todo-backend/
+  live_url: http://slim3-todo-backend.appelsiini.net/todos
+  tags:
+    - php
+    - slim
