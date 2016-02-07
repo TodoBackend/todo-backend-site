@@ -162,3 +162,6 @@
   symfony2:
     label: Symfony2
     logo: symfony.svg
+  slim:
+    label: Slim
+    logo: no-logo.svg
