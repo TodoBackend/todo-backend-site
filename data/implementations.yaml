@@ -170,7 +170,7 @@
 "Scala / Akka":
   description:
     A <a href="http://ww/scala-lang.org/">Scala</a> implementation using <a
-    href="http://doc.akka.io/docs/akka-stream-and-http-experimental/current/scala/http/index.html">akka-http</a>.
+    href="http://doc.akka.io/docs/akka/current/scala/http/index.html">akka-http</a>.
     Courtesy of <a href="http://arnout.engelen.eu">Arnout Engelen</a>
   sourcecode_url: https://github.com/raboof/todo-backend-akka
   live_url: https://todo-backend-akka.herokuapp.com/todos
