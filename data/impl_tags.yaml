@@ -165,3 +165,6 @@
   slim:
     label: Slim
     logo: no-logo.svg
+  finch:
+    label: Finch
+    logo: finch.png
