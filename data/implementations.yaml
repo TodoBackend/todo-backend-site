@@ -510,3 +510,15 @@
     - scala
     - jvm
     - finch
+
+"Scala / Fintrospect":
+  description:
+    A <a href="http://www.scala-lang.org/">Scala</a> implementation using 
+    <a href="https://github.com/daviddenton/fintrospect">Fintrospect</a> for web and 
+    <a href="http://json4s.org/">Json4s</a> for JSON.
+  sourcecode_url: https://github.com/daviddenton/fintrospect-todo-backend
+  live_url: https://fintrospect-todo-backend.herokuapp.com/todos
+  tags:
+    - scala
+    - jvm
+    - fintrospect

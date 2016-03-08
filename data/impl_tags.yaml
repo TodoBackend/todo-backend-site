@@ -168,3 +168,6 @@
   finch:
     label: Finch
     logo: finch.png
+  fintrospect:
+    label: Fintrospect
+    logo: fintrospect.png
