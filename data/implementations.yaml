@@ -133,6 +133,16 @@
    - spring
    - tomcat
 
+"Java 8 and Vert.x":
+  description:
+    An implementation using Java 8 and <a href="http://vertx.io/">Vert.x</a> from <a href="https://github.com/alexsomai">Alex Somai</a>.
+  sourcecode_url: https://github.com/alexsomai/vertx-todo-backend
+  live_url: http://demo-todobackend.rhcloud.com/todos
+  tags:
+    - java
+    - jvm
+    - vertx
+
 "Jersey2 with RDF for data storage":
   description:
     A version using Jersey2 with Sesame RDF for data storage from <a href="https://github.com/pepperbob">Michael Leuthold</a>.
