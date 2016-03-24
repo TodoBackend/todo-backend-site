@@ -171,3 +171,6 @@
   fintrospect:
     label: Fintrospect
     logo: fintrospect.png
+  vertx:
+    label: Vert.x
+    logo: vertx.png
