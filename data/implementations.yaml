@@ -143,6 +143,29 @@
     - jvm
     - vertx
 
+"Vert.x with JDBC":
+  description:
+    An implementation using <a href="http://vertx.io/">Vert.x</a> with JDBC from <a href="https://github.com/corona10">Dong-hee Na</a>.
+  sourcecode_url: https://github.com/corona10/Vert.x_ToDo/tree/JDBC
+  live_url: http://tododemojdbc-corona10.rhcloud.com/
+  tags:
+    - java
+    - jvm
+    - vertx
+    - JDBC (SQL)
+
+"Vert.x with ORM":
+  description:
+    An implementation using <a href="http://vertx.io/">Vert.x</a> with ORM(ormlite) from <a href="https://github.com/corona10">Dong-hee Na</a>.
+  sourcecode_url: https://github.com/corona10/Vert.x_ToDo
+  live_url: http://tododemo-corona10.rhcloud.com/
+  tags:
+    - java
+    - jvm
+    - vertx
+    - ORM(ormlite)
+
+
 "Jersey2 with RDF for data storage":
   description:
     A version using Jersey2 with Sesame RDF for data storage from <a href="https://github.com/pepperbob">Michael Leuthold</a>.
@@ -511,8 +534,8 @@
 
 "Scala / Finch":
   description:
-    A <a href="http://www.scala-lang.org/">Scala</a> implementation using 
-    <a href="https://github.com/finagle/finch">Finch</a> for web and 
+    A <a href="http://www.scala-lang.org/">Scala</a> implementation using
+    <a href="https://github.com/finagle/finch">Finch</a> for web and
     <a href="https://github.com/travisbrown/circe">Circe</a> for JSON.
   sourcecode_url: https://github.com/ilya-murzinov/finch-todo-backend
   live_url: http://diy-ilyamurzinov.rhcloud.com/todos
@@ -523,8 +546,8 @@
 
 "Scala / Fintrospect":
   description:
-    A <a href="http://www.scala-lang.org/">Scala</a> implementation using 
-    <a href="https://github.com/daviddenton/fintrospect">Fintrospect</a> for web and 
+    A <a href="http://www.scala-lang.org/">Scala</a> implementation using
+    <a href="https://github.com/daviddenton/fintrospect">Fintrospect</a> for web and
     <a href="http://json4s.org/">Json4s</a> for JSON.
   sourcecode_url: https://github.com/daviddenton/fintrospect-todo-backend
   live_url: https://fintrospect-todo-backend.herokuapp.com/todos
