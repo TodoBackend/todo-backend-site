@@ -133,6 +133,17 @@
    - spring
    - tomcat
 
+"Vert.x and PostgreSQL":
+  description:
+    Backend, based on <a href="http://vertx.io/">Vert.x 3</a> and <a href="http://www.postgresql.org/">PostgreSQL</a>.
+  sourcecode_url: https://github.com/tirnak/vert.x-todo-backend-postgresql/
+  live_url: https://vertx-todo-backend-postgresql.herokuapp.com/
+  tags:
+    - vertx
+    - postgres
+    - java
+    - jvm
+
 "Java 8 and Vert.x":
   description:
     An implementation using Java 8 and <a href="http://vertx.io/">Vert.x</a> from <a href="https://github.com/alexsomai">Alex Somai</a>.
