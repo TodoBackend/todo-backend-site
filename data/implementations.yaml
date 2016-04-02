@@ -305,6 +305,16 @@
   tags:
     - golang
 
+"Vert.x / Mongo / Java8":
+  description:
+    Implemented using <a href="http://vertx.io/">Vert.x</a> + <a href="https://www.mongodb.org/">MongoDB</a>, written in <a href="http://www.oracle.com/technetwork/java/javase/overview/java8-2100321.html">Java8</a> from  <a href="https://github.com/VIthulan/>Vithulan</a>
+    sourcecode_url: https://github.com/VIthulan/todo-vertx/tree/heroku-app
+    live_url: https://todo-vertx.herokuapp.com/api/tasks
+    tags :
+    - Java8
+    - Vert.x
+    - MongoDB
+
 "Node.js / Express / CoffeeScript / Mongo":
   description:
     <a href="http://nodejs.org/">Node.js</a> + <a href="http://expressjs.com/">Express</a>, written in <a href="http://coffeescript.org/">CoffeeScript</a> from <a href="https://github.com/danielsiwiec">Dan Siwiec</a>. Data is persisted to <a href="http://www.mongodb.org/">MongoDB</a> using <a href="http://mongoosejs.com/">Mongoose</a>
