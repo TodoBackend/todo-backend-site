@@ -49,6 +49,9 @@
   spring:
     label: Spring
     logo: spring.png
+  vertx:
+    label: Vert.x
+    logo: vertx.png
   jersey:
     label: Jersey
     logo: jersey.png
