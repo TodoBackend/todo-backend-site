@@ -588,3 +588,13 @@
     - scala
     - jvm
     - fintrospect
+
+"Swift / Kitura":
+  description:
+    A <a href="http://www.swift.org">Swift</a> implementation using
+    <a href="https://github.com/IBM-Swift/Kitura">Kitura</a> for web.
+  sourcecode_url: https://github.com/IBM-Swift/Kitura-TodoList
+  live_url: https://kitura-todolist.mybluemix.net/
+  tags:
+    - swift
+    - kitura
