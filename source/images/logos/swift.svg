@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1.1 (8761) - http://www.bohemiancoding.com/sketch -->
+    <title>Swift</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FBAE3D" offset="0%"></stop>
+            <stop stop-color="#FF291A" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="1.42108547e-14" width="256" height="256" rx="60"></rect>
+        <radialGradient cx="33.8836521%" cy="32.2727007%" fx="33.8836521%" fy="32.2727007%" r="65.2794468%" id="radialGradient-4">
+            <stop stop-color="#FBA73E" offset="0%"></stop>
+            <stop stop-color="#E97532" offset="44.4048208%"></stop>
+            <stop stop-color="#A23314" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Swift" sketch:type="MSLayerGroup">
+            <rect id="Base" fill="url(#linearGradient-1)" sketch:type="MSShapeGroup" x="0" y="1.42108547e-14" width="256" height="256" rx="60"></rect>
+            <mask id="mask-3" sketch:name="Shadow Mask" fill="white">
+                <use xlink:href="#path-2"></use>
+            </mask>
+            <use id="Shadow-Mask" fill-opacity="0" fill="#FFFFFF" sketch:type="MSShapeGroup" xlink:href="#path-2"></use>
+            <path d="M-74.8300789,49.7587891 L30.6435539,-75.4638672 L145.601566,37.1157227 C145.601566,37.1157227 221.792972,81.5766602 203.241214,157.797363 C203.241214,157.797363 199.708987,178.132324 189.953128,191.843262 C173.223636,193.602051 160.596683,208 131.684573,208 C102.772464,208 61.4570343,199.213379 26.9023468,147.293457 L-74.8300789,49.7587891 Z" id="Shadow" opacity="0.339435634" fill="url(#radialGradient-4)" sketch:type="MSShapeGroup" mask="url(#mask-3)"></path>
+            <path d="M145.405273,37.5 C145.405273,37.5 221.59668,81.9609375 203.044922,158.181641 C203.044922,158.181641 226.156738,187.868164 216.574707,209.422852 C216.574707,209.422852 207.446289,190.800781 189.756836,192.227539 C173.027344,193.986328 160.400391,208.384277 131.488281,208.384277 C102.576172,208.384277 61.2607422,199.597656 26.7060547,147.677734 C26.7060547,147.677734 82.9262695,191.490723 135.294434,160.280762 C135.294434,160.280762 98.3242187,135.034668 45.3056641,63.2021484 C45.3056641,63.2021484 108.67041,115.811523 122.711914,120.962891 C122.711914,120.962891 82.4135742,79.390625 68.5776367,53.3056641 C68.5776367,53.3056641 122.665527,105.368164 162.474121,128.793945 C162.474121,128.793945 180.078125,87.4912109 145.405273,37.5 Z" id="Bird" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
