@@ -133,6 +133,17 @@
    - spring
    - tomcat
 
+"Vert.x and PostgreSQL":
+  description:
+    Backend, based on <a href="http://vertx.io/">Vert.x 3</a> and <a href="http://www.postgresql.org/">PostgreSQL</a>.
+  sourcecode_url: https://github.com/tirnak/vert.x-todo-backend-postgresql/
+  live_url: https://vertx-todo-backend-postgresql.herokuapp.com/
+  tags:
+    - vertx
+    - postgres
+    - java
+    - jvm
+
 "Java 8 and Vert.x":
   description:
     An implementation using Java 8 and <a href="http://vertx.io/">Vert.x</a> from <a href="https://github.com/alexsomai">Alex Somai</a>.
@@ -142,6 +153,29 @@
     - java
     - jvm
     - vertx
+
+"Vert.x with JDBC":
+  description:
+    An implementation using <a href="http://vertx.io/">Vert.x</a> with JDBC from <a href="https://github.com/corona10">Dong-hee Na</a>.
+  sourcecode_url: https://github.com/corona10/Vert.x_ToDo/tree/JDBC
+  live_url: http://tododemojdbc-corona10.rhcloud.com/
+  tags:
+    - java
+    - jvm
+    - vertx
+    - jdbc
+
+"Vert.x with ORM":
+  description:
+    An implementation using <a href="http://vertx.io/">Vert.x</a> with ORM(ormlite) from <a href="https://github.com/corona10">Dong-hee Na</a>.
+  sourcecode_url: https://github.com/corona10/Vert.x_ToDo
+  live_url: http://tododemo-corona10.rhcloud.com/
+  tags:
+    - java
+    - jvm
+    - vertx
+    - ormlite
+
 
 "Jersey2 with RDF for data storage":
   description:
@@ -246,6 +280,17 @@
    - jvm
    - spring
 
+"Vert.x 3 and Redis backend":
+  description:
+    A Java implementation using <a href="http://vertx.io/">Vert.x</a> with Redis backend. Deployed on OpenShift. By <a href="https://github.com/sczyh30">Eric Zhao</a>
+  sourcecode_url: https://github.com/sczyh30/todo-backend-vert.x
+  live_url: http://verttodo-sczyh30.rhcloud.com/todos
+  tags:
+   - java
+   - jvm
+   - vertx
+   - redis
+
 "F# - ASP.NET Web API":
   description:
     <a href="http://todo-backend-fsharp.azurewebsites.net/webapi">F# with ASP.NET Web API</a> implementation using <a href="http://asp.net/web-api">ASP.NET Web API 2.2</a>, <a href="http://fsharp.org/">F#</a>, hosted via <a href="http://owin.org/">OWIN</a>, and using an in-memory store built with an F# `MailboxProcessor`.
@@ -304,6 +349,17 @@
   live_url: https://todo-backend-golang-stdlib.herokuapp.com/todos
   tags:
     - golang
+
+"Vert.x / Mongo / Java8":
+  description:
+    Implemented using <a href="http://vertx.io/">Vert.x</a> + <a href="https://www.mongodb.org/">MongoDB</a>, written in <a href="http://www.oracle.com/technetwork/java/javase/overview/java8-2100321.html">Java8</a> from <a href="https://github.com/VIthulan/">Vithulan</a>
+  sourcecode_url: https://github.com/VIthulan/todo-vertx/tree/heroku-app
+  live_url: https://todo-vertx.herokuapp.com/api/tasks
+  tags :
+    - java
+    - jvm
+    - vertx
+    - mongodb
 
 "Node.js / Express / CoffeeScript / Mongo":
   description:
@@ -511,8 +567,8 @@
 
 "Scala / Finch":
   description:
-    A <a href="http://www.scala-lang.org/">Scala</a> implementation using 
-    <a href="https://github.com/finagle/finch">Finch</a> for web and 
+    A <a href="http://www.scala-lang.org/">Scala</a> implementation using
+    <a href="https://github.com/finagle/finch">Finch</a> for web and
     <a href="https://github.com/travisbrown/circe">Circe</a> for JSON.
   sourcecode_url: https://github.com/ilya-murzinov/finch-todo-backend
   live_url: http://diy-ilyamurzinov.rhcloud.com/todos
@@ -523,8 +579,8 @@
 
 "Scala / Fintrospect":
   description:
-    A <a href="http://www.scala-lang.org/">Scala</a> implementation using 
-    <a href="https://github.com/daviddenton/fintrospect">Fintrospect</a> for web and 
+    A <a href="http://www.scala-lang.org/">Scala</a> implementation using
+    <a href="https://github.com/daviddenton/fintrospect">Fintrospect</a> for web and
     <a href="http://json4s.org/">Json4s</a> for JSON.
   sourcecode_url: https://github.com/daviddenton/fintrospect-todo-backend
   live_url: https://fintrospect-todo-backend.herokuapp.com/todos
@@ -532,3 +588,13 @@
     - scala
     - jvm
     - fintrospect
+
+"Swift / Kitura":
+  description:
+    A <a href="http://www.swift.org">Swift</a> implementation using
+    <a href="https://github.com/IBM-Swift/Kitura">Kitura</a> for web.
+  sourcecode_url: https://github.com/IBM-Swift/Kitura-TodoList
+  live_url: https://kitura-todolist.mybluemix.net/
+  tags:
+    - swift
+    - kitura
