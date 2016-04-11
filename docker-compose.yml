@@ -1,0 +1,8 @@
+site:
+  image: moredip/todobackend-site:latest
+  ports:
+    - "80:4567"
+  volumes:
+    - ./data:/opt/docker/data
+    - ./source:/opt/docker/source
+  command: serve

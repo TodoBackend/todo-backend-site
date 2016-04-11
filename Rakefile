@@ -16,7 +16,7 @@ end
 task "client-build" do 
   cd "submodules/client"
   sh "npm install"
-  sh "grunt"
+  sh "node_modules/.bin/grunt"
 
   dest_dir = "../../build/client"
   rm_rf dest_dir
