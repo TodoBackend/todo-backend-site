@@ -174,3 +174,7 @@
   fintrospect:
     label: Fintrospect
     logo: fintrospect.png
+  swift:
+    label: Swift
+  kitura:
+    label: Kitura
