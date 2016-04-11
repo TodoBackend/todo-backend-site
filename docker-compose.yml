@@ -5,4 +5,4 @@ site:
   volumes:
     - ./data:/opt/docker/data
     - ./source:/opt/docker/source
-  command: serve
+  command: build serve
