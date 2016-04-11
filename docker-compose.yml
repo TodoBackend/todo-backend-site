@@ -1,5 +1,5 @@
 site:
-  image: moredip/todobackend-site:latest
+  image: moredip/todo-backend-site:latest
   ports:
     - "80:4567"
   volumes:
