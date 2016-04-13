@@ -598,3 +598,17 @@
   tags:
     - swift
     - kitura
+
+"Scala - Play 2.5 / Postgres":
+  description:
+    A <a href="http://www.scala-lang.org/">Scala</a> implementation using
+    <a href="https://playframework.com/documentation/2.5.x/Home">Play 2.5</a>
+    with persistance in Postgres using Anorm. By
+    <a href="https://github.com/jrglee">Jorge Lee</a>.
+  sourcecode_url: https://github.com/jrglee/todo-play-scala-postgres
+  live_url: https://todo-play-scala-pg.herokuapp.com/todo
+  tags:
+    - scala
+    - jvm
+    - play
+    - postgres
