@@ -612,3 +612,14 @@
     - jvm
     - play
     - postgres
+
+"Spincast Framework ~ In memory":
+  description:
+    In memory implementation using <a href="https://www.spincast.org/">Spincast</a>.
+  sourcecode_url: https://github.com/spincast/spincast-todobackend/tree/master/spincast-todobackend-inmemory
+  live_url: https://todobackend-inmemory.spincast.org/
+  tags:
+    - spincast
+    - java
+    - jvm
+    
