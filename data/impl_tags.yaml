@@ -178,3 +178,6 @@
     label: Swift
   kitura:
     label: Kitura
+  spincast:
+    label: Spincast
+    logo: spincast.png
