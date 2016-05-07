@@ -612,3 +612,15 @@
     - jvm
     - play
     - postgres
+
+"Scala - Spring Boot":
+  description:
+    A <a href="http://www.scala-lang.org/">Scala</a> implementation using
+    <a href="http://projects.spring.io/spring-boot/">Spring Boot</a> By
+    <a href="https://github.com/stevenjob">Steven Job</a>.
+  sourcecode_url: https://github.com/stevenjob/Todo-Backend-Scala-Spring-Boot
+  live_url: http://todo-backend-scala-springboot.herokuapp.com/todos
+  tags:
+    - scala
+    - jvm
+    - spring
