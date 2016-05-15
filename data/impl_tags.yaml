@@ -5,6 +5,9 @@
   mojolicious:
     label: Mojolicious
     logo: mojolicious.png
+  catalyst:
+    label: Catalyst
+    logo: catalyst.png
   javascript:
     label: JavaScript
   ruby:

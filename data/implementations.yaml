@@ -1,3 +1,13 @@
+"Perl / Catalyst":
+  description:
+    todo backend implemented with perl and <a href="https://metacpan.org/pod/Catalyst">Catalyst</a>. Backed
+    with a plain file on disk.
+  sourcecode_url: https://github.com/moltar/todo-backend-catalyst
+  live_url: https://todo-backend-catalyst.herokuapp.com/
+  tags:
+    - catalyst
+    - perl
+
 "Perl / Mojolicious":
   description:
     todo backend implemented with perl and <a href="http://mojolicio.us">mojolicious</a>. Backed
