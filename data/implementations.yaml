@@ -543,6 +543,18 @@
     - php
     - symfony2
 
+"Modern Node.js / MongoDB":
+  description:
+    <a href="http://nodejs.org/">Node.js</a> implementation using ES6/7 features, built with libraries from <a href="https://github.com/mattinsler">Matt Insler</a>. Features use of <a href="http://app-contextjs.com">app-context</a>.
+  sourcecode_url: https://github.com/mattinsler/todo-backend-modern-js
+  live_url: https://todo-backend-modern-js.herokuapp.com/todos
+  tags:
+    - javascript
+    - nodejs
+    - es6
+    - decorators
+    - mongodb
+
 "Node.js / Restify / Redux":
   description:
     <a href="http://nodejs.org/">Node.js</a> + <a href="http://restify.com//">Restify</a>, written with pure ES6 from <a href="https://github.com/danielsiwiec">Dan Siwiec</a>. State is maintained with <a href="http://redux.js.org/">Redux</a>
