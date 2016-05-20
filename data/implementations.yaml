@@ -662,7 +662,7 @@
     <a href="https://github.com/drujensen/kemalyst">Kemalyst</a>
     with persistance in Postgres. By
     <a href="https://github.com/drujensen">drujensen</a>.
-  sourcecode_url: https://github.com/drujensen/todos-backend-kemalyst
+  sourcecode_url: https://github.com/drujensen/todo-backend-kemalyst
   live_url: https://todo-backend-kemalyst.herokuapp.com/todos
   tags:
     - crystal
