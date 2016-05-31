@@ -621,6 +621,16 @@
     - swift
     - kitura
 
+"Swift / Vapor":
+  description:
+    A <a href="http://www.swift.org">Swift</a> implementation using
+    <a href="https://github.com/qutheory/vapor">Vapor</a> for web.
+  sourcecode_url: https://github.com/sarbogast/vapor-todobackend
+  live_url: https://vapor-todobackend.herokuapp.com/
+  tags:
+    - swift
+    - vapor
+
 "Scala - Play 2.5 / Postgres":
   description:
     A <a href="http://www.scala-lang.org/">Scala</a> implementation using
