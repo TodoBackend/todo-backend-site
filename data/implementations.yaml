@@ -656,3 +656,14 @@
     - scala
     - jvm
     - spring
+
+"Nim / Jester":
+  description:
+    <a href="http://nim-lang.org/">Nim</a> + <a href="https://github.com/dom96/jester">Jester</a>
+    using in-memory data store.
+    By <a href="https://github.com/codyebberson">Cody Ebberson</a>.
+  sourcecode_url: https://github.com/codyebberson/nim-todobackend
+  live_url: https://todo-backend-nim.orangebot.com/
+  tags:
+    - nim
+    - jester
