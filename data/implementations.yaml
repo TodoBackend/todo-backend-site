@@ -621,6 +621,17 @@
     - swift
     - kitura
 
+"Swift / Kitura / CouchDB":
+  description:
+    A <a href="http://www.swift.org">Swift</a> implementation using
+    <a href="https://github.com/IBM-Swift/Kitura">Kitura</a> for web.
+  sourcecode_url: https://github.com/IBM-Swift/todolist-couchdb
+  live_url: https://todolist-couchdb.mybluemix.net/
+  tags:
+    - swift
+    - kitura
+    - couchdb
+
 "Swift / Vapor":
   description:
     A <a href="http://www.swift.org">Swift</a> implementation using
