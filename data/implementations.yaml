@@ -622,9 +622,7 @@
     - kitura
 
 "Swift / Kitura / Redis":
- description:
-    A <a href="http://www.swift.org">Swift</a> implementation using
-    <a href="https://github.com/IBM-Swift/Kitura">Kitura</a> for web.
+ description: A <a href="http://www.swift.org">Swift</a> implementation using <a href="https://github.com/IBM-Swift/Kitura">Kitura</a> for web.
  sourcecode_url: https://github.com/IBM-Swift/todolist-redis
  live_url: https://todolist-redis.mybluemix.net/
  tags:
