@@ -677,3 +677,12 @@
   tags:
     - nim
     - jester
+"Crystal / Kemal ~ In memory":
+  description:
+    A <a href="https://crystal-lang.org/">Crystal</a> implementation using
+    <a href="http://kemalcr.com/">Kemal</a>.
+  sourcecode_url: https://github.com/mauricioabreu/todo-backend-kemal/ 
+  live_url: https://todo-backend-kemal1.herokuapp.com/todos 
+  tags:
+    - crystal 
+    - kemal 

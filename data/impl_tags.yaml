@@ -184,3 +184,6 @@
   spincast:
     label: Spincast
     logo: spincast.png
+  crystal:
+    label: Crystal
+    logo: crystal.png
