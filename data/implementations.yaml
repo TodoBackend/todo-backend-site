@@ -636,12 +636,12 @@
   description:
     A <a href="http://www.swift.org">Swift</a> implementation using
     <a href="https://github.com/IBM-Swift/Kitura">Kitura</a> for web.
-  sourcecode_url: https://github.com/IBM-Swift/todolist-mongodb
-  live_url: https://todolist-mongodb.mybluemix.net/
-  tags:
-    - swift
-    - kitura
-    - mongodb
+ sourcecode_url: https://github.com/IBM-Swift/todolist-mongodb
+ live_url: https://todolist-mongodb.mybluemix.net/
+ tags:
+   - swift
+   - kitura
+   - mongodb
 
 "Swift / Kitura / CouchDB":
   description:
