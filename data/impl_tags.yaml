@@ -187,3 +187,6 @@
   crystal:
     label: Crystal
     logo: crystal.png
+  couchdb:
+    label: CouchDB
+    logo: CouchDB.svg
