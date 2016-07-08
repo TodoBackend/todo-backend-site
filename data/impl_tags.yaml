@@ -190,3 +190,6 @@
   couchdb:
     label: CouchDB
     logo: CouchDB.svg
+  kemal:
+    label: Kemal
+    logo: kemal.png
