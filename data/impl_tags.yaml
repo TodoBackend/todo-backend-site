@@ -193,3 +193,6 @@
   kemal:
     label: Kemal
     logo: kemal.png
+  nim:
+    label: Nim
+    logo: nim.svg
