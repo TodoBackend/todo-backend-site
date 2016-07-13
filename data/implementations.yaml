@@ -621,6 +621,15 @@
     - swift
     - kitura
 
+"Swift / Kitura / Postgres":
+  description: A <a href="http://www.swift.org">Swift</a> implementation using <a href="https://github.com/IBM-Swift/Kitura">Kitura</a> for web.
+  sourcecode_url: https://github.com/IBM-Swift/todolist-postgresql
+  live_url: https://todolist-postgresql.mybluemix.net/
+  tags:
+    - swift
+    - kitura
+    - postgres
+
 "Swift / Kitura / Redis":
   description: A <a href="http://www.swift.org">Swift</a> implementation using <a href="https://github.com/IBM-Swift/Kitura">Kitura</a> for web.
   sourcecode_url: https://github.com/IBM-Swift/todolist-redis
