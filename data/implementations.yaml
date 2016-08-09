@@ -726,3 +726,12 @@
   tags:
     - crystal 
     - kemal 
+
+"Swift / Kitura / DB2":
+  description: A <a href="http://www.swift.org">Swift</a> implementation using <a href="https://github.com/IBM-Swift/Kitura">Kitura</a> for web.
+  sourcecode_url: https://github.com/IBM-Swift/todolist-db2
+  live_url: https://todolist-db2.mybluemix.net/
+  tags:
+    - swift
+    - kitura
+    - db2
