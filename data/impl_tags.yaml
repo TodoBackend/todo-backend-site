@@ -196,3 +196,7 @@
   nim:
     label: Nim
     logo: nim.svg
+  
+  db2:
+    label: DB2
+    logo: db2.svg
