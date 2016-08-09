@@ -621,6 +621,35 @@
     - swift
     - kitura
 
+"Swift / Kitura / Postgres":
+  description: A <a href="http://www.swift.org">Swift</a> implementation using <a href="https://github.com/IBM-Swift/Kitura">Kitura</a> for web.
+  sourcecode_url: https://github.com/IBM-Swift/todolist-postgresql
+  live_url: https://todolist-postgresql.mybluemix.net/
+  tags:
+    - swift
+    - kitura
+    - postgres
+
+"Swift / Kitura / Redis":
+  description: A <a href="http://www.swift.org">Swift</a> implementation using <a href="https://github.com/IBM-Swift/Kitura">Kitura</a> for web.
+  sourcecode_url: https://github.com/IBM-Swift/todolist-redis
+  live_url: https://todolist-redis.mybluemix.net/
+  tags:
+    - swift
+    - kitura
+    - redis
+
+"Swift / Kitura / MongoDB":
+  description:
+    A <a href="http://www.swift.org">Swift</a> implementation using
+    <a href="https://github.com/IBM-Swift/Kitura">Kitura</a> for web.
+  sourcecode_url: https://github.com/IBM-Swift/todolist-mongodb
+  live_url: https://todolist-mongodb.mybluemix.net/
+  tags:
+    - swift
+    - kitura
+    - mongodb
+
 "Swift / Kitura / CouchDB":
   description:
     A <a href="http://www.swift.org">Swift</a> implementation using
@@ -677,3 +706,23 @@
     - scala
     - jvm
     - spring
+
+"Nim / Jester":
+  description:
+    <a href="http://nim-lang.org/">Nim</a> + <a href="https://github.com/dom96/jester">Jester</a>
+    using in-memory data store.
+    By <a href="https://github.com/codyebberson">Cody Ebberson</a>.
+  sourcecode_url: https://github.com/codyebberson/nim-todobackend
+  live_url: https://todo-backend-nim.orangebot.com/
+  tags:
+    - nim
+    - jester
+"Crystal / Kemal ~ In memory":
+  description:
+    A <a href="https://crystal-lang.org/">Crystal</a> implementation using
+    <a href="http://kemalcr.com/">Kemal</a>.
+  sourcecode_url: https://github.com/mauricioabreu/todo-backend-kemal/ 
+  live_url: https://todo-backend-kemal1.herokuapp.com/todos 
+  tags:
+    - crystal 
+    - kemal 

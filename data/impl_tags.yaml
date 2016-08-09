@@ -184,6 +184,15 @@
   spincast:
     label: Spincast
     logo: spincast.png
+  crystal:
+    label: Crystal
+    logo: crystal.png
   couchdb:
     label: CouchDB
     logo: CouchDB.svg
+  kemal:
+    label: Kemal
+    logo: kemal.png
+  nim:
+    label: Nim
+    logo: nim.svg
