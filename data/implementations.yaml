@@ -664,9 +664,9 @@
 "Swift / Vapor":
   description:
     A <a href="http://www.swift.org">Swift</a> implementation using
-    <a href="https://github.com/qutheory/vapor">Vapor</a> for web.
-  sourcecode_url: https://github.com/sarbogast/vapor-todobackend
-  live_url: https://vapor-todobackend.herokuapp.com/todos
+    <a href="https://github.com/vapor/vapor">Vapor</a> for web.
+  sourcecode_url: https://github.com/vapor/todo-example
+  live_url: https://todo-backend-vapor.herokuapp.com/todos
   tags:
     - swift
     - vapor
@@ -694,7 +694,7 @@
     - spincast
     - java
     - jvm
-    
+
 "Scala - Spring Boot":
   description:
     A <a href="http://www.scala-lang.org/">Scala</a> implementation using
@@ -721,11 +721,11 @@
   description:
     A <a href="https://crystal-lang.org/">Crystal</a> implementation using
     <a href="http://kemalcr.com/">Kemal</a>.
-  sourcecode_url: https://github.com/mauricioabreu/todo-backend-kemal/ 
-  live_url: https://todo-backend-kemal1.herokuapp.com/todos 
+  sourcecode_url: https://github.com/mauricioabreu/todo-backend-kemal/
+  live_url: https://todo-backend-kemal1.herokuapp.com/todos
   tags:
-    - crystal 
-    - kemal 
+    - crystal
+    - kemal
 
 "Swift / Kitura / DB2":
   description: A <a href="http://www.swift.org">Swift</a> implementation using <a href="https://github.com/IBM-Swift/Kitura">Kitura</a> for web.
