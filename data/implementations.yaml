@@ -666,7 +666,7 @@
     A <a href="http://www.swift.org">Swift</a> implementation using
     <a href="https://github.com/vapor/vapor">Vapor</a> for web.
   sourcecode_url: https://github.com/vapor/todo-example
-  live_url: https://todo-backend-vapor.herokuapp.com/todos
+  live_url: https://vapor-todo.herokuapp.com/todos
   tags:
     - swift
     - vapor
