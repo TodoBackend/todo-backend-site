@@ -735,3 +735,12 @@
     - swift
     - kitura
     - db2
+    
+"Swift / Kitura / Cassandra":
+  description: A <a href="http://www.swift.org">Swift</a> implementation using <a href="https://github.com/IBM-Swift/Kitura">Kitura</a> for web.
+  sourcecode_url: https://github.com/IBM-Swift/TodoList-Cassandra
+  live_url: https://todolist-cassandra.mybluemix.net/
+  tags:
+    - swift
+    - kitura
+    - cassandra
