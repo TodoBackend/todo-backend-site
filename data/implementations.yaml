@@ -774,3 +774,13 @@
   tags:
     - scala
     - http4s
+
+"Rails 5 API-only":
+  description:
+    A Rails 5 API-only implementation with MongoDB Backend. 
+  sourcecode_url: https://github.com/doerfli/todo-backend-rails5-api
+  live_url: https://todo-backend-rails5-api.herokuapp.com/todos
+  tags:
+    - rails
+    - ruby
+    - mongodb
