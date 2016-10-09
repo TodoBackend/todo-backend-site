@@ -479,6 +479,16 @@
   tags:
     - python
     - aiohttp
+    
+"Python / Falcon":
+  description:
+    Implementation written in Python 2.7 with <a href="https://github.com/falconry/falcon">Falcon</a>.
+  live_url: http://todo-backend-falcon.herokuapp.com/todo
+  sourcecode_url: https://github.com/kixpanganiban/todo-falcon
+  tags:
+    - python
+    - falcon
+    - tinydb
 
 "Haskell - Scotty / Persistent":
   description:
