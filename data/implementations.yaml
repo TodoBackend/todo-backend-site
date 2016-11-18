@@ -666,7 +666,7 @@
     A <a href="http://www.swift.org">Swift</a> implementation using
     <a href="https://github.com/IBM-Swift/Kitura">Kitura</a> for web.
   sourcecode_url: https://github.com/IBM-Swift/todolist-couchdb
-  live_url: https://todolist-couchdb.mybluemix.net/
+  live_url: https://todo-couchdb.mybluemix.net/
   tags:
     - swift
     - kitura
