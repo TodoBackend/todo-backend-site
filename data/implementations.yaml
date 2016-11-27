@@ -112,6 +112,17 @@
     - compojure
     - jvm
 
+"Clojure / Compojure / H2 Database":
+  description:
+    A simple Compojure implementation storing to H2 File DB via <a href="https://github.com/clojure/java.jdbc">clojure.java.jdbc</a> courtesy of <a href="https://twitter.com/darrenhaken">Darren Haken</a>.
+  sourcecode_url: https://github.com/darrenhaken/todo-backend-clojure
+  live_url: https://todo-backend-clojure.herokuapp.com/todos
+  tags:
+    - clojure
+    - compojure
+    - H2 Database
+    - jvm
+
 "Python / Django":
   description:
     A database-backed Django implementation courtesy of <a href="https://github.com/mihirk">Mihir Khatwani</a>.
@@ -490,7 +501,7 @@
   tags:
     - python
     - aiohttp
-    
+
 "Python / Falcon":
   description:
     Implementation written in Python 2.7 with <a href="https://github.com/falconry/falcon">Falcon</a>.
@@ -671,7 +682,7 @@
     - swift
     - kitura
     - couchdb
-    
+
 "Swift / Kitura / MySQL":
   description:
     A <a href="http://www.swift.org">Swift</a> implementation using
@@ -757,7 +768,7 @@
     - swift
     - kitura
     - db2
-    
+
 "Swift / Kitura / Cassandra":
   description: A <a href="http://www.swift.org">Swift</a> implementation using <a href="https://github.com/IBM-Swift/Kitura">Kitura</a> for web.
   sourcecode_url: https://github.com/IBM-Swift/TodoList-Cassandra
@@ -778,7 +789,7 @@
 
 "Rails 5 API-only":
   description:
-    A Rails 5 API-only implementation with MongoDB Backend. 
+    A Rails 5 API-only implementation with MongoDB Backend.
   sourcecode_url: https://github.com/doerfli/todo-backend-rails5-api
   live_url: https://todo-backend-rails5-api.herokuapp.com/todos
   tags:
