@@ -244,6 +244,16 @@
     - jvm
     - akka
 
+"Kotlin / Rapidoid":
+  description:
+    <a href="https://kotlinlang.org">Kotlin</a> + <a href="http://www.rapidoid.org">Rapidoid</a>, saving im-memory.
+  sourcecode_url: https://github.com/selvakn/todobackend-kotlin-rapidoid
+  live_url: https://todobackend-kotlin-rapidoid.herokuapp.com/
+  tags:
+    - kotlin
+    - rapidoid
+    - jvm
+
 "Node.js / Koa":
   description:
     <a href="http://nodejs.org/">Node.js</a> + <a href="http://koajs.com">Koa</a>, saving to <a href="http://redis.io/">redis</a>.
