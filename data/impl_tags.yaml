@@ -69,6 +69,9 @@
     logo: no-logo.svg
   scala:
     label: Scala
+  kotlin:
+    label: Kotlin
+    logo: kotlin.png
   finatra:
     label: Finatra
     logo: finatra.jpeg
@@ -196,7 +199,6 @@
   nim:
     label: Nim
     logo: nim.svg
-  
   db2:
     label: DB2
     logo: db2.jpg
