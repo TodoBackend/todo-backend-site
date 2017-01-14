@@ -806,6 +806,15 @@
     - rails
     - ruby
     - mongodb
+    
+"Swift / Kitura / SQLite":
+  description: A <a href="http://www.swift.org">Swift</a> implementation using <a href="https://github.com/IBM-Swift/Kitura">Kitura</a> for web.
+  sourcecode_url: https://github.com/IBM-Swift/TodoList-SQLite
+  live_url: https://todolist-sqlite.mybluemix.net/
+  tags:
+    - swift
+    - kitura
+    - sqlite
 
 "Java 8 / Ratpack":
   description:
