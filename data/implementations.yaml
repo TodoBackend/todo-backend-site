@@ -806,3 +806,14 @@
     - rails
     - ruby
     - mongodb
+
+"Java 8 / Ratpack":
+  description:
+    A Java 8 implementation using the <a href="https://ratpack.io/">Ratpack</a> framework, using H2 for persistance
+  sourcecode_url: https://github.com/danhyun/todo-backend-ratpack-java
+  live_url: https://todo-backend-ratpack-java.herokuapp.com/todo
+  tags:
+    - ratpack
+    - jvm
+    - java
+    - H2 Database
