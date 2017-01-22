@@ -826,3 +826,13 @@
     - jvm
     - java
     - H2 Database
+
+"Jooby / In memory":
+  description:
+    <a href="http://jooby.org/">Jooby</a> implementation using with an in-memory store
+  sourcecode_url: https://github.com/jooby-guides/todo-backend
+  live_url: https://todo-backend-jooby.herokuapp.com/todos
+  tags:
+    - jooby
+    - jvm
+    - java
