@@ -205,3 +205,6 @@
   ratpack:
     label: Ratpack
     logo: ratpack.png
+  jooby:
+    label: Jooby
+    logo: jooby.png
