@@ -836,3 +836,15 @@
     - jooby
     - jvm
     - java
+
+"Java 8 / Spark / JDBI":
+  description:
+    A Java 8 implementation using the <a href="http://www.sparkjava.com/">Spark</a> framework. Persistance to Postgres using <a href="http://jdbi.org">JDBI</a>.
+  sourcecode_url: https://github.com/moredip/todobackend-spark
+  live_url: https://todobackend-spark.herokuapp.com/todos
+  tags:
+    - spark
+    - jvm
+    - java
+    - jdbi
+    - postgres

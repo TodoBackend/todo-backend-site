@@ -13,7 +13,7 @@ To add a new Todo-Backend implementation:
 - [ ] and add logos to `source/images/logos`.
 
 ## Running a local instance of the site from source
-- Make sure you have git submodules setup with `git submodule update --init --recursive`
+- *Make sure you have git submodules set up with `git submodule update --init --recursive`*
 - Install required gems with `bundle install`
 - build the site with `bundle exec rake build`
 - run a dev server with `bundle exec middleman`

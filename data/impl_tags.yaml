@@ -208,3 +208,9 @@
   jooby:
     label: Jooby
     logo: jooby.png
+  spark:
+    label: Spark
+    logo: spark.svg
+  jdbi:
+    label: JDBI
+    logo: no-logo.svg
