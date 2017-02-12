@@ -848,3 +848,16 @@
     - java
     - jdbi
     - postgres
+    
+"C# - ASP.NET Core":
+  description:
+    A C# implementation using <a href="https://www.asp.net/core">ASP.NET Core</a> with
+    Docker support and in-memory or SqlServer persistence. Implements CQS using the
+    <a href="https://github.com/BrighterCommand/Paramore.Brighter">Brighter</a> and
+    <a href="https://github.com/BrighterCommand/Darker">Darker</a> frameworks. 
+  sourcecode_url: https://github.com/dstockhammer/todo-backend-aspnetcore
+  live_url: https://todo-backend-aspnetcore.azurewebsites.net
+  tags:
+    - dotnet
+    - csharp
+    - docker
