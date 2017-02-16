@@ -6,6 +6,8 @@ Source for www.todobackend.com. This is a [middleman](https://middlemanapp.com)-
 [![Build Status](https://snap-ci.com/TodoBackend/todo-backend-site/branch/master/build_image)](https://snap-ci.com/TodoBackend/todo-backend-site/branch/master)
 built and deployed to S3 via SnapCI.
 
+[ ![Codeship Status for TodoBackend/todo-backend-site](https://app.codeship.com/projects/adb54330-d6a0-0134-4172-5abfbe9ef951/status?branch=master)](https://app.codeship.com/projects/202822)
+
 ## Adding a new implementation listing
 To add a new Todo-Backend implementation:
 - [ ] edit `data/implementations.yaml`
