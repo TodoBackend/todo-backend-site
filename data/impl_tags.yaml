@@ -220,3 +220,6 @@
   azurefunctions:
     label: Azure Functions
     logo: azurefunctions.png
+  vraptor:
+    label: VRaptor 
+    logo: vraptor.png
