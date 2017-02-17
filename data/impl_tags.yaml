@@ -214,3 +214,6 @@
   jdbi:
     label: JDBI
     logo: no-logo.svg
+  lagan:
+    label: Lagan
+    logo: lagan.svg
