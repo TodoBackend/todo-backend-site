@@ -871,7 +871,7 @@
     - php
     - lagan
 
-"Azure Functions - C#, F# and JavaScript"
+"Azure Functions - C#, F# and JavaScript":
   description:
     <a href="https://azure.microsoft.com/en-us/services/functions/">Azure Functions</a> implementation with functions written in C#, F# and JavaScript. Uses Azure Table Storage for persistence.
   sourcecode_url: https://github.com/markheath/func-todo-backend
