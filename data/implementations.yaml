@@ -882,3 +882,12 @@
     - csharp
     - fsharp
     - javascript
+
+"Vanilla Ceylon":
+  description:
+    Plain <a href="https://ceylon-lang.org/">Ceylon</a> implementation by <a href="https://github.com/andreas-schilling">Andreas Schilling</a>.
+  sourcecode_url: https://github.com/andreas-schilling/todo-backend-ceylon
+  live_url: https://todo-backend-ceylon.herokuapp.com/todo
+  tags:
+    - ceylon
+    - jvm
