@@ -143,7 +143,7 @@
     - ruby
     - postgres
 
-"Java with ActFramework and MongoDB"
+"Java with ActFramework and MongoDB":
   description:
     A version using <a href="http://actframework.org">ActFramework</a> by <a href="https://github.com/greenlaw110">Gelin Luo</a>.
   sourcecode_url: https://github.com/greenlaw110/todomvc-act
