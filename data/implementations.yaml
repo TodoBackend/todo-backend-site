@@ -882,6 +882,17 @@
     - csharp
     - fsharp
     - javascript
+    
+"Java / VRaptor 4 / JPA / H2 Database":
+    description:
+      A Java implementation using <a href="http://www.vraptor.org/">VRaptor 4 framework</a>.
+    sourcecode_url: https://github.com/edenir-anschau/todobackend-vraptor
+    liveurl: https://todobackend-vraptor.herokuapp.com/todos 
+    tags:
+      - java
+      - vraptor
+      - jpa
+      - h2
 
 "Vanilla Ceylon":
   description:
