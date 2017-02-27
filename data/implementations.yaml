@@ -143,6 +143,17 @@
     - ruby
     - postgres
 
+"Java with ActFramework and MongoDB":
+  description:
+    A version using <a href="http://actframework.org">ActFramework</a> by <a href="https://github.com/greenlaw110">Gelin Luo</a>.
+  sourcecode_url: https://github.com/greenlaw110/todomvc-act
+  live_url: http://todobackend.actframework.org/todo
+  tags:
+    - actframework
+    - java
+    - jvm
+    - mongodb
+
 "Java 8 with Spring 4 Boot":
   description:
     A version using Spring 4 Boot + Java 8 from <a href="https://github.com/jcsantosbr">Jefferson Santos</a>.
