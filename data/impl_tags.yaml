@@ -223,3 +223,6 @@
   vraptor:
     label: VRaptor 
     logo: vraptor.png
+  ceylon:
+    label: Ceylon
+    logo: ceylon.png
