@@ -223,6 +223,9 @@
   vraptor:
     label: VRaptor 
     logo: vraptor.png
+  littleboxes:
+    label: LittleBoxes
+    logo: littleboxes.png
   ceylon:
     label: Ceylon
     logo: ceylon.png

@@ -913,3 +913,12 @@
   tags:
     - ceylon
     - jvm
+
+"Ruby / LittleBoxes":
+  description:
+    A Ruby implementation using <a href="https://github.com/manuelmorales/little-boxes">LittleBoxes</a>.
+  sourcecode_url: https://github.com/manuelmorales/todo-backend-little-boxes
+  live_url: https://todo-backend-little-boxes.herokuapp.com/todos
+  tags:
+    - ruby
+    - littleboxes
