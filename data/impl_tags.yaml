@@ -229,3 +229,6 @@
   ceylon:
     label: Ceylon
     logo: ceylon.png
+  mangooio:
+    label: mangoo I/O
+    logo: no-logo.svg
