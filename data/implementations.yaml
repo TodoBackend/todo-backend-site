@@ -922,3 +922,15 @@
   tags:
     - ruby
     - littleboxes
+    
+"mangoo I/O / jOOQ / H2":
+  description:
+    A Java 8 implementation using the <a href="https://mangoo.io/">Mangoo I/O</a> framework, <a href="http://www.jooq.org/">jOOQ</a> for database access and <a href="http://h2database.com/">H2</a> in-memory database.
+  sourcecode_url: https://github.com/ismagilov/todobackend-mangooio
+  live_url: https://todobackend-mangooio.herokuapp.com
+  tags:
+    - jvm
+    - java
+    - mangooio
+    - h2
+    - jooq
