@@ -242,6 +242,18 @@
     - golang
     - gin
 
+"Golang / GOA":
+  description:
+    A <a href="http://golang.org/">Golang</a> implementation using the <a
+      href="https://goa.design/">GOA</a> web framework, courtesy of <a
+      href="https://github.com/meier-christoph">Christoph Meier</a>.
+  sourcecode_url: https://github.com/meier-christoph/todo-backend-golang-goa
+  live_url: https://todo-backend-golang-goa.herokuapp.com/todos
+  tags:
+    - golang
+    - goa
+    - postgres
+
 "Scala / Finatra":
   description:
     A <a href="http://ww/scala-lang.org/">Scala</a> implementation using Twitter's <a
