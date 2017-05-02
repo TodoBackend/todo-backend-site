@@ -676,35 +676,6 @@
     - jvm
     - fintrospect
 
-"Swift / Kitura / Postgres":
-  description: A <a href="http://www.swift.org">Swift</a> implementation using <a href="https://github.com/IBM-Swift/Kitura">Kitura</a> for web.
-  sourcecode_url: https://github.com/IBM-Swift/todolist-postgresql
-  live_url: https://todolist-postgresql.mybluemix.net/
-  tags:
-    - swift
-    - kitura
-    - postgres
-
-"Swift / Kitura / Redis":
-  description: A <a href="http://www.swift.org">Swift</a> implementation using <a href="https://github.com/IBM-Swift/Kitura">Kitura</a> for web.
-  sourcecode_url: https://github.com/IBM-Swift/todolist-redis
-  live_url: https://todolist-redis.mybluemix.net/
-  tags:
-    - swift
-    - kitura
-    - redis
-
-"Swift / Kitura / MongoDB":
-  description:
-    A <a href="http://www.swift.org">Swift</a> implementation using
-    <a href="https://github.com/IBM-Swift/Kitura">Kitura</a> for web.
-  sourcecode_url: https://github.com/IBM-Swift/todolist-mongodb
-  live_url: https://todolist-mongodb.mybluemix.net/
-  tags:
-    - swift
-    - kitura
-    - mongodb
-
 "Swift / Kitura / CouchDB":
   description:
     A <a href="http://www.swift.org">Swift</a> implementation using
@@ -715,17 +686,6 @@
     - swift
     - kitura
     - couchdb
-
-"Swift / Kitura / MySQL":
-  description:
-    A <a href="http://www.swift.org">Swift</a> implementation using
-    <a href="https://github.com/IBM-Swift/Kitura">Kitura</a> for web.
-  sourcecode_url: https://github.com/IBM-Swift/TodoList-MySQL
-  live_url: https://todolist-mysqldb.mybluemix.net
-  tags:
-    - swift
-    - kitura
-    - mysql
 
 "Swift / Vapor":
   description:
@@ -793,24 +753,6 @@
     - crystal
     - kemal
 
-"Swift / Kitura / DB2":
-  description: A <a href="http://www.swift.org">Swift</a> implementation using <a href="https://github.com/IBM-Swift/Kitura">Kitura</a> for web.
-  sourcecode_url: https://github.com/IBM-Swift/todolist-db2
-  live_url: https://todolist-db2.mybluemix.net/
-  tags:
-    - swift
-    - kitura
-    - db2
-
-"Swift / Kitura / Cassandra":
-  description: A <a href="http://www.swift.org">Swift</a> implementation using <a href="https://github.com/IBM-Swift/Kitura">Kitura</a> for web.
-  sourcecode_url: https://github.com/IBM-Swift/TodoList-Cassandra
-  live_url: https://todolist-cassandra.mybluemix.net/
-  tags:
-    - swift
-    - kitura
-    - cassandra
-
 "Scala / http4s (in-memory)":
   description:
     A Scala and <a href="http://http4s.org">http4s</a> implementation with an in-memory store
@@ -830,15 +772,6 @@
     - ruby
     - mongodb
     
-"Swift / Kitura / SQLite":
-  description: A <a href="http://www.swift.org">Swift</a> implementation using <a href="https://github.com/IBM-Swift/Kitura">Kitura</a> for web.
-  sourcecode_url: https://github.com/IBM-Swift/TodoList-SQLite
-  live_url: https://todolist-sqlite.mybluemix.net/
-  tags:
-    - swift
-    - kitura
-    - sqlite
-
 "Java 8 / Ratpack":
   description:
     A Java 8 implementation using the <a href="https://ratpack.io/">Ratpack</a> framework, using H2 for persistance
