@@ -880,11 +880,21 @@
     - h2
     - jooq
 
-"Kotlin / Sringboot2 reactive":
+"Kotlin / Sringboot2 reactive with annotation":
   description:
     Simple implementation using spring boot2 (reactive web) and with Kotlin, saving im-memory.
   sourcecode_url: https://github.com/GregoireW/todo_springboot2_reactive_simple
   live_url: https://kotlin-springboot2-reactive.herokuapp.com/
+  tags:
+    - kotlin
+    - jvm
+    - spring
+
+"Kotlin / Sringboot2 reactive with router":
+  description:
+    Simple implementation using spring boot2 (reactive web) and with Kotlin, saving im-memory. Setup done via the router API
+  sourcecode_url: https://github.com/GregoireW/todo_springboot2_reactive_router
+  live_url: https://kotlin-springboot2-router.herokuapp.com/
   tags:
     - kotlin
     - jvm
