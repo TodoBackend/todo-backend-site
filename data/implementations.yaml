@@ -879,3 +879,13 @@
     - mangooio
     - h2
     - jooq
+
+"Kotlin / Sringboot2 reactive":
+  description:
+    Simple implementation using spring boot2 (reactive web) and with Kotlin, saving im-memory.
+  sourcecode_url: https://github.com/GregoireW/todo_springboot2_reactive_simple
+  live_url: https://kotlin-springboot2-reactive.herokuapp.com/
+  tags:
+    - kotlin
+    - jvm
+    - spring
