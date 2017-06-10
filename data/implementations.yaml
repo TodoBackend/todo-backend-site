@@ -901,6 +901,16 @@
     - h2
     - jooq
 
+"Ceylon / gyokuro":
+  description:
+    A <a href="https://ceylon-lang.org/">Ceylon</a> implementation using the <a href="http://www.gyokuro.net/">gyokuro</a> framework.
+  sourcecode_url: https://github.com/bjansen/gyokuro-todo-backend
+  live_url: https://gyokuro-todo-backend.herokuapp.com/todo
+  tags:
+    - ceylon
+    - gyokuro
+    - jvm
+
 "Kotlin / Sringboot2 reactive with annotation":
   description:
     Simple implementation using spring boot2 (reactive web) and with Kotlin, saving todos in-memory.
@@ -920,7 +930,6 @@
     - kotlin
     - jvm
     - spring
-
 
 "Kotlin / Sringboot2 reactive with mongodb":
   description:

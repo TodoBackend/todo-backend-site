@@ -229,3 +229,6 @@
   mangooio:
     label: mangoo I/O
     logo: no-logo.svg
+  gyokuro:
+    label: gyokuro
+    logo: gyokuro.png
