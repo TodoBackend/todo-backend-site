@@ -18,6 +18,17 @@
     - mojolicious
     - perl
 
+"Perl / PEF::Front":
+  description:
+    todo backend implemented with perl and <a href="https://metacpan.org/pod/PEF::Front">PEF::Front</a>. web
+    framework, saving todos to a Postgres DB.
+  sourcecode_url: https://github.com/jef-sure/todo-backend-pef-front
+  live_url: https://todo-backend-pef-front.herokuapp.com/
+  tags:
+    - pef
+    - perl
+    - postgres
+
 "Ruby / Sinatra":
   description:
     A simple ruby implementation using the lightweight <a href="http://www.sinatrarb.com/">Sinatra</a> web
