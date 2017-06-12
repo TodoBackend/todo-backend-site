@@ -180,6 +180,9 @@
   fintrospect:
     label: Fintrospect
     logo: fintrospect.png
+  http4k:
+    label: http4k
+    logo: http4k.png
   swift:
     label: Swift
   kitura:
