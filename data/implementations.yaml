@@ -944,7 +944,7 @@
 
 "PHP / Laravel":
   description:
-    PHP implementation using MySQL database
+    PHP implementation using Laravel and a MySQL database
   sourcecode_url: https://github.com/janRedmann/todo-backend-laravel
   live_url: https://todo-backend-laravel.herokuapp.com/api
   tags:
