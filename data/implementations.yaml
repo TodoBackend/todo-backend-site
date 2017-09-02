@@ -941,3 +941,14 @@
     - jvm
     - spring
     - mongodb
+
+"C# - ASP.NET Core 2.0":
+  description:
+    A simple C# implementation using <a href="https://www.asp.net/core">ASP.NET Core</a> 2.0 with
+    a Docker image and in-memory persistence. Only depends on the standard Microsoft.AspNetCore.All package.
+  sourcecode_url: https://github.com/ChristianAlexander/dotnetcore-todo-webapi
+  live_url: https://dotnetcore-todo-webapi.herokuapp.com/v1/todos
+  tags:
+    - dotnet
+    - csharp
+    - docker
