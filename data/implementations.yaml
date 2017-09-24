@@ -291,9 +291,9 @@
 
 "Kotlin / Http4k":
   description:
-    <a href="https://kotlinlang.org">Kotlin</a> + <a href="http://www.http4k.org">http4k typesafe contracts</a>, saving in-memory.
-  sourcecode_url: https://github.com/http4k/http4k-contract-todo-backend
-  live_url: https://http4k-contract-todo-backend.herokuapp.com/
+    <a href="https://kotlinlang.org">Kotlin</a> + <a href="http://www.http4k.org">http4k</a> with typesafe lenses, saving in-memory.
+  sourcecode_url: https://github.com/http4k/http4k-todo-backend
+  live_url: https://http4k-todo-backend.herokuapp.com/
   tags:
     - kotlin
     - http4k
