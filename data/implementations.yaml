@@ -65,6 +65,7 @@
   live_url: https://todo-backend-rocket-rust.herokuapp.com/
   tags:
     - rust
+    - rocket
 
 "Node.js / Express":
   description:

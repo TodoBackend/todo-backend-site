@@ -151,6 +151,9 @@
     logo: yesod.png
   rust:
     label: Rust
+  rocket:
+    label: Rocket
+    logo: rocket.png
   aiohttp:
     label: aiohttp
     logo: aiohttp.svg
