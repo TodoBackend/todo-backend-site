@@ -265,6 +265,20 @@
     - goa
     - postgres
 
+
+"Scala / Lift ":
+  description:
+    A <a href="http://ww/scala-lang.org/">Scala</a> implementation using the <a
+      href="https://liftweb.net/">Lift</a> framework. 
+      This implementation uses a thread-safe in-memory store. Courtesy of <a
+      href="https://github.com/ricsirigu">Riccardo Sirigu</a>.
+  sourcecode_url: https://github.com/ricsirigu/lift-todo-backend
+  live_url: https://lift-todo-backend.herokuapp.com/
+  tags:
+    - scala
+    - jvm
+    - lift
+
 "Scala / Finatra":
   description:
     A <a href="http://ww/scala-lang.org/">Scala</a> implementation using Twitter's <a
@@ -911,9 +925,9 @@
     - gyokuro
     - jvm
 
-"Kotlin / Sringboot2 reactive with annotation":
+"Kotlin / Spring Boot 2 reactive with annotation":
   description:
-    Simple implementation using spring boot2 (reactive web) and with Kotlin, saving todos in-memory.
+    Simple implementation using Spring Boot 2 (reactive web) and with Kotlin, saving todos in-memory.
   sourcecode_url: https://github.com/GregoireW/todo_springboot2_reactive_simple
   live_url: https://kotlin-springboot2-reactive.herokuapp.com/
   tags:
@@ -921,9 +935,9 @@
     - jvm
     - spring
 
-"Kotlin / Sringboot2 reactive with router":
+"Kotlin / Spring Boot 2 reactive with router":
   description:
-    Simple implementation using spring boot2 (reactive web) and with Kotlin, saving todos in-memory. Setup is done via the router API
+    Simple implementation using Spring Boot 2 (reactive web) and with Kotlin, saving todos in-memory. Setup is done via the router API
   sourcecode_url: https://github.com/GregoireW/todo_springboot2_reactive_router
   live_url: https://kotlin-springboot2-router.herokuapp.com/
   tags:
@@ -931,9 +945,9 @@
     - jvm
     - spring
 
-"Kotlin / Sringboot2 reactive with mongodb":
+"Kotlin / Spring Boot 2 reactive with mongodb":
   description:
-    Implementation using spring boot2 (reactive web) and Kotlin. Data source is mongo
+    Implementation using Spring Boot 2 (reactive web) and Kotlin. Data source is mongo
   sourcecode_url: https://github.com/GregoireW/todo_springboot2_reactive_mongo
   live_url: https://kotlin-springboot2-react-mongo.herokuapp.com
   tags:
@@ -952,3 +966,12 @@
     - dotnet
     - csharp
     - docker
+
+"PHP / Laravel":
+  description:
+    PHP implementation using Laravel and a MySQL database
+  sourcecode_url: https://github.com/janRedmann/todo-backend-laravel
+  live_url: https://todo-backend-laravel.herokuapp.com/api
+  tags:
+    - php
+    - laravel
