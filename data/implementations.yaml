@@ -58,6 +58,15 @@
     - rust
     - iron
 
+"Rust / Rocket":
+  description:
+    A Rust implementation using <a href="https://rocket.rs/">Rocket</a>.
+  sourcecode_url: https://gitlab.com/duelinmarkers/todo-backend-rocket-rust
+  live_url: https://todo-backend-rocket-rust.herokuapp.com/
+  tags:
+    - rust
+    - rocket
+
 "Node.js / Express":
   description:
     Node.js + Express, saving to Postgres. Courtesy of <a href="https://github.com/dtao">Daniel Tao</a>.
