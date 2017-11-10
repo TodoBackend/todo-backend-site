@@ -241,3 +241,6 @@
   gyokuro:
     label: gyokuro
     logo: gyokuro.png
+  lift:
+    label: lift
+    logo: lift.png
