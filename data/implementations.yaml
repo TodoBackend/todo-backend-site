@@ -956,7 +956,7 @@
     - spring
     - mongodb
 
-"Kotlin / SpringBoot":
+"Kotlin / Spring Boot":
   description:
     Implementation using Kotlin and Spring Boot. Items are stored in memory.
   sourcecode_url: https://github.com/sdqali/todo.kotlin
