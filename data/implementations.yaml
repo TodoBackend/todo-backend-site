@@ -265,6 +265,20 @@
     - goa
     - postgres
 
+
+"Scala / Lift ":
+  description:
+    A <a href="http://ww/scala-lang.org/">Scala</a> implementation using the <a
+      href="https://liftweb.net/">Lift</a> framework. 
+      This implementation uses a thread-safe in-memory store. Courtesy of <a
+      href="https://github.com/ricsirigu">Riccardo Sirigu</a>.
+  sourcecode_url: https://github.com/ricsirigu/lift-todo-backend
+  live_url: https://lift-todo-backend.herokuapp.com/
+  tags:
+    - scala
+    - jvm
+    - lift
+
 "Scala / Finatra":
   description:
     A <a href="http://ww/scala-lang.org/">Scala</a> implementation using Twitter's <a
