@@ -217,6 +217,9 @@
   lagan:
     label: Lagan
     logo: lagan.svg
+  laravel:
+    label: Laravel
+    logo: laravel.svg
   azurefunctions:
     label: Azure Functions
     logo: azurefunctions.png
