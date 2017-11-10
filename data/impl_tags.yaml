@@ -139,7 +139,7 @@
     logo: no-logo.svg
   servant:
     label: Servant
-    logo: servant.svg
+    logo: servant.png
   snap:
     label: Snap
     logo: snap.png
