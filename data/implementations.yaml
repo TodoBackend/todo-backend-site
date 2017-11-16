@@ -976,6 +976,16 @@
     - spring
     - springboot
 
+"Kotlin / Javalin":
+  description:
+    Implementation using Kotlin and <a href="https://javalin.io">Javalin</a>. Items are stored in memory.
+  sourcecode_url: https://github.com/sdqali/todo-javalin
+  live_url: https://todo-javalin.herokuapp.com/
+  tags:
+    - kotlin
+    - jvm
+    - javalin
+
 "C# - ASP.NET Core 2.0":
   description:
     A simple C# implementation using <a href="https://www.asp.net/core">ASP.NET Core</a> 2.0 with
