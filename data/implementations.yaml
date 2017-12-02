@@ -995,3 +995,14 @@
   tags:
     - php
     - laravel
+
+"Java with NutzBoot":
+  description:
+    Implementation using <a href="https://github.com/nutzam/nutzboot">Nutz Boot</a> by <a href="https://github.com/wendal">wendal</a>. Items are stored in memory.
+  sourcecode_url: https://github.com/nutzam/todo-backend-nutzboot
+  live_url: https://todo-backend-nutzboot.herokuapp.com/api/
+  tags:
+    - nutzboot
+    - nutz
+    - java
+    - jvm
