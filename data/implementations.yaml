@@ -995,3 +995,13 @@
   tags:
     - php
     - laravel
+    
+"XCST - ASP.NET":
+  description:
+    An <a href="http://maxtoroq.github.io/XCST/">XCST</a> implementation for ASP.NET. Items are stored in memory.
+  sourcecode_url: https://github.com/maxtoroq/XCST-a/tree/master/samples/aspnet-todo
+  live_url: http://xcst-todo.tk/todo
+  tags:
+    - dotnet
+    - csharp
+    - xcst
