@@ -227,7 +227,7 @@
     label: Azure Functions
     logo: azurefunctions.png
   vraptor:
-    label: VRaptor 
+    label: VRaptor
     logo: vraptor.png
   littleboxes:
     label: LittleBoxes
@@ -244,3 +244,6 @@
   lift:
     label: lift
     logo: lift.png
+  jodd:
+    label: Jodd
+    logo: jodd.png

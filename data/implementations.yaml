@@ -278,7 +278,7 @@
 "Scala / Lift ":
   description:
     A <a href="http://ww/scala-lang.org/">Scala</a> implementation using the <a
-      href="https://liftweb.net/">Lift</a> framework. 
+      href="https://liftweb.net/">Lift</a> framework.
       This implementation uses a thread-safe in-memory store. Courtesy of <a
       href="https://github.com/ricsirigu">Riccardo Sirigu</a>.
   sourcecode_url: https://github.com/ricsirigu/lift-todo-backend
@@ -815,7 +815,7 @@
     - rails
     - ruby
     - mongodb
-    
+
 "Java 8 / Ratpack":
   description:
     A Java 8 implementation using the <a href="https://ratpack.io/">Ratpack</a> framework, using H2 for persistance
@@ -848,13 +848,13 @@
     - java
     - jdbi
     - postgres
-    
+
 "C# - ASP.NET Core":
   description:
     A C# implementation using <a href="https://www.asp.net/core">ASP.NET Core</a> with
     Docker support and in-memory or SqlServer persistence. Implements CQS using the
     <a href="https://github.com/BrighterCommand/Paramore.Brighter">Brighter</a> and
-    <a href="https://github.com/BrighterCommand/Darker">Darker</a> frameworks. 
+    <a href="https://github.com/BrighterCommand/Darker">Darker</a> frameworks.
   sourcecode_url: https://github.com/dstockhammer/todo-backend-aspnetcore
   live_url: https://todo-backend-aspnetcore.azurewebsites.net
   tags:
@@ -882,12 +882,12 @@
     - csharp
     - fsharp
     - javascript
-    
+
 "Java / VRaptor 4 / JPA / H2 Database":
     description:
       A Java implementation using <a href="http://www.vraptor.org/">VRaptor 4 framework</a>.
     sourcecode_url: https://github.com/edenir-anschau/todobackend-vraptor
-    live_url: https://todobackend-vraptor.herokuapp.com/todos 
+    live_url: https://todobackend-vraptor.herokuapp.com/todos
     tags:
       - java
       - vraptor
@@ -911,7 +911,7 @@
   tags:
     - ruby
     - littleboxes
-    
+
 "mangoo I/O / jOOQ / H2":
   description:
     A Java 8 implementation using the <a href="https://mangoo.io/">Mangoo I/O</a> framework, <a href="http://www.jooq.org/">jOOQ</a> for database access and <a href="http://h2database.com/">H2</a> in-memory database.
@@ -995,3 +995,13 @@
   tags:
     - php
     - laravel
+
+"Java / Jodd":
+  description:
+    Java 8 implementation using Jodd 4.
+  sourcecode_url: https://github.com/oblac/todo-backend-jodd
+  live_url: https://todo-backend-jodd.herokuapp.com/
+  tags:
+    - java
+    - jvm
+    - jodd
