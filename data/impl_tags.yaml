@@ -28,6 +28,9 @@
   expressjs:
     label: express.js
     logo: expressjs.png
+  micro:
+    label: Micro
+    logo: micro.png
   python:
     label: Python
   webpy:
