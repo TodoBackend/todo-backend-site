@@ -28,6 +28,9 @@
   expressjs:
     label: express.js
     logo: expressjs.png
+  micro:
+    label: Micro
+    logo: micro.png
   python:
     label: Python
   webpy:
@@ -72,6 +75,9 @@
   kotlin:
     label: Kotlin
     logo: kotlin.png
+  javalin:
+    label: Javalin
+    logo: javalin.svg
   finatra:
     label: Finatra
     logo: finatra.jpeg
