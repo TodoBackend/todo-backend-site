@@ -244,3 +244,6 @@
   lift:
     label: lift
     logo: lift.png
+  nutzboot:
+    label: nutzboot
+    logo: nutzboot.png
