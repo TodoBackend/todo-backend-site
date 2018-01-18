@@ -250,6 +250,9 @@
   lift:
     label: lift
     logo: lift.png
+  nutzboot:
+    label: nutzboot
+    logo: nutzboot.png
   jodd:
     label: Jodd
     logo: jodd.png
