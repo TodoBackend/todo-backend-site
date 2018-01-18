@@ -75,6 +75,9 @@
   kotlin:
     label: Kotlin
     logo: kotlin.png
+  javalin:
+    label: Javalin
+    logo: javalin.svg
   finatra:
     label: Finatra
     logo: finatra.jpeg
