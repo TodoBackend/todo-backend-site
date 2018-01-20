@@ -222,7 +222,7 @@
   description:
     An implementation using Java 8 and <a href="http://vertx.io/">Vert.x</a> from <a href="https://github.com/alexsomai">Alex Somai</a>.
   sourcecode_url: https://github.com/alexsomai/vertx-todo-backend
-  live_url: http://demo-todobackend.rhcloud.com/todos
+  live_url: https://demo-todobackend-vertx.herokuapp.com/todos
   tags:
     - java
     - jvm
