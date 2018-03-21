@@ -256,3 +256,9 @@
   jodd:
     label: Jodd
     logo: jodd.png
+  immutant:
+    label: immutant
+    logo: immutant.png
+  luminus:
+    label: luminus
+    logo: luminus.png
