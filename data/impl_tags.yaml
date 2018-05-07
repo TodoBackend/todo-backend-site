@@ -256,3 +256,9 @@
   jodd:
     label: Jodd
     logo: jodd.png
+  symfony4:
+    label: Symfony4
+    logo: symfony.svg
+  apiplatform:
+    label: api-platform
+    logo: apiplatform.png
