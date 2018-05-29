@@ -811,8 +811,8 @@
 "Scala / http4s (in-memory)":
   description:
     A Scala and <a href="http://http4s.org">http4s</a> implementation with an in-memory store
-  sourcecode_url: https://github.com/tomwadeson/todobackend-http4s
-  live_url: https://todobackend-http4s.herokuapp.com/todos
+  sourcecode_url: https://github.com/iamquang95/todo-backend
+  live_url: https://iamquang95-todoapp.herokuapp.com/todo
   tags:
     - scala
     - http4s
