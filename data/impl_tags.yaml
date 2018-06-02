@@ -256,3 +256,9 @@
   jodd:
     label: Jodd
     logo: jodd.png
+  openwhisk:
+    label: OpenWhisk
+    logo: openwhisk.png
+  serverless:
+    label: serverless
+    logo: no-logo.svg

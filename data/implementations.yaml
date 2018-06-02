@@ -1037,6 +1037,16 @@
     - csharp
     - xcst
 
+"OpenWhisk / PHP":
+  description:
+    Implementation in <a href="http://openwhisk.org">OpenWhisk</a> using PHP.
+  sourcecode_url: https://github.com/akrabat/ow-php-todo-backend
+  live_url: https://service.eu.apiconnect.ibmcloud.com/gws/apigateway/api/2b6669604cd665fbf8fa459d90a642971d8206dfafaebfbfc7e90cb60a1c4589/ow-php-todo-backend/todos
+  tags:
+    - openwhisk
+    - serverless
+    - php
+
 "Java with NutzBoot":
   description:
     Implementation using <a href="https://github.com/nutzam/nutzboot">Nutz Boot</a> by <a href="https://github.com/wendal">wendal</a>. Items are stored in memory.
