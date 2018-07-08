@@ -256,3 +256,5 @@
   jodd:
     label: Jodd
     logo: jodd.png
+  javaee:
+    label: Java EE
