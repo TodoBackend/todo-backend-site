@@ -1047,3 +1047,12 @@
     - nutz
     - java
     - jvm
+    
+"Ruby / Hanami":
+  description:
+    A Ruby implementation using <a href="http://hanamirb.org/">Hanami</a>.
+  sourcecode_url: https://github.com/ArayB/todo-backend-hanami
+  live_url: https://todo-backend-hanami.herokuapp.com/
+  tags:
+    - ruby
+    - hanami
