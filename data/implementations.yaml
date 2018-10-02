@@ -592,13 +592,23 @@
 
 "Python / Falcon":
   description:
-    Implementation written in Python 2.7 with <a href="https://github.com/falconry/falcon">Falcon</a>.
+    Implementation written in Python 2.7 with <a href="https://github.com/falconry/falcon">Falcon</a> by <a href="https://github.com/kixpanganiban">Kix Panganiban</a>.
   live_url: http://todo-backend-falcon.herokuapp.com/todo
   sourcecode_url: https://github.com/kixpanganiban/todo-falcon
   tags:
     - python
     - falcon
     - tinydb
+
+"Python / Molten":
+  description:
+    Implementation written in <a href="https://moltenframework.com/">Molten</a> by <a href="https://github.com/kixpanganiban">Kix Panganiban</a>.
+  live_url: https://todo-molten.herokuapp.com/v1/todos/
+  sourcecode_url: https://github.com/KixPanganiban/todo-molten
+  tags:
+    - python
+    - molten
+    - sqlite3
 
 "Haskell - Scotty / Persistent":
   description:
