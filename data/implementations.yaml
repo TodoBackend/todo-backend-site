@@ -599,6 +599,16 @@
     - python
     - falcon
     - tinydb
+    
+"Python / Sanic":
+  description:
+    Implementation written in <a href="https://github.com/huge-success/sanic">Sanic</a> by <a href="https://github.com/kixpanganiban/">Kix Panganiban</a>.
+  live_url: https://todo-backend-sanic.herokuapp.com/todo
+  sourcecode_url: https://github.com/KixPanganiban/todo-sanic
+  tags:
+    - python
+    - sanic
+    - tinydb
 
 "Haskell - Scotty / Persistent":
   description:
