@@ -122,6 +122,16 @@
     - nodejs
     - micro
     - postgres
+    
+"Node.js / SailsJS":
+  description:
+    Node.js implementation in <a href="https://sailsjs.com/>SailsJS</a> by <a href="https://github.com/kixpanganiban/">Kix Panganiban</a>.
+  sourcecode_url: https://github.com/KixPanganiban/todo-sails
+  live_url: https://todo-sails.herokuapp.com/todo
+  tags:
+    - javascript
+    - nodejs
+    - sailsjs
 
 "Python / web.py":
   description:
