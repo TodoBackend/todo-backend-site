@@ -1,3 +1,11 @@
+"Racket / stdlib":
+  description:
+    Todo backend implemented with Racket's standard library. Backed by an in-memory hash.
+  sourcecode_url: https://github.com/Bogdanp/racket-todobackend
+  live_url: https://todo-racket.herokuapp.com/todos
+  tags:
+    - racket
+
 "Perl / Catalyst":
   description:
     todo backend implemented with perl and <a href="https://metacpan.org/pod/Catalyst">Catalyst</a>. Backed
