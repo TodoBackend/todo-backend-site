@@ -329,7 +329,7 @@
     framework. The <a href="http://ww/scala-lang.org/">Scala</a> language. Swagger to
     specify the API and <a href="https://www.github.com/twilio/guardrail">Twilio Guardrails</a> to generate the code.
   sourcecode_url: https://github.com/nickfun/learning-guardrail
-  live_url: https://stormy-basin-14881.herokuapp.com/todos
+  live_url: https://todo-backend-guardrail.herokuapp.com/todos
   tags:
     - scala
     - akka
