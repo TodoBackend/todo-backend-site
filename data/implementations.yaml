@@ -323,6 +323,19 @@
     - jvm
     - akka
 
+"Scala / Akka / Swagger":
+  description:
+    The <a href="http://doc.akka.io/docs/akka/current/scala/http/index.html">akka-http</a>
+    framework. The <a href="http://ww/scala-lang.org/">Scala</a> language. Swagger to
+    specify the API and <a href="https://www.github.com/twilio/guardrail">Twilio Guardrails</a> to generate the code.
+  sourcecode_url: https://github.com/nickfun/learning-guardrail
+  live_url: https://stormy-basin-14881.herokuapp.com/todos
+  tags:
+    - scala
+    - akka
+    - jvm
+    - swagger
+
 "Kotlin / Http4k":
   description:
     <a href="https://kotlinlang.org">Kotlin</a> + <a href="http://www.http4k.org">http4k</a> with typesafe lenses, saving in-memory.
@@ -1026,7 +1039,7 @@
     - java
     - jvm
     - jodd
-    
+
 "XCST - ASP.NET":
   description:
     An <a href="http://maxtoroq.github.io/XCST/">XCST</a> implementation for ASP.NET. Items are stored in memory.

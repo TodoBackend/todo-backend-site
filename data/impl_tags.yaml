@@ -256,3 +256,6 @@
   jodd:
     label: Jodd
     logo: jodd.png
+  swagger:
+    label: Swagger
+    logo: swagger.png
