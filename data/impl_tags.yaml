@@ -256,3 +256,6 @@
   jodd:
     label: Jodd
     logo: jodd.png
+  ktor:
+      label: Ktor
+      logo: ktor.png
