@@ -996,6 +996,16 @@
     - kotlin
     - jvm
     - javalin
+    
+"Kotlin / Ktor":
+  description:
+    Implementation using Kotlin and <a href="https://ktor.io">Ktor</a>. Items are stored in memory.
+  sourcecode_url: https://github.com/sann3/todo-backend-kotlin-ktor
+  live_url: https://todo-backend-kotlin-ktor.herokuapp.com/
+  tags:
+    - kotlin
+    - jvm
+    - ktor
 
 "C# - ASP.NET Core 2.0":
   description:
