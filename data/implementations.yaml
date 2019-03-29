@@ -1047,3 +1047,15 @@
     - nutz
     - java
     - jvm
+
+"Java 11 / Spark / JDBI / no annotations":
+  description:
+    A Java 11 implementation using the <a href="http://www.sparkjava.com/">Spark</a> framework. Persistence to Postgres using <a href="http://jdbi.org">JDBI</a>. No Java annotations.
+  sourcecode_url: https://github.com/jqno/paralleljava
+  live_url: https://parallel-java.herokuapp.com/todo
+  tags:
+    - spark
+    - jvm
+    - java
+    - jdbi
+    - postgres
