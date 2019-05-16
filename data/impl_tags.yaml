@@ -262,3 +262,6 @@
   luminus:
     label: luminus
     logo: luminus.png
+  javaee:
+    label: Java EE
+    logo: no-logo.svg

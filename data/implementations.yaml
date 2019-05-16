@@ -1068,3 +1068,13 @@
     - luminus
     - immutant
     - compojure-api
+
+"Java 8 with Java EE 8":
+  description:
+    Java 8 implementation running on the <a href="http://www.oracle.com/technetwork/java/javaee/overview/index.html">Java EE 8</a> compatible <a href="https://www.payara.fish/payara_micro">Payara Micro</a> as a microservice. ToDos are in-memory.
+  sourcecode_url: https://github.com/codifryed/javaeetodo
+  live_url: https://javaeetodo.herokuapp.com/todo
+  tags:
+    - java
+    - jvm
+    - javaee
