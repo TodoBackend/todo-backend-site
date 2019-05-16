@@ -356,7 +356,7 @@
 
 "SWI-Prolog":
   description:
-    <a href="http://ww/swi-prolog.org/">SWI-Prolog 7</a> implementation using the Prolog database with
+    <a href="http://www.swi-prolog.org/">SWI-Prolog 7</a> implementation using the Prolog database with
     persistency. Extensively documented.
   sourcecode_url: https://github.com/JanWielemaker/todo-backend-swi-prolog
   live_url: http://demo.swi-prolog.org/todo
