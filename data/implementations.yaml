@@ -1171,3 +1171,12 @@
     - java
     - jdbi
     - postgres
+
+"Scala / ZIO, http4s":
+  description:
+    Todo-Backend (https://www.todobackend.com/) implementation using ZIO, http4s and circe
+  sourcecode_url: https://github.com/mschuwalow/zio-todo-backend
+  live_url: https://todo.schuwalow.com/todos
+  tags:
+    - scala
+    - http4s
