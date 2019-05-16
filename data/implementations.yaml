@@ -756,7 +756,7 @@
     <a href="https://github.com/finagle/finch">Finch</a> for web and
     <a href="https://github.com/travisbrown/circe">Circe</a> for JSON.
   sourcecode_url: https://github.com/ilya-murzinov/finch-todo-backend
-  live_url: http://diy-ilyamurzinov.rhcloud.com/todos
+  live_url: https://finch-todo-backend.herokuapp.com/todos/
   tags:
     - scala
     - jvm
