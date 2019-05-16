@@ -265,3 +265,6 @@
   javaee:
     label: Java EE
     logo: no-logo.svg
+  hanami:
+    label: Hanami
+    logo: hanami.png
