@@ -356,7 +356,7 @@
 
 "SWI-Prolog":
   description:
-    <a href="http://ww/swi-prolog.org/">SWI-Prolog 7</a> implementation using the Prolog database with
+    <a href="http://www.swi-prolog.org/">SWI-Prolog 7</a> implementation using the Prolog database with
     persistency. Extensively documented.
   sourcecode_url: https://github.com/JanWielemaker/todo-backend-swi-prolog
   live_url: http://demo.swi-prolog.org/todo
@@ -1048,7 +1048,28 @@
     - java
     - jvm
 
-"Java 8 with Java EE 8"
+"F# - Giraffe":
+  description:
+    Implementation using <a href="https://github.com/giraffe-fsharp/Giraffe">Giraffe</a> in F# by <a href="https://github.com/mabe">mabe</a>. Items are stored in memory.
+  sourcecode_url: https://github.com/mabe/todo-backend-giraffe
+  live_url: https://todo-backend-giraffe.herokuapp.com/
+  tags:
+    - fsharp
+    - dotnet
+    - giraffe
+
+"Clojure with Luminus and Immutant":
+  description:
+    Implemented in <a href="https://clojure.org/">Clojure</a> using <a href="http://www.luminusweb.net">Luminus</a> and <a href="http://immutant.org">Immutant</a>.
+  sourcecode_url: https://github.com/joshrotenberg/todo-backend-clojure-luminus-immutant
+  live_url: https://todo-backend-clojure-luminus.herokuapp.com/todos
+  tags:
+    - clojure
+    - luminus
+    - immutant
+    - compojure-api
+
+"Java 8 with Java EE 8":
   description:
     Java 8 implementation running on the <a href="http://www.oracle.com/technetwork/java/javaee/overview/index.html">Java EE 8</a> compatible <a href="https://www.payara.fish/payara_micro">Payara Micro</a> as a microservice. ToDos are in-memory.
   sourcecode_url: https://github.com/codifryed/javaeetodo
