@@ -1130,3 +1130,13 @@
   tags:
     - ruby
     - hanami
+
+"Ktor / Kotlin":
+  description:
+    Implementation using <a href="https://ktor.io/">Ktor</a> by <a href="https://github.com/gopinath-langote/">Gopinath Langote</a>. Items are stored in memory.
+  sourcecode_url: https://github.com/gopinath-langote/ktor-todo-backend
+  live_url: https://ktor-todo-backend.herokuapp.com/
+  tags:
+  - ktor
+  - kotlin
+  - jvm

@@ -271,3 +271,6 @@
   hanami:
     label: Hanami
     logo: hanami.png
+  ktor:
+    label: Ktor
+    logo: ktor.png
