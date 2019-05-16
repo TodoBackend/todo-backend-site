@@ -1150,3 +1150,12 @@
   - ktor
   - kotlin
   - jvm
+
+"Python / Masonite":
+  description:
+    Implementation using <a href="https://docs.masoniteproject.com">Masonite</a> by <a href="https://github.com/kentaro0919">Kentaro Matsuzaki</a>.
+  sourcecode_url: https://github.com/kentaro0919/todo-backend-masonite
+  live_url: https://mysterious-thicket-31854.herokuapp.com/
+  tags:
+    - python
+    - masonite
