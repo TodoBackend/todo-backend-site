@@ -1047,3 +1047,24 @@
     - nutz
     - java
     - jvm
+
+"F# - Giraffe":
+  description:
+    Implementation using <a href="https://github.com/giraffe-fsharp/Giraffe">Giraffe</a> in F# by <a href="https://github.com/mabe">mabe</a>. Items are stored in memory.
+  sourcecode_url: https://github.com/mabe/todo-backend-giraffe
+  live_url: https://todo-backend-giraffe.herokuapp.com/
+  tags:
+    - fsharp
+    - dotnet
+    - giraffe
+
+"Clojure with Luminus and Immutant":
+  description:
+    Implemented in <a href="https://clojure.org/">Clojure</a> using <a href="http://www.luminusweb.net">Luminus</a> and <a href="http://immutant.org">Immutant</a>.
+  sourcecode_url: https://github.com/joshrotenberg/todo-backend-clojure-luminus-immutant
+  live_url: https://todo-backend-clojure-luminus.herokuapp.com/todos
+  tags:
+    - clojure
+    - luminus
+    - immutant
+    - compojure-api
