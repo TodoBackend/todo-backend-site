@@ -182,7 +182,7 @@
     logo: symfony.svg
   slim:
     label: Slim
-    logo: no-logo.svg
+    logo: slim.png
   finch:
     label: Finch
     logo: finch.png
@@ -256,6 +256,21 @@
   jodd:
     label: Jodd
     logo: jodd.png
+  swagger:
+    label: Swagger
+    logo: swagger.png
+  immutant:
+    label: immutant
+    logo: immutant.png
+  luminus:
+    label: luminus
+    logo: luminus.png
+  javaee:
+    label: Java EE
+    logo: no-logo.svg
+  hanami:
+    label: Hanami
+    logo: hanami.png
   ktor:
-      label: Ktor
-      logo: ktor.png
+    label: Ktor
+    logo: ktor.png
