@@ -274,3 +274,6 @@
   ktor:
     label: Ktor
     logo: ktor.png
+  masonite:
+    label: Masonite
+    logo: masonite.png
