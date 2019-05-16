@@ -298,7 +298,7 @@
 
 "Scala / Lift ":
   description:
-    A <a href="http://ww/scala-lang.org/">Scala</a> implementation using the <a
+    A <a href="http://www.scala-lang.org/">Scala</a> implementation using the <a
       href="https://liftweb.net/">Lift</a> framework.
       This implementation uses a thread-safe in-memory store. Courtesy of <a
       href="https://github.com/ricsirigu">Riccardo Sirigu</a>.
@@ -311,7 +311,7 @@
 
 "Scala / Finatra":
   description:
-    A <a href="http://ww/scala-lang.org/">Scala</a> implementation using Twitter's <a
+    A <a href="http://www.scala-lang.org/">Scala</a> implementation using Twitter's <a
       href="http://finatra.info/">Finatra</a> web framework. Courtesy of the prolific <a
       href="https://github.com/savaki">Matt Ho</a>.
   sourcecode_url: https://github.com/savaki/todo-backend-finatra
@@ -323,7 +323,7 @@
 
 "Scala / Akka":
   description:
-    A <a href="http://ww/scala-lang.org/">Scala</a> implementation using <a
+    A <a href="http://www.scala-lang.org/">Scala</a> implementation using <a
     href="http://doc.akka.io/docs/akka/current/scala/http/index.html">akka-http</a>.
     Courtesy of <a href="http://arnout.engelen.eu">Arnout Engelen</a>
   sourcecode_url: https://github.com/raboof/todo-backend-akka
@@ -336,7 +336,7 @@
 "Scala / Akka / Swagger":
   description:
     The <a href="http://doc.akka.io/docs/akka/current/scala/http/index.html">akka-http</a>
-    framework. The <a href="http://ww/scala-lang.org/">Scala</a> language. Swagger to
+    framework. The <a href="http://www.scala-lang.org/">Scala</a> language. Swagger to
     specify the API and <a href="https://www.github.com/twilio/guardrail">Twilio Guardrails</a> to generate the code.
   sourcecode_url: https://github.com/nickfun/learning-guardrail
   live_url: https://todo-backend-guardrail.herokuapp.com/todos
