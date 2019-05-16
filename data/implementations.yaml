@@ -122,6 +122,16 @@
     - nodejs
     - micro
     - postgres
+    
+"Node.js / SailsJS":
+  description:
+    Node.js implementation in <a href="https://sailsjs.com/">SailsJS</a> by <a href="https://github.com/kixpanganiban/">Kix Panganiban</a>.
+  sourcecode_url: https://github.com/KixPanganiban/todo-sails
+  live_url: https://todo-sails.herokuapp.com/todo
+  tags:
+    - javascript
+    - nodejs
+    - sailsjs
 
 "Python / web.py":
   description:
@@ -369,7 +379,7 @@
 
 "SWI-Prolog":
   description:
-    <a href="http://ww/swi-prolog.org/">SWI-Prolog 7</a> implementation using the Prolog database with
+    <a href="http://www.swi-prolog.org/">SWI-Prolog 7</a> implementation using the Prolog database with
     persistency. Extensively documented.
   sourcecode_url: https://github.com/JanWielemaker/todo-backend-swi-prolog
   live_url: http://demo.swi-prolog.org/todo
@@ -605,13 +615,33 @@
 
 "Python / Falcon":
   description:
-    Implementation written in Python 2.7 with <a href="https://github.com/falconry/falcon">Falcon</a>.
+    Implementation written in Python 2.7 with <a href="https://github.com/falconry/falcon">Falcon</a> by <a href="https://github.com/kixpanganiban">Kix Panganiban</a>.
   live_url: http://todo-backend-falcon.herokuapp.com/todo
   sourcecode_url: https://github.com/kixpanganiban/todo-falcon
   tags:
     - python
     - falcon
     - tinydb
+    
+"Python / Sanic":
+  description:
+    Implementation written in <a href="https://github.com/huge-success/sanic">Sanic</a> by <a href="https://github.com/kixpanganiban/">Kix Panganiban</a>.
+  live_url: https://todo-backend-sanic.herokuapp.com/todo
+  sourcecode_url: https://github.com/KixPanganiban/todo-sanic
+  tags:
+    - python
+    - sanic
+    - tinydb
+
+"Python / Molten":
+  description:
+    Implementation written in <a href="https://moltenframework.com/">Molten</a> by <a href="https://github.com/kixpanganiban">Kix Panganiban</a>.
+  live_url: https://todo-molten.herokuapp.com/v1/todos/
+  sourcecode_url: https://github.com/KixPanganiban/todo-molten
+  tags:
+    - python
+    - molten
+    - sqlite3
 
 "Haskell - Scotty / Persistent":
   description:
@@ -1060,3 +1090,43 @@
     - nutz
     - java
     - jvm
+
+"F# - Giraffe":
+  description:
+    Implementation using <a href="https://github.com/giraffe-fsharp/Giraffe">Giraffe</a> in F# by <a href="https://github.com/mabe">mabe</a>. Items are stored in memory.
+  sourcecode_url: https://github.com/mabe/todo-backend-giraffe
+  live_url: https://todo-backend-giraffe.herokuapp.com/
+  tags:
+    - fsharp
+    - dotnet
+    - giraffe
+
+"Clojure with Luminus and Immutant":
+  description:
+    Implemented in <a href="https://clojure.org/">Clojure</a> using <a href="http://www.luminusweb.net">Luminus</a> and <a href="http://immutant.org">Immutant</a>.
+  sourcecode_url: https://github.com/joshrotenberg/todo-backend-clojure-luminus-immutant
+  live_url: https://todo-backend-clojure-luminus.herokuapp.com/todos
+  tags:
+    - clojure
+    - luminus
+    - immutant
+    - compojure-api
+
+"Java 8 with Java EE 8":
+  description:
+    Java 8 implementation running on the <a href="http://www.oracle.com/technetwork/java/javaee/overview/index.html">Java EE 8</a> compatible <a href="https://www.payara.fish/payara_micro">Payara Micro</a> as a microservice. ToDos are in-memory.
+  sourcecode_url: https://github.com/codifryed/javaeetodo
+  live_url: https://javaeetodo.herokuapp.com/todo
+  tags:
+    - java
+    - jvm
+    - javaee
+    
+"Ruby / Hanami":
+  description:
+    A Ruby implementation using <a href="http://hanamirb.org/">Hanami</a>.
+  sourcecode_url: https://github.com/ArayB/todo-backend-hanami
+  live_url: https://todo-backend-hanami.herokuapp.com/
+  tags:
+    - ruby
+    - hanami
