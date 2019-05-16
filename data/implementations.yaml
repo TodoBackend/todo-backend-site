@@ -1180,3 +1180,13 @@
   tags:
     - scala
     - http4s
+
+"Pharo / Seaside":
+  description:
+     Implementation for the todo backend using <a href="https://pharo.org/">Pharo</a> and <a href="http://seaside.st/">Seaside</a>.
+  sourcecode_url: https://github.com/McKing2nd/StTodoBackend
+  live_url: http://api.mecking.nl/todo-api/
+  tags:
+    - smalltalk
+    - pharo
+    - seaside
