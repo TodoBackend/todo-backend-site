@@ -277,3 +277,12 @@
   masonite:
     label: Masonite
     logo: masonite.png
+  smalltalk:
+    label: Smalltalk
+    logo: no-logo.svg
+  pharo:
+    label: Pharo
+    logo: pharo.png
+  seaside:
+    label: Seaside
+    logo: seaside.png
