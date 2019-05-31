@@ -16,9 +16,9 @@ jobs:
             - vendor/bundle
       - run: .circleci/jobs/build.sh
       - persist_to_workspace:
-        root: .
-        paths:
-          - build
+          root: .
+          paths:
+            - build
 
   deploy-preview:
     docker:
