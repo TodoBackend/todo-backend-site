@@ -25,6 +25,7 @@ jobs:
     docker:
       - image: circleci/ruby:2.3-node
     steps:
+      - checkout
       - attach_workspace:
           at: .
       - restore_cache:
@@ -39,6 +40,8 @@ workflows:
     jobs:
       - build
       - deploy-preview:
+          requires:
+            - build
           filters:
             branches:
               only: circle
