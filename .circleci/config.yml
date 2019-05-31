@@ -34,6 +34,19 @@ jobs:
       - run: .circleci/jobs/bundle-install.sh
       - run: .circleci/jobs/deploy-preview.sh
 
+  deploy-production:
+    docker:
+      - image: circleci/ruby:2.3-node
+    steps:
+      - checkout
+      - attach_workspace:
+          at: .
+      - restore_cache:
+          keys:
+            - gem-cache-v1-{{ arch }}-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
+      - run: .circleci/jobs/bundle-install.sh
+      - run: .circleci/jobs/deploy-production.sh
+
 workflows:
   version: 2
   build:
@@ -45,3 +58,10 @@ workflows:
           filters:
             branches:
               only: circle
+      - prod-hold:
+          type: approval
+          requires:
+           - deploy-preview
+      - deploy-production:
+          requires:
+           - prod-hold
