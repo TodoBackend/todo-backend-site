@@ -1,13 +1,9 @@
-version: 2.1
-
-executors:
-  ruby:
-    docker:
-      - image: circleci/ruby:2.3-node
+version: 2
 
 jobs:
   build:
-    executor: ruby
+    docker:
+      - image: circleci/ruby:2.3-node
     steps:
       - checkout
       - restore_cache:
@@ -25,7 +21,8 @@ jobs:
           - build
 
   deploy-preview:
-    executor: ruby
+    docker:
+      - image: circleci/ruby:2.3-node
     steps:
       - attach_workspace:
           at: .
