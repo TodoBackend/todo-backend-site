@@ -57,7 +57,7 @@ workflows:
             - build
           filters:
             branches:
-              only: circle
+              only: master
       - prod-hold:
           type: approval
           requires:
