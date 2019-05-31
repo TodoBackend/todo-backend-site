@@ -22,10 +22,6 @@ jobs:
             - build
 
   deploy-preview:
-    branches:
-      only:
-        - master
-        - circle
     docker:
       - image: circleci/ruby:2.3-node
     steps:
@@ -43,3 +39,6 @@ workflows:
     jobs:
       - build
       - deploy-preview
+        filters:
+          branches:
+            only: circle
