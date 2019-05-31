@@ -38,7 +38,7 @@ workflows:
   build:
     jobs:
       - build
-      - deploy-preview
-        filters:
-          branches:
-            only: circle
+      - deploy-preview:
+          filters:
+            branches:
+              only: circle
