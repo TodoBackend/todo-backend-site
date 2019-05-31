@@ -11,13 +11,13 @@ jobs:
     steps:
       - checkout
       - restore_cache:
-        keys:
-          - gem-cache-v1-{{ arch }}-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
+          keys:
+            - gem-cache-v1-{{ arch }}-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
       - run: .circleci/jobs/bundle-install.sh
       - save_cache:
-        key: gem-cache-v1-{{ arch }}-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
-        paths:
-          - vendor/bundle
+          key: gem-cache-v1-{{ arch }}-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
       - run: .circleci/jobs/build.sh
       - persist_to_workspace:
         root: .
@@ -28,10 +28,10 @@ jobs:
     executor: ruby
     steps:
       - attach_workspace:
-        at: .
+          at: .
       - restore_cache:
-        keys:
-          - gem-cache-v1-{{ arch }}-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
+          keys:
+            - gem-cache-v1-{{ arch }}-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
       - run: .circleci/jobs/bundle-install.sh
       - run: .circleci/jobs/deploy-preview.sh
 
