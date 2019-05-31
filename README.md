@@ -3,7 +3,7 @@ todo-backend-site
 
 Source for www.todobackend.com. This is a [middleman](https://middlemanapp.com)-based static website. 
 
-built and deployed to S3 via: [ ![Codeship Status for TodoBackend/todo-backend-site](https://app.codeship.com/projects/adb54330-d6a0-0134-4172-5abfbe9ef951/status?branch=master)](https://app.codeship.com/projects/202822) 
+built and deployed to S3 via: [![CircleCI](https://circleci.com/gh/TodoBackend/todo-backend-site.svg?style=svg)](https://circleci.com/gh/TodoBackend/todo-backend-site)
 
 ## Adding a new implementation listing
 To add a new Todo-Backend implementation:
