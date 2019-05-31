@@ -6,6 +6,7 @@ jobs:
       - image: circleci/ruby:2.3-node
     steps:
       - checkout
+      - run: git submodule update --init --recursive
       - restore_cache:
           keys:
             - gem-cache-v1-{{ arch }}-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
