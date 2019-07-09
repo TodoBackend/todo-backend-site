@@ -286,3 +286,9 @@
   seaside:
     label: Seaside
     logo: seaside.png
+  flyway:
+    label: Flyway
+    logo: flyway.png
+  gradle:
+    label: Gradle
+    logo: gradle.png
