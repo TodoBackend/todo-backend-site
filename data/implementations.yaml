@@ -112,6 +112,16 @@
     - hapijs
     - postgres
 
+"TypeScript / Node.js / Hapi.js":
+  description:
+    Node.js example using the Hapi framework and saving to memory.
+  sourcecode_url: https://github.com/matiangul/across-stack-hapi-api
+  live_url: https://quiet-chamber-73672.herokuapp.com/
+  tags:
+    - typescript
+    - nodejs
+    - hapijs
+
 "Node.js / Micro / Postgres":
   description:
     Node.js example using the <a href="https://github.com/zeit/micro">Micro</a> framework.
