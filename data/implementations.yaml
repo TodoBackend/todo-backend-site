@@ -1050,6 +1050,16 @@
     - jvm
     - ktor
 
+"Kotlin / Hexagon":
+  description:
+    <a href="https://kotlinlang.org">Kotlin</a> + <a href="https://hexagonkt.com/">Hexagon</a>, saving in-memory.
+  sourcecode_url: https://github.com/DennisHartrampf/todo_backend
+  live_url: https://dennis-hartrampf-todo-backend.herokuapp.com/
+  tags:
+    - kotlin
+    - hexagon
+    - jvm
+
 "C# - ASP.NET Core 2.0":
   description:
     A simple C# implementation using <a href="https://www.asp.net/core">ASP.NET Core</a> 2.0 with
