@@ -1194,7 +1194,7 @@
 "Kotlin / Hexagon, MongoDb":
   description:
     Implementation using Kotlin and <a href="https://hexagonkt.com/">Hexogon</a> saving items to a mongoDb database
-  sourcecode_url: https://github.com/JohanneA/todo_backend
+  sourcecode_url: https://github.com/hexagonkt/todo_backend
   live_url: https://todo-backend-hexagonkt.herokuapp.com/tasks
   tags:
     - kotlin
