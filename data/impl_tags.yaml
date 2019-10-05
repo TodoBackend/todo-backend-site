@@ -286,3 +286,6 @@
   seaside:
     label: Seaside
     logo: seaside.png
+  hexagon:
+    label: Hexagon
+    logo: hexagon.png
