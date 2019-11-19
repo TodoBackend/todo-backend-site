@@ -485,6 +485,15 @@
    - csharp
    - dotnet
 
+"C# - with DDD & EventSourcing":
+  description:
+    <a href="https://todoappdddapi.azurewebsites.net/api/todo">C# with DDD approach. State is persisted via an in-memory event store.</a>
+  sourcecode_url: https://github.com/SBortz/TodoAppDdd
+  live_url: https://todoappdddapi.azurewebsites.net/api/todo
+  tags:
+   - csharp
+   - dotnet
+
 "Golang / stdlib":
   description:
     A <a href="http://golang.org/">Golang</a> implementation using only the standard libraries
