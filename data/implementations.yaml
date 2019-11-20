@@ -1052,7 +1052,7 @@
   description:
     PHP implementation with <a href="https://symfony.com/">Symfony 4</a>, using <a href="https://api-platform.com/">api-platform</a>.
   sourcecode_url: https://gitlab.com/olberger/todobackend-symfony4
-  live_url: https://still-ravine-70063.herokuapp.com/
+  live_url: https://still-ravine-70063.herokuapp.com/todos
   tags:
     - php
     - symfony4
