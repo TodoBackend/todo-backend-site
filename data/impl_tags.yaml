@@ -286,3 +286,9 @@
   seaside:
     label: Seaside
     logo: seaside.png
+  rstats:
+    label: R
+    logo: Rlogo.png
+  plumber:
+    label: plumber
+    logo: plumber.png
