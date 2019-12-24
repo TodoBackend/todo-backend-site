@@ -286,3 +286,6 @@
   seaside:
     label: Seaside
     logo: seaside.png
+  cake:
+    label: CakePHP
+    logo: cake.svg
