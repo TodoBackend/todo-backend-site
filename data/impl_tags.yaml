@@ -286,3 +286,6 @@
   seaside:
     label: Seaside
     logo: seaside.png
+  knexjs:
+    label: Knex.js
+    logo: knex.png
