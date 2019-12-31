@@ -90,6 +90,19 @@
     - expressjs
     - postgres
 
+"Node.js / Express / Knex.js":
+  description:
+    Node.js + Express + <a href="http://knexjs.org">Knex</a> (query builder configured to save to Postgres). Implementation uses async/await. Courtesty of <a href="https://github.com/tonycheang">Tony Cheang</a>.
+  sourcecode_url: https://github.com/tonycheang/todo-backend-express-knex
+  live_url: https://todo-backend-express-knex.herokuapp.com/
+  tags:
+    - javascript
+    - es6
+    - nodejs
+    - expressjs
+    - postgres
+    - knexjs
+
 "Node.js / Hapi.js":
   description:
     <a href="http://hapijs.com">Hapi.js</a> saving to a MongoDB collection via <a href="http://mongoosejs.com/">MongooseJS</a> by <a href="https://github.com/pamo">Pamela Ocampo</a>.
