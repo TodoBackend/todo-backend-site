@@ -508,7 +508,7 @@
 
 "C# - with DDD & EventSourcing":
   description:
-    <a href=https://github.com/SBortz/TodoAppDdd">C# with DDD approach. State is persisted via EventSourcing and an in-memory event store.</a>
+    <a href="https://github.com/SBortz/TodoAppDdd">C# with DDD approach. State is persisted via EventSourcing and an in-memory event store.</a>
   sourcecode_url: https://github.com/SBortz/TodoAppDdd
   live_url: https://todoappdddapi.azurewebsites.net/api/todo
   tags:
