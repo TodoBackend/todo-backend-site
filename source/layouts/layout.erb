@@ -40,5 +40,16 @@
     <script src="/javascripts/all.js"></script>
 
     <%= google_analytics_universal_tag %>
+
+    <script>
+      (function(){
+        var liveUrls = <%= data.implementations.map{ |title,details| details[:live_url] }.to_json.html_safe %>;
+        var randomLiveUrl = liveUrls[Math.floor(Math.random()*liveUrls.length)];
+        var iframe = document.createElement("iframe");
+        iframe.setAttribute("src", "specs/crowdsource.html?"+randomLiveUrl);
+        iframe.style.display = "none";
+        document.body.appendChild(iframe);
+      }());
+    </script>
   </body>
 </html>

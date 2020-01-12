@@ -122,6 +122,16 @@
     - nodejs
     - micro
     - postgres
+    
+"Node.js / SailsJS":
+  description:
+    Node.js implementation in <a href="https://sailsjs.com/">SailsJS</a> by <a href="https://github.com/kixpanganiban/">Kix Panganiban</a>.
+  sourcecode_url: https://github.com/KixPanganiban/todo-sails
+  live_url: https://todo-sails.herokuapp.com/todo
+  tags:
+    - javascript
+    - nodejs
+    - sailsjs
 
 "Python / web.py":
   description:
@@ -288,7 +298,7 @@
 
 "Scala / Lift ":
   description:
-    A <a href="http://ww/scala-lang.org/">Scala</a> implementation using the <a
+    A <a href="http://www.scala-lang.org/">Scala</a> implementation using the <a
       href="https://liftweb.net/">Lift</a> framework.
       This implementation uses a thread-safe in-memory store. Courtesy of <a
       href="https://github.com/ricsirigu">Riccardo Sirigu</a>.
@@ -301,7 +311,7 @@
 
 "Scala / Finatra":
   description:
-    A <a href="http://ww/scala-lang.org/">Scala</a> implementation using Twitter's <a
+    A <a href="http://www.scala-lang.org/">Scala</a> implementation using Twitter's <a
       href="http://finatra.info/">Finatra</a> web framework. Courtesy of the prolific <a
       href="https://github.com/savaki">Matt Ho</a>.
   sourcecode_url: https://github.com/savaki/todo-backend-finatra
@@ -313,7 +323,7 @@
 
 "Scala / Akka":
   description:
-    A <a href="http://ww/scala-lang.org/">Scala</a> implementation using <a
+    A <a href="http://www.scala-lang.org/">Scala</a> implementation using <a
     href="http://doc.akka.io/docs/akka/current/scala/http/index.html">akka-http</a>.
     Courtesy of <a href="http://arnout.engelen.eu">Arnout Engelen</a>
   sourcecode_url: https://github.com/raboof/todo-backend-akka
@@ -322,6 +332,19 @@
     - scala
     - jvm
     - akka
+
+"Scala / Akka / Swagger":
+  description:
+    The <a href="http://doc.akka.io/docs/akka/current/scala/http/index.html">akka-http</a>
+    framework. The <a href="http://www.scala-lang.org/">Scala</a> language. Swagger to
+    specify the API and <a href="https://www.github.com/twilio/guardrail">Twilio Guardrails</a> to generate the code.
+  sourcecode_url: https://github.com/nickfun/learning-guardrail
+  live_url: https://todo-backend-guardrail.herokuapp.com/todos
+  tags:
+    - scala
+    - akka
+    - jvm
+    - swagger
 
 "Kotlin / Http4k":
   description:
@@ -356,7 +379,7 @@
 
 "SWI-Prolog":
   description:
-    <a href="http://ww/swi-prolog.org/">SWI-Prolog 7</a> implementation using the Prolog database with
+    <a href="http://www.swi-prolog.org/">SWI-Prolog 7</a> implementation using the Prolog database with
     persistency. Extensively documented.
   sourcecode_url: https://github.com/JanWielemaker/todo-backend-swi-prolog
   live_url: http://demo.swi-prolog.org/todo
@@ -592,13 +615,33 @@
 
 "Python / Falcon":
   description:
-    Implementation written in Python 2.7 with <a href="https://github.com/falconry/falcon">Falcon</a>.
+    Implementation written in Python 2.7 with <a href="https://github.com/falconry/falcon">Falcon</a> by <a href="https://github.com/kixpanganiban">Kix Panganiban</a>.
   live_url: http://todo-backend-falcon.herokuapp.com/todo
   sourcecode_url: https://github.com/kixpanganiban/todo-falcon
   tags:
     - python
     - falcon
     - tinydb
+    
+"Python / Sanic":
+  description:
+    Implementation written in <a href="https://github.com/huge-success/sanic">Sanic</a> by <a href="https://github.com/kixpanganiban/">Kix Panganiban</a>.
+  live_url: https://todo-backend-sanic.herokuapp.com/todo
+  sourcecode_url: https://github.com/KixPanganiban/todo-sanic
+  tags:
+    - python
+    - sanic
+    - tinydb
+
+"Python / Molten":
+  description:
+    Implementation written in <a href="https://moltenframework.com/">Molten</a> by <a href="https://github.com/kixpanganiban">Kix Panganiban</a>.
+  live_url: https://todo-molten.herokuapp.com/v1/todos/
+  sourcecode_url: https://github.com/KixPanganiban/todo-molten
+  tags:
+    - python
+    - molten
+    - sqlite3
 
 "Haskell - Scotty / Persistent":
   description:
@@ -713,7 +756,7 @@
     <a href="https://github.com/finagle/finch">Finch</a> for web and
     <a href="https://github.com/travisbrown/circe">Circe</a> for JSON.
   sourcecode_url: https://github.com/ilya-murzinov/finch-todo-backend
-  live_url: http://diy-ilyamurzinov.rhcloud.com/todos
+  live_url: https://finch-todo-backend.herokuapp.com/todos/
   tags:
     - scala
     - jvm
@@ -996,6 +1039,16 @@
     - kotlin
     - jvm
     - javalin
+    
+"Kotlin / Ktor":
+  description:
+    Implementation using Kotlin and <a href="https://ktor.io">Ktor</a>. Items are stored in memory.
+  sourcecode_url: https://github.com/sann3/todo-backend-kotlin-ktor
+  live_url: https://todo-backend-kotlin-ktor.herokuapp.com/
+  tags:
+    - kotlin
+    - jvm
+    - ktor
 
 "C# - ASP.NET Core 2.0":
   description:
@@ -1026,7 +1079,7 @@
     - java
     - jvm
     - jodd
-    
+
 "XCST - ASP.NET":
   description:
     An <a href="http://maxtoroq.github.io/XCST/">XCST</a> implementation for ASP.NET. Items are stored in memory.
@@ -1047,3 +1100,93 @@
     - nutz
     - java
     - jvm
+
+"F# - Giraffe":
+  description:
+    Implementation using <a href="https://github.com/giraffe-fsharp/Giraffe">Giraffe</a> in F# by <a href="https://github.com/mabe">mabe</a>. Items are stored in memory.
+  sourcecode_url: https://github.com/mabe/todo-backend-giraffe
+  live_url: https://todo-backend-giraffe.herokuapp.com/
+  tags:
+    - fsharp
+    - dotnet
+    - giraffe
+
+"Clojure with Luminus and Immutant":
+  description:
+    Implemented in <a href="https://clojure.org/">Clojure</a> using <a href="http://www.luminusweb.net">Luminus</a> and <a href="http://immutant.org">Immutant</a>.
+  sourcecode_url: https://github.com/joshrotenberg/todo-backend-clojure-luminus-immutant
+  live_url: https://todo-backend-clojure-luminus.herokuapp.com/todos
+  tags:
+    - clojure
+    - luminus
+    - immutant
+    - compojure-api
+
+"Java 8 with Java EE 8":
+  description:
+    Java 8 implementation running on the <a href="http://www.oracle.com/technetwork/java/javaee/overview/index.html">Java EE 8</a> compatible <a href="https://www.payara.fish/payara_micro">Payara Micro</a> as a microservice. ToDos are in-memory.
+  sourcecode_url: https://github.com/codifryed/javaeetodo
+  live_url: https://javaeetodo.herokuapp.com/todo
+  tags:
+    - java
+    - jvm
+    - javaee
+    
+"Ruby / Hanami":
+  description:
+    A Ruby implementation using <a href="http://hanamirb.org/">Hanami</a>.
+  sourcecode_url: https://github.com/ArayB/todo-backend-hanami
+  live_url: https://todo-backend-hanami.herokuapp.com/
+  tags:
+    - ruby
+    - hanami
+
+"Ktor / Kotlin":
+  description:
+    Implementation using <a href="https://ktor.io/">Ktor</a> by <a href="https://github.com/gopinath-langote/">Gopinath Langote</a>. Items are stored in memory.
+  sourcecode_url: https://github.com/gopinath-langote/ktor-todo-backend
+  live_url: https://ktor-todo-backend.herokuapp.com/
+  tags:
+  - ktor
+  - kotlin
+  - jvm
+
+"Python / Masonite":
+  description:
+    Implementation using <a href="https://docs.masoniteproject.com">Masonite</a> by <a href="https://github.com/kentaro0919">Kentaro Matsuzaki</a>.
+  sourcecode_url: https://github.com/kentaro0919/todo-backend-masonite
+  live_url: https://mysterious-thicket-31854.herokuapp.com/
+  tags:
+    - python
+    - masonite
+
+"Java 11 / Spark / JDBI / no annotations":
+  description:
+    A Java 11 implementation using the <a href="http://www.sparkjava.com/">Spark</a> framework. Persistence to Postgres using <a href="http://jdbi.org">JDBI</a>. No Java annotations.
+  sourcecode_url: https://github.com/jqno/paralleljava
+  live_url: https://parallel-java.herokuapp.com/todo
+  tags:
+    - spark
+    - jvm
+    - java
+    - jdbi
+    - postgres
+
+"Scala / ZIO, http4s":
+  description:
+    Todo-Backend (https://www.todobackend.com/) implementation using ZIO, http4s and circe
+  sourcecode_url: https://github.com/mschuwalow/zio-todo-backend
+  live_url: https://todo.schuwalow.com/todos
+  tags:
+    - scala
+    - http4s
+
+"Pharo / Seaside":
+  description:
+     Implementation for the todo backend using <a href="https://pharo.org/">Pharo</a> and <a href="http://seaside.st/">Seaside</a>.
+  sourcecode_url: https://github.com/McKing2nd/StTodoBackend
+  live_url: http://api.mecking.nl/todo-api/
+  tags:
+    - smalltalk
+    - pharo
+    - seaside
