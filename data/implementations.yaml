@@ -376,6 +376,17 @@
     - rapidoid
     - jvm
 
+"Kotlin / Ktor / Koin":
+  description:
+    Implementation using <a href="https://kotlinlang.org">Kotlin</a>, <a href="https://ktor.io">Ktor</a> and <a href="https://insert-koin.io/">Koin</a>, saving in-memory.
+  sourcecode_url: https://github.com/yemM/todo-backend-kotlin-ktor-koin
+  live_url: https://todo-backend-kotlin-ktor-koin.herokuapp.com/
+  tags:
+    - kotlin
+    - ktor
+    - koin
+    - jvm
+
 "Node.js / Koa":
   description:
     <a href="http://nodejs.org/">Node.js</a> + <a href="http://koajs.com">Koa</a>, saving to <a href="http://redis.io/">redis</a>.
@@ -1200,3 +1211,15 @@
     - smalltalk
     - pharo
     - seaside
+
+"Java - Spring Boot 2":
+  description:
+    Implementation using <a href="https://spring.io/projects/spring-boot/">Spring Boot</a>, <a href="https://gradle.org/">Gradle</a> as the build tool, and a <a href="https://www.postgresql.org/">Postgres</a> database with migrations managed by <a href="https://flywaydb.org/">Flyway</a>. By <a href="https://github.com/saylerb">Brian Sayler</a>.
+  live_url: https://spring-boot-todos.herokuapp.com/todos
+  sourcecode_url: https://github.com/saylerb/spring-todo
+  tags:
+    - java
+    - spring
+    - postgres
+    - flyway
+    - gradle

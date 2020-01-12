@@ -75,6 +75,9 @@
   kotlin:
     label: Kotlin
     logo: kotlin.png
+  koin:
+    label: Koin
+    logo: koin.png
   javalin:
     label: Javalin
     logo: javalin.svg
@@ -273,7 +276,7 @@
     logo: hanami.png
   ktor:
     label: Ktor
-    logo: ktor.png
+    logo: ktor.svg
   masonite:
     label: Masonite
     logo: masonite.png
@@ -286,3 +289,9 @@
   seaside:
     label: Seaside
     logo: seaside.png
+  flyway:
+    label: Flyway
+    logo: flyway.png
+  gradle:
+    label: Gradle
+    logo: gradle.png
