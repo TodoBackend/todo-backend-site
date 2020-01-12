@@ -302,5 +302,5 @@
     label: Symfony4
     logo: symfony.svg
   apiplatform:
-    label: api-platform
+    label: API Platform
     logo: apiplatform.png

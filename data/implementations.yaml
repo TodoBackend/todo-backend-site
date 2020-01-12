@@ -1255,7 +1255,7 @@
 
 "PHP / Symfony4 with api-platform":
   description:
-    PHP implementation with <a href="https://symfony.com/">Symfony 4</a>, using <a href="https://api-platform.com/">api-platform</a>.
+    PHP implementation with <a href="https://symfony.com/">Symfony 4</a>, using <a href="https://api-platform.com/">API Platform</a>.
   sourcecode_url: https://gitlab.com/olberger/todobackend-symfony4
   live_url: https://still-ravine-70063.herokuapp.com/todos
   tags:
