@@ -1262,3 +1262,13 @@
     - php
     - symfony4
     - apiplatform
+
+"R / Plumber":
+  description:
+    A todo backend written in R with <a href="https://www.rplumber.io/">Plumber</a>.
+  sourcecode_url: https://github.com/edavidaja/todo-backend-plumber
+  live_url: https://todo-backend-plumber.herokuapp.com/
+  tags:
+    - rstats
+    - plumber
+    - postgres

@@ -304,3 +304,9 @@
   apiplatform:
     label: API Platform
     logo: apiplatform.png
+  rstats:
+    label: R
+    logo: Rlogo.png
+  plumber:
+    label: plumber
+    logo: plumber.png
