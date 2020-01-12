@@ -295,3 +295,6 @@
   gradle:
     label: Gradle
     logo: gradle.png
+  hexagon:
+    label: Hexagon
+    logo: hexagon.png
