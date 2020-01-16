@@ -125,6 +125,16 @@
     - hapijs
     - postgres
 
+"TypeScript / Node.js / Hapi.js":
+  description:
+    Node.js example using the Hapi framework and saving to memory.
+  sourcecode_url: https://github.com/matiangul/across-stack-hapi-api
+  live_url: https://quiet-chamber-73672.herokuapp.com/
+  tags:
+    - typescript
+    - nodejs
+    - hapijs
+
 "Node.js / Micro / Postgres":
   description:
     Node.js example using the <a href="https://github.com/zeit/micro">Micro</a> framework.
@@ -379,6 +389,17 @@
     - rapidoid
     - jvm
 
+"Kotlin / Ktor / Koin":
+  description:
+    Implementation using <a href="https://kotlinlang.org">Kotlin</a>, <a href="https://ktor.io">Ktor</a> and <a href="https://insert-koin.io/">Koin</a>, saving in-memory.
+  sourcecode_url: https://github.com/yemM/todo-backend-kotlin-ktor-koin
+  live_url: https://todo-backend-kotlin-ktor-koin.herokuapp.com/
+  tags:
+    - kotlin
+    - ktor
+    - koin
+    - jvm
+
 "Node.js / Koa":
   description:
     <a href="http://nodejs.org/">Node.js</a> + <a href="http://koajs.com">Koa</a>, saving to <a href="http://redis.io/">redis</a>.
@@ -494,6 +515,15 @@
     <a href="http://todo-backend-webapi.azurewebsites.net/todo">C# with ASP.NET Web API</a> implementation using <a href="http://asp.net/web-api">ASP.NET Web API 2.2</a>, C#, and a simple in-memory list for storage.
   sourcecode_url: https://github.com/mforman/todo-backend-webapi
   live_url: https://todo-backend-webapi.azurewebsites.net/todo
+  tags:
+   - csharp
+   - dotnet
+
+"C# - with DDD & EventSourcing":
+  description:
+    <a href="https://github.com/SBortz/TodoAppDdd">C# with DDD approach. State is persisted via EventSourcing and an in-memory event store.</a>
+  sourcecode_url: https://github.com/SBortz/TodoAppDdd
+  live_url: https://todoappdddapi.azurewebsites.net/api/todo
   tags:
    - csharp
    - dotnet
@@ -867,8 +897,8 @@
 "Scala / http4s (in-memory)":
   description:
     A Scala and <a href="http://http4s.org">http4s</a> implementation with an in-memory store
-  sourcecode_url: https://github.com/tomwadeson/todobackend-http4s
-  live_url: https://todobackend-http4s.herokuapp.com/todos
+  sourcecode_url: https://github.com/iamquang95/todo-backend
+  live_url: https://iamquang95-todoapp.herokuapp.com/todo
   tags:
     - scala
     - http4s
@@ -1063,6 +1093,16 @@
     - jvm
     - ktor
 
+"Kotlin / Hexagon":
+  description:
+    <a href="https://kotlinlang.org">Kotlin</a> + <a href="https://hexagonkt.com/">Hexagon</a>, saving in-memory.
+  sourcecode_url: https://github.com/DennisHartrampf/todo_backend
+  live_url: https://dennis-hartrampf-todo-backend.herokuapp.com/
+  tags:
+    - kotlin
+    - hexagon
+    - jvm
+
 "C# - ASP.NET Core 2.0":
   description:
     A simple C# implementation using <a href="https://www.asp.net/core">ASP.NET Core</a> 2.0 with
@@ -1203,3 +1243,45 @@
     - smalltalk
     - pharo
     - seaside
+
+"Java - Spring Boot 2":
+  description:
+    Implementation using <a href="https://spring.io/projects/spring-boot/">Spring Boot</a>, <a href="https://gradle.org/">Gradle</a> as the build tool, and a <a href="https://www.postgresql.org/">Postgres</a> database with migrations managed by <a href="https://flywaydb.org/">Flyway</a>. By <a href="https://github.com/saylerb">Brian Sayler</a>.
+  live_url: https://spring-boot-todos.herokuapp.com/todos
+  sourcecode_url: https://github.com/saylerb/spring-todo
+  tags:
+    - java
+    - spring
+    - postgres
+    - flyway
+    - gradle
+    
+"Kotlin / Hexagon, MongoDb":
+  description:
+    Implementation using Kotlin and <a href="https://hexagonkt.com/">Hexagon</a> saving items to a mongoDb database
+  sourcecode_url: https://github.com/hexagonkt/todo_backend
+  live_url: https://todo-backend-hexagonkt.herokuapp.com/tasks
+  tags:
+    - kotlin
+    - hexagon
+    - mongodb
+
+"PHP / Symfony4 with api-platform":
+  description:
+    PHP implementation with <a href="https://symfony.com/">Symfony 4</a>, using <a href="https://api-platform.com/">API Platform</a>.
+  sourcecode_url: https://gitlab.com/olberger/todobackend-symfony4
+  live_url: https://still-ravine-70063.herokuapp.com/todos
+  tags:
+    - php
+    - symfony4
+    - apiplatform
+
+"R / Plumber":
+  description:
+    A todo backend written in R with <a href="https://www.rplumber.io/">Plumber</a>.
+  sourcecode_url: https://github.com/edavidaja/todo-backend-plumber
+  live_url: https://todo-backend-plumber.herokuapp.com/
+  tags:
+    - rstats
+    - plumber
+    - postgres
