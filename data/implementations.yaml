@@ -1311,3 +1311,13 @@
     - rstats
     - plumber
     - postgres
+    
+"Javalin / Java 11":
+  description:
+    A Java 11 implementation using the lightweight and fast <a href="https://javalin.io/">Javalin</a> framework.
+  sourcecode_url: https://github.com/johanvogelzang/todo-backend
+  live_url: https://javalin-todobackend.herokuapp.com
+  tags:
+    - javalin
+    - jvm
+    - java
