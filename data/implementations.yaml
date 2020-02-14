@@ -1280,5 +1280,6 @@
   live_url: https://javalin-todobackend.herokuapp.com
   tags:
     - javalin
+    - jdbi
     - jvm
     - java
