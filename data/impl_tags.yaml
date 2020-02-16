@@ -310,3 +310,6 @@
   plumber:
     label: plumber
     logo: plumber.png
+  nedb:
+    label: NeDB
+    logo: nedb.png

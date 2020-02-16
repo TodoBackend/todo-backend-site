@@ -1272,3 +1272,14 @@
     - rstats
     - plumber
     - postgres
+
+"Node.js / NeDB / Express":
+  description:
+    Nodejs using embbeded database NeDB. Feel free to follow <a href="https://github.com/mauriciolobo">Mauricio Lobo</a>.
+  sourcecode_url: https://github.com/mauriciolobo/todo
+  live_url: https://todobackend-challenge.herokuapp.com/
+  tags:    
+    - nodejs
+    - nedb
+    - expressjs    
+    - javascript
