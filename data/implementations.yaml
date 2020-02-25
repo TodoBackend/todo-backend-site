@@ -318,6 +318,16 @@
     - goa
     - postgres
 
+"Golang / Echo":
+  description:
+    A <a href="http://golang.org/">Golang</a> implementation using the <a
+      href="https://echo.labstack.com/">Echo</a> web framework, courtesy of <a
+      href="https://github.com/theramis">Simar Kalra</a>.
+  sourcecode_url: https://github.com/theramis/todo-backend-go-echo
+  live_url: https://todo-backend-go-echo.herokuapp.com/todos
+  tags:
+    - golang
+    - echo
 
 "Scala / Lift ":
   description:
