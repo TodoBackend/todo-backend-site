@@ -75,6 +75,9 @@
   kotlin:
     label: Kotlin
     logo: kotlin.png
+  koin:
+    label: Koin
+    logo: koin.png
   javalin:
     label: Javalin
     logo: javalin.svg
@@ -273,7 +276,7 @@
     logo: hanami.png
   ktor:
     label: Ktor
-    logo: ktor.png
+    logo: ktor.svg
   masonite:
     label: Masonite
     logo: masonite.png
@@ -289,3 +292,24 @@
   cake:
     label: CakePHP
     logo: cake.svg
+  flyway:
+    label: Flyway
+    logo: flyway.png
+  gradle:
+    label: Gradle
+    logo: gradle.png
+  hexagon:
+    label: Hexagon
+    logo: hexagon.png
+  symfony4:
+    label: Symfony4
+    logo: symfony.svg
+  apiplatform:
+    label: API Platform
+    logo: apiplatform.png
+  rstats:
+    label: R
+    logo: Rlogo.png
+  plumber:
+    label: plumber
+    logo: plumber.png
