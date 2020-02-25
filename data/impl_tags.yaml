@@ -289,6 +289,9 @@
   seaside:
     label: Seaside
     logo: seaside.png
+  micronaut:
+    label: Micronaut
+    logo: micronaut.png
   cake:
     label: CakePHP
     logo: cake.svg
