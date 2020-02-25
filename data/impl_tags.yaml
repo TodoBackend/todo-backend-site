@@ -289,6 +289,9 @@
   seaside:
     label: Seaside
     logo: seaside.png
+  knexjs:
+    label: Knex.js
+    logo: knex.png
   micronaut:
     label: Micronaut
     logo: micronaut.png
