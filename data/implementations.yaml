@@ -536,6 +536,14 @@
   tags:
     - golang
 
+"Golang / stdlib / Makefile":
+  description:
+    A <a href="http://golang.org/">Golang</a> implementation using only the standard libraries
+  sourcecode_url: https://github.com/gobridge-kr/todo-app
+  live_url: https://arcane-waters-53217.herokuapp.com/
+  tags:
+    - golang
+
 "Vert.x / Mongo / Java8":
   description:
     Implemented using <a href="http://vertx.io/">Vert.x</a> + <a href="https://www.mongodb.org/">MongoDB</a>, written in <a href="http://www.oracle.com/technetwork/java/javase/overview/java8-2100321.html">Java8</a> from <a href="https://github.com/VIthulan/">Vithulan</a>
