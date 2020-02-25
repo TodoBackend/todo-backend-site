@@ -1244,6 +1244,24 @@
     - pharo
     - seaside
 
+"Java / Micronaut":
+  description:
+    Implementation using <a href="https://micronaut.io/">Micronaut</a>. Items are stored in memory H2.
+  sourcecode_url: https://github.com/alexey-lapin/todo-backend-micronaut
+  live_url: https://todo-backend-micronaut.herokuapp.com/todos/
+  tags:
+    - java
+    - jvm
+    - micronaut
+
+"PHP / CakePHP 4":
+  description:
+    PHP implementation with <a href="https://cakephp.org/">CakePHP 4</a>.
+  sourcecode_url: https://github.com/zhiyuan-lin/todo-backend-cakephp
+  live_url: https://todo-backend-cake.herokuapp.com/
+  tags:
+    - php
+    - cake
 "Java - Spring Boot 2":
   description:
     Implementation using <a href="https://spring.io/projects/spring-boot/">Spring Boot</a>, <a href="https://gradle.org/">Gradle</a> as the build tool, and a <a href="https://www.postgresql.org/">Postgres</a> database with migrations managed by <a href="https://flywaydb.org/">Flyway</a>. By <a href="https://github.com/saylerb">Brian Sayler</a>.

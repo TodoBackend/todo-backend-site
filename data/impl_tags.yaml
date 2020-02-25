@@ -292,6 +292,12 @@
   knexjs:
     label: Knex.js
     logo: knex.png
+  micronaut:
+    label: Micronaut
+    logo: micronaut.png
+  cake:
+    label: CakePHP
+    logo: cake.svg
   flyway:
     label: Flyway
     logo: flyway.png
