@@ -227,6 +227,7 @@
     - spring
     - java
     - jvm
+    - gradle
 
 "Java 7 and Spring MVC":
   description:
@@ -239,6 +240,7 @@
    - jvm
    - spring
    - tomcat
+   - gradle
 
 "Vert.x and PostgreSQL":
   description:
@@ -388,6 +390,7 @@
     - kotlin
     - http4k
     - jvm
+    - gradle
 
 "Kotlin / Rapidoid":
   description:
@@ -398,6 +401,7 @@
     - kotlin
     - rapidoid
     - jvm
+    - gradle
 
 "Kotlin / Ktor / Koin":
   description:
@@ -409,6 +413,7 @@
     - ktor
     - koin
     - jvm
+    - gradle
 
 "Node.js / Koa":
   description:
@@ -477,6 +482,7 @@
    - jvm
    - vertx
    - redis
+   - gradle
 
 "F# - ASP.NET Web API":
   description:
@@ -509,6 +515,7 @@
    - jvm
    - dropwizard
    - jersey
+   - gradle
 
 "C# with ServiceStack":
   description:
@@ -891,6 +898,7 @@
     - scala
     - jvm
     - spring
+    - gradle
 
 "Nim / Jester":
   description:
@@ -941,6 +949,7 @@
     - jvm
     - java
     - H2 Database
+    - gradle
 
 "Jooby / In memory":
   description:
@@ -1090,6 +1099,7 @@
     - jvm
     - spring
     - springboot
+    - gradle
 
 "Kotlin / Javalin":
   description:
@@ -1100,6 +1110,7 @@
     - kotlin
     - jvm
     - javalin
+    - gradle
     
 "Kotlin / Ktor":
   description:
@@ -1110,6 +1121,7 @@
     - kotlin
     - jvm
     - ktor
+    - gradle
 
 "Kotlin / Hexagon":
   description:
@@ -1120,6 +1132,7 @@
     - kotlin
     - hexagon
     - jvm
+    - gradle
 
 "C# - ASP.NET Core 2.0":
   description:
@@ -1150,6 +1163,7 @@
     - java
     - jvm
     - jodd
+    - gradle
 
 "XCST - ASP.NET":
   description:
@@ -1221,6 +1235,7 @@
   - ktor
   - kotlin
   - jvm
+  - gradle
 
 "Python / Masonite":
   description:
@@ -1301,6 +1316,7 @@
     - kotlin
     - hexagon
     - mongodb
+    - gradle
 
 "PHP / Symfony4 with api-platform":
   description:
