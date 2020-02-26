@@ -323,5 +323,8 @@
     label: Quarkus
     logo: quarkus.png
   graalvm:
-      label: GraalVM
-      logo: graalvm.png
+    label: GraalVM
+    logo: graalvm.png
+  nedb:
+    label: NeDB
+    logo: nedb.png
