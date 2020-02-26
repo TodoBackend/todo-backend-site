@@ -319,3 +319,9 @@
   plumber:
     label: plumber
     logo: plumber.png
+  quarkus:
+    label: Quarkus
+    logo: quarkus.png
+  graalvm:
+      label: GraalVM
+      logo: graalvm.png

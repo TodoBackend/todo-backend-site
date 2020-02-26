@@ -1332,3 +1332,14 @@
     - jdbi
     - jvm
     - java
+
+"Quarkus":
+  description:
+    A Quarkus implementation using the <a href="https://quarkus.io/">Quarkus</a> framework. RESTEasy/JAX-RS and JSON-B extensions and Persistence to Postgres using Hibernate ORM with Panache extension <a href="https://quarkus.io/guides/hibernate-orm-panache">PANACHE</a>.
+  sourcecode_url: https://github.com/torrespro/Todo-Backend-Quarkus
+  live_url: https://todo-quarkus.herokuapp.com/todos
+  tags:
+    - java
+    - graalvm
+    - quarkus
+    - postgres
