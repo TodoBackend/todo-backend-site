@@ -1267,7 +1267,7 @@
   description:
     A todo backend written in C# with ASP.NET Core 3.1 and Couchbase Server 6.5 as a backend.
   sourcecode_url: https://github.com/mgroves/TodoBackend
-  live_url: http://162.242.235.198:5000
+  live_url: https://todobackendcb.azurewebsites.net/
   tags:
     - C#
     - .NET
