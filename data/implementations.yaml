@@ -1370,3 +1370,12 @@
     - nedb
     - expressjs    
     - javascript
+"Erlang / Cowboy":
+  description:
+    Erlang implementation using cowboy framework and mnesia for storing data
+  sourcecode_url: https://github.com/gen-failure/erlang-todo-backend
+  live_url: https://erlang-todo-backend.herokuapp.com/
+  tags:
+    - erlang
+    - cowboy
+    - mnesia
