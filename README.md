@@ -20,6 +20,8 @@ To add a new Todo-Backend implementation:
 ## Running the site via docker
 A dockerized version of the site is available on Docker Hub as [moredip/todo-backend-site](https://hub.docker.com/r/moredip/todo-backend-site).
 
+*Make sure you have git submodules set up with `git submodule update --init --recursive`*
+
 You can run the site within a container while still incorporating local changes:
 ```
 docker run -p 4567:4567 -v "${PWD}/data:/opt/docker/data" -v "${PWD}/source:/opt/docker/source" moredip/todo-backend-site build serve
