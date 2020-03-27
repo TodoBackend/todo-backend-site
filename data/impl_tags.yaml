@@ -289,6 +289,15 @@
   seaside:
     label: Seaside
     logo: seaside.png
+  knexjs:
+    label: Knex.js
+    logo: knex.png
+  micronaut:
+    label: Micronaut
+    logo: micronaut.png
+  cake:
+    label: CakePHP
+    logo: cake.svg
   flyway:
     label: Flyway
     logo: flyway.png
@@ -310,3 +319,12 @@
   plumber:
     label: plumber
     logo: plumber.png
+  quarkus:
+    label: Quarkus
+    logo: quarkus.png
+  graalvm:
+    label: GraalVM
+    logo: graalvm.png
+  nedb:
+    label: NeDB
+    logo: nedb.png
