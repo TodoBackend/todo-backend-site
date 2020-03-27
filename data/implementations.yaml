@@ -1334,8 +1334,8 @@
   sourcecode_url: https://github.com/mgroves/TodoBackend
   live_url: https://todobackendcb.azurewebsites.net/
   tags:
-    - C#
-    - .NET
+    - csharp
+    - dotnet
     - Couchbase
     - N1QL
 
