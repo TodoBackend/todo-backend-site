@@ -328,3 +328,8 @@
   nedb:
     label: NeDB
     logo: nedb.png
+  gokit:
+    label: Go kit
+    logo: gokit.png
+  gorm:
+    label: GORM

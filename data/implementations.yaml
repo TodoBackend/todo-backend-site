@@ -1381,3 +1381,14 @@
     - nedb
     - expressjs    
     - javascript
+
+"Golang / Go kit / GORM":
+  description:
+    An example implementation with <a href="https://github.com/go-kit/kit">Go kit</a>, <a href="https://gorm.io/">GORM</a> and PostgreSQL.
+  sourcecode_url: https://github.com/ormanli/todo-backend
+  live_url: https://todo-backend-gokit-postgresql.herokuapp.com/todos
+  tags:
+    - golang
+    - gokit
+    - gorm
+    - postgres
