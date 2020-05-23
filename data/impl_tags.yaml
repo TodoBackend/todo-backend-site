@@ -333,3 +333,6 @@
     logo: gokit.png
   gorm:
     label: GORM
+  reitit:
+    label: Reitit
+    logo: no-logo.svg
