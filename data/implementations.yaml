@@ -1402,3 +1402,12 @@
     - gokit
     - gorm
     - postgres
+
+"Golang / Go kit":
+  description:
+    A <a href="http://golang.org/">Golang</a> implementation using <a href="https://github.com/go-kit/kit">Go kit</a>, following <a href="https://github.com/sagikazarmark/modern-go-application">Modern Go Application</a> practices.
+  sourcecode_url: https://github.com/sagikazarmark/todobackend-go-kit
+  live_url: https://todobackend-go-kit.herokuapp.com/todos
+  tags:
+    - golang
+    - gokit
