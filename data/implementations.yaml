@@ -842,6 +842,17 @@
     - jvm
     - fintrospect
 
+"Scala / endpoints4s / Swagger":
+  description:
+    A <a href="http://www.scala-lang.org/">Scala</a> implementation using
+    <a href="https://endpoints4s.github.io/">endpoints4s</a> to also describe the API with Swagger UI.
+    Under the hood: <a href="https://http4s.org/">http4s</a> and <a href="https://tpolecat.github.io/doobie/">doobie</a>.
+  sourcecode_url: https://github.com/stefanholzmueller/todobackend-endpoints4s
+  live_url: https://todobackend-endpoints4s.herokuapp.com/todos
+  tags:
+    - scala
+    - swagger
+
 "Swift / Kitura / CouchDB":
   description:
     A <a href="http://www.swift.org">Swift</a> implementation using
