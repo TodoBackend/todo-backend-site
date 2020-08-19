@@ -1402,3 +1402,13 @@
     - gokit
     - gorm
     - postgres
+
+"Crystal / Spider-Gazelle / Clear":
+  description: A <a href="https://crystal-lang.org/">Crystal</a> implementation using <a href="https://spider-gazelle.net/#/">Spider-Gazelle</a> with <a href="https://clear.gitbook.io/project/">Clear ORM</a> and PostgreSQL
+  sourcecode_url: https://github.com/dukeraphaelng/spider-gazelle-todo
+  live_url: https://spidergazelle-todo.herokuapp.com/todos
+  tags:
+    - crystal
+    - "spider-gazelle"
+    - clear
+    - postgres

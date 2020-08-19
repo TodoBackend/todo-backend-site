@@ -333,3 +333,6 @@
     logo: gokit.png
   gorm:
     label: GORM
+  spider-gazelle:
+    label: "Spider-Gazelle"
+    logo: spidergazelle.png
