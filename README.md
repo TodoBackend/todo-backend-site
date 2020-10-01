@@ -32,3 +32,4 @@ If you prefer Docker Compose there's a `docker-compose.yml` in the root of the s
 docker-compose run --service-ports site
 ```
 and you'll have the site running on port 80 of your Docker host.
+thanks for the the assistance
