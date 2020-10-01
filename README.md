@@ -1,11 +1,11 @@
-todo-backend-site
+Todo-backend-site
 =================
 
 Source for www.todobackend.com. This is a [middleman](https://middlemanapp.com)-based static website. 
 
 built and deployed to S3 via: [![CircleCI](https://circleci.com/gh/TodoBackend/todo-backend-site.svg?style=svg)](https://circleci.com/gh/TodoBackend/todo-backend-site)
 
-## Adding a new implementation listing
+## Adding a new implementation: listing
 To add a new Todo-Backend implementation:
 - [ ] edit `data/implementations.yaml`
 - [ ] add any new tags to `data/impl_tags.yaml`
