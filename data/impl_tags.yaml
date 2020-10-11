@@ -339,3 +339,6 @@
   reitit:
     label: Reitit
     logo: no-logo.svg
+  spider-gazelle:
+    label: "Spider-Gazelle"
+    logo: spidergazelle.png
