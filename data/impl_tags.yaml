@@ -333,3 +333,9 @@
     logo: gokit.png
   gorm:
     label: GORM
+  couchbase:
+    label: Couchbase
+    logo: couchbase.png
+  reitit:
+    label: Reitit
+    logo: no-logo.svg
