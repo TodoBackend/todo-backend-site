@@ -1413,3 +1413,33 @@
     - gokit
     - gorm
     - postgres
+    
+"Clojure / Reitit / next-jdbc":
+  description:
+    A simple Clojure implementation storing to Posgres DB via <a href="https://github.com/seancorfield/next-jdbc">next.jdbc</a> courtesy of <a href="https://twitter.com/PrestanceDesign">Mike Salihi</a>.
+  sourcecode_url: https://github.com/PrestanceDesign/todo-backend-clojure-reitit
+  live_url: https://todo-backend-clojure-reitit.herokuapp.com/todos
+  tags:
+    - clojure
+    - reitit
+    - next.jdbc
+    - jvm
+
+"Golang / Go kit":
+  description:
+    A <a href="http://golang.org/">Golang</a> implementation using <a href="https://github.com/go-kit/kit">Go kit</a>, following <a href="https://github.com/sagikazarmark/modern-go-application">Modern Go Application</a> practices.
+  sourcecode_url: https://github.com/sagikazarmark/todobackend-go-kit
+  live_url: https://todobackend-go-kit.herokuapp.com/todos
+  tags:
+    - golang
+    - gokit
+
+"Golang / mux / buntdb":
+  description:
+    A <a href="http://golang.org/">Go</a> implementation using <a href="https://github.com/gorilla/mux">mux</a> and <a href="https://github.com/tidwall/buntdb">BuntDB</a>.
+  sourcecode_url: https://github.com/eguanlao/todo-backend-go-mux-buntdb
+  live_url: https://todo-backend-go-mux-buntdb.herokuapp.com/
+  tags:
+    - golang
+    - mux
+    - buntdb
