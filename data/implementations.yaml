@@ -90,6 +90,19 @@
     - expressjs
     - postgres
 
+"Node.js / Express / Knex.js":
+  description:
+    Node.js + Express + <a href="http://knexjs.org">Knex</a> (query builder configured to save to Postgres). Implementation uses async/await. Courtesty of <a href="https://github.com/tonycheang">Tony Cheang</a>.
+  sourcecode_url: https://github.com/tonycheang/todo-backend-express-knex
+  live_url: https://todo-backend-express-knex.herokuapp.com/
+  tags:
+    - javascript
+    - es6
+    - nodejs
+    - expressjs
+    - postgres
+    - knexjs
+
 "Node.js / Hapi.js":
   description:
     <a href="http://hapijs.com">Hapi.js</a> saving to a MongoDB collection via <a href="http://mongoosejs.com/">MongooseJS</a> by <a href="https://github.com/pamo">Pamela Ocampo</a>.
@@ -214,6 +227,7 @@
     - spring
     - java
     - jvm
+    - gradle
 
 "Java 7 and Spring MVC":
   description:
@@ -226,6 +240,7 @@
    - jvm
    - spring
    - tomcat
+   - gradle
 
 "Vert.x and PostgreSQL":
   description:
@@ -305,6 +320,16 @@
     - goa
     - postgres
 
+"Golang / Echo":
+  description:
+    A <a href="http://golang.org/">Golang</a> implementation using the <a
+      href="https://echo.labstack.com/">Echo</a> web framework, courtesy of <a
+      href="https://github.com/theramis">Simar Kalra</a>.
+  sourcecode_url: https://github.com/theramis/todo-backend-go-echo
+  live_url: https://todo-backend-go-echo.herokuapp.com/todos
+  tags:
+    - golang
+    - echo
 
 "Scala / Lift ":
   description:
@@ -365,6 +390,7 @@
     - kotlin
     - http4k
     - jvm
+    - gradle
 
 "Kotlin / Rapidoid":
   description:
@@ -375,6 +401,7 @@
     - kotlin
     - rapidoid
     - jvm
+    - gradle
 
 "Kotlin / Ktor / Koin":
   description:
@@ -386,6 +413,7 @@
     - ktor
     - koin
     - jvm
+    - gradle
 
 "Node.js / Koa":
   description:
@@ -454,6 +482,7 @@
    - jvm
    - vertx
    - redis
+   - gradle
 
 "F# - ASP.NET Web API":
   description:
@@ -486,6 +515,7 @@
    - jvm
    - dropwizard
    - jersey
+   - gradle
 
 "C# with ServiceStack":
   description:
@@ -520,6 +550,14 @@
     A <a href="http://golang.org/">Golang</a> implementation using only the standard libraries
   sourcecode_url: https://github.com/mforman/todo-backend-golang
   live_url: https://todo-backend-golang-stdlib.herokuapp.com/todos
+  tags:
+    - golang
+
+"Golang / stdlib / Makefile":
+  description:
+    A <a href="http://golang.org/">Golang</a> implementation using only the standard libraries
+  sourcecode_url: https://github.com/gobridge-kr/todo-app
+  live_url: https://arcane-waters-53217.herokuapp.com/
   tags:
     - golang
 
@@ -860,6 +898,7 @@
     - scala
     - jvm
     - spring
+    - gradle
 
 "Nim / Jester":
   description:
@@ -910,6 +949,7 @@
     - jvm
     - java
     - H2 Database
+    - gradle
 
 "Jooby / In memory":
   description:
@@ -1059,6 +1099,7 @@
     - jvm
     - spring
     - springboot
+    - gradle
 
 "Kotlin / Javalin":
   description:
@@ -1069,6 +1110,7 @@
     - kotlin
     - jvm
     - javalin
+    - gradle
     
 "Kotlin / Ktor":
   description:
@@ -1079,6 +1121,7 @@
     - kotlin
     - jvm
     - ktor
+    - gradle
 
 "Kotlin / Hexagon":
   description:
@@ -1089,6 +1132,7 @@
     - kotlin
     - hexagon
     - jvm
+    - gradle
 
 "C# - ASP.NET Core 2.0":
   description:
@@ -1119,6 +1163,7 @@
     - java
     - jvm
     - jodd
+    - gradle
 
 "XCST - ASP.NET":
   description:
@@ -1190,6 +1235,7 @@
   - ktor
   - kotlin
   - jvm
+  - gradle
 
 "Python / Masonite":
   description:
@@ -1231,6 +1277,24 @@
     - pharo
     - seaside
 
+"Java / Micronaut":
+  description:
+    Implementation using <a href="https://micronaut.io/">Micronaut</a>. Items are stored in memory H2.
+  sourcecode_url: https://github.com/alexey-lapin/todo-backend-micronaut
+  live_url: https://todo-backend-micronaut.herokuapp.com/todos/
+  tags:
+    - java
+    - jvm
+    - micronaut
+
+"PHP / CakePHP 4":
+  description:
+    PHP implementation with <a href="https://cakephp.org/">CakePHP 4</a>.
+  sourcecode_url: https://github.com/zhiyuan-lin/todo-backend-cakephp
+  live_url: https://todo-backend-cake.herokuapp.com/
+  tags:
+    - php
+    - cake
 "Java - Spring Boot 2":
   description:
     Implementation using <a href="https://spring.io/projects/spring-boot/">Spring Boot</a>, <a href="https://gradle.org/">Gradle</a> as the build tool, and a <a href="https://www.postgresql.org/">Postgres</a> database with migrations managed by <a href="https://flywaydb.org/">Flyway</a>. By <a href="https://github.com/saylerb">Brian Sayler</a>.
@@ -1252,6 +1316,7 @@
     - kotlin
     - hexagon
     - mongodb
+    - gradle
 
 "PHP / Symfony4 with api-platform":
   description:
@@ -1263,6 +1328,17 @@
     - symfony4
     - apiplatform
 
+"ASP.NET Core 3.1 / Couchbase":
+  description:
+    A todo backend written in C# with ASP.NET Core 3.1 and Couchbase Server 6.5 as a backend.
+  sourcecode_url: https://github.com/mgroves/TodoBackend
+  live_url: https://todobackendcb.azurewebsites.net/
+  tags:
+    - csharp
+    - dotnet
+    - Couchbase
+    - N1QL
+
 "R / Plumber":
   description:
     A todo backend written in R with <a href="https://www.rplumber.io/">Plumber</a>.
@@ -1271,4 +1347,58 @@
   tags:
     - rstats
     - plumber
+    - postgres
+    
+"Javalin / Java 11":
+  description:
+    A Java 11 implementation using the lightweight and fast <a href="https://javalin.io/">Javalin</a> framework.
+  sourcecode_url: https://github.com/johanvogelzang/todo-backend
+  live_url: https://javalin-todobackend.herokuapp.com
+  tags:
+    - javalin
+    - jdbi
+    - jvm
+    - java
+
+"Quarkus":
+  description:
+    A Quarkus implementation using the <a href="https://quarkus.io/">Quarkus</a> framework. RESTEasy/JAX-RS and JSON-B extensions and Persistence to Postgres using Hibernate ORM with Panache extension <a href="https://quarkus.io/guides/hibernate-orm-panache">PANACHE</a>.
+  sourcecode_url: https://github.com/torrespro/Todo-Backend-Quarkus
+  live_url: https://todo-quarkus.herokuapp.com/todos
+  tags:
+    - java
+    - graalvm
+    - quarkus
+    - postgres
+
+"Node.js / NeDB / Express":
+  description:
+    Nodejs using embbeded database NeDB. Feel free to follow <a href="https://github.com/mauriciolobo">Mauricio Lobo</a>.
+  sourcecode_url: https://github.com/mauriciolobo/todo
+  live_url: https://todobackend-challenge.herokuapp.com/
+  tags:    
+    - nodejs
+    - nedb
+    - expressjs    
+    - javascript
+
+"Erlang / Cowboy":
+  description:
+    Erlang implementation using cowboy framework and mnesia for storing data
+  sourcecode_url: https://github.com/gen-failure/erlang-todo-backend
+  live_url: https://erlang-todo-backend.herokuapp.com/
+  tags:
+    - erlang
+    - cowboy
+    - mnesia
+
+"Golang / Go kit / GORM":
+  description:
+    An example implementation with <a href="https://github.com/go-kit/kit">Go kit</a>, <a href="https://gorm.io/">GORM</a> and PostgreSQL.
+  sourcecode_url: https://github.com/ormanli/todo-backend
+  live_url: https://todo-backend-gokit-postgresql.herokuapp.com/todos
+  tags:
+    - golang
+    - gokit
+    - gorm
     - postgres
