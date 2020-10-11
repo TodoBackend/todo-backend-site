@@ -1422,3 +1422,13 @@
   tags:
     - golang
     - gokit
+
+"Golang / mux / buntdb":
+  description:
+    A <a href="http://golang.org/">Go</a> implementation using <a href="https://github.com/gorilla/mux">mux</a> and <a href="https://github.com/tidwall/buntdb">BuntDB</a>.
+  sourcecode_url: https://github.com/eguanlao/todo-backend-go-mux-buntdb
+  live_url: https://todo-backend-go-mux-buntdb.herokuapp.com/
+  tags:
+    - golang
+    - mux
+    - buntdb
