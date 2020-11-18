@@ -930,6 +930,19 @@
   tags:
     - crystal
     - kemal
+    
+"Crystal / Spider-Gazelle / Clear ORM / Postgres":
+  description:
+    A <a href="https://crystal-lang.org/">Crystal</a> implementation using 
+    <a href="https://github.com/spider-gazelle">Spider-Gazelle framework</a>,
+    <a href="https://github.com/anykeyh/clear">Clear ORM</a> and PostgresDB.
+  sourcecode_url: https://github.com/polonski/hello-spider-gazelle
+  live_url: http://todobackend-crystal.herokuapp.com/
+  tags:
+    - crystal
+    - spider-gazelle
+    - clear-orm
+    - postgres
 
 "Scala / http4s (in-memory)":
   description:
