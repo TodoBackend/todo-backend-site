@@ -67,6 +67,17 @@
     - rust
     - rocket
 
+"Node.js / Azure Functions / Azure SQL":
+  description:
+    Todo backend implemented with Node and Azure Functions. Database is Azure SQL.
+  sourcecode_url: https://github.com/Azure-Samples/azure-sql-db-todo-backend-func-node
+  live_url: http://todobackend.com/client/index.html?https://dm-tdb-01.azurewebsites.net/api/ToDo
+  tags:
+    - azure-functions
+    - nodejs
+    - azure-sql
+    - vue
+
 "Node.js / Express":
   description:
     Node.js + Express, saving to Postgres. Courtesy of <a href="https://github.com/dtao">Daniel Tao</a>.
