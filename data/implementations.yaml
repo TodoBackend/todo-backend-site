@@ -941,7 +941,7 @@
   tags:
     - crystal
     - spider-gazelle
-    - clear-orm
+    - clear
     - postgres
 
 "Scala / http4s (in-memory)":
