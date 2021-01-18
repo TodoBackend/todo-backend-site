@@ -1477,3 +1477,13 @@
     - "spider-gazelle"
     - clear
     - postgres
+
+"F# / AWS Lambda / API Gateway / DynamoDB"
+  description:
+    An implementation in <a href="https://fsharp.org/">F#</a> using <a href="https://aws.amazon.com/lambda/">AWS Lambda</a>, <a href="https://aws.amazon.com/api-gateway/">API Gateway</a> and <a href="https://aws.amazon.com/dynamodb/">DynamoDB</a> as a storage.
+  sourcecode_url: https://github.com/ArthurShvetsov/todobackend-aws-lambda-dynamodb-fsharp
+  live_url: https://pcy3anbgx8.execute-api.us-east-1.amazonaws.com/Prod/
+  tags:
+    - fsharp
+    - dotnet
+    - awslambda
