@@ -235,6 +235,9 @@
   azurefunctions:
     label: Azure Functions
     logo: azurefunctions.png
+  awslambda:
+    label: AWS Lambda
+    logo: awslambda.svg
   vraptor:
     label: VRaptor
     logo: vraptor.png
