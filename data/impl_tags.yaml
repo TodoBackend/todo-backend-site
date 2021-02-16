@@ -235,6 +235,9 @@
   azurefunctions:
     label: Azure Functions
     logo: azurefunctions.png
+  azuresql:
+    label: Azure SQL
+    logo: azuresql.png
   vraptor:
     label: VRaptor
     logo: vraptor.png
