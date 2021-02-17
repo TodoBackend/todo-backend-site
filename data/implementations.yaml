@@ -73,10 +73,9 @@
   sourcecode_url: https://github.com/Azure-Samples/azure-sql-db-todo-backend-func-node
   live_url: http://todobackend.com/client/index.html?https://dm-tdb-01.azurewebsites.net/api/ToDo
   tags:
-    - azure-functions
+    - azurefunctions
     - nodejs
-    - azure-sql
-    - vue
+    - azuresql
 
 "Node.js / Express":
   description:
