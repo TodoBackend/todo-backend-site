@@ -155,7 +155,7 @@
     - nodejs
     - micro
     - postgres
-    
+
 "Node.js / SailsJS":
   description:
     Node.js implementation in <a href="https://sailsjs.com/">SailsJS</a> by <a href="https://github.com/kixpanganiban/">Kix Panganiban</a>.
@@ -700,7 +700,7 @@
     - python
     - falcon
     - tinydb
-    
+
 "Python / Sanic":
   description:
     Implementation written in <a href="https://github.com/huge-success/sanic">Sanic</a> by <a href="https://github.com/kixpanganiban/">Kix Panganiban</a>.
@@ -884,6 +884,16 @@
     - swift
     - vapor
 
+"Swift / Hummingbird / Fluent":
+  description:
+    A <a href="http://www.swift.org">Swift</a> implementation using
+    <a href="https://github.com/hummingbird-project/hummingbird">Hummingbird</a>
+    and <a href="https://github.com/vapor/fluent">Fluent</a>.
+  sourcecode_url: https://github.com/adam-fowler/todo-backend-hummingbird
+  live_url: https://hummingbird-todos.herokuapp.com/todos
+  tags:
+    - swift
+
 "Scala - Play 2.5 / Postgres":
   description:
     A <a href="http://www.scala-lang.org/">Scala</a> implementation using
@@ -940,10 +950,10 @@
   tags:
     - crystal
     - kemal
-    
+
 "Crystal / Spider-Gazelle / Clear ORM / Postgres":
   description:
-    A <a href="https://crystal-lang.org/">Crystal</a> implementation using 
+    A <a href="https://crystal-lang.org/">Crystal</a> implementation using
     <a href="https://github.com/spider-gazelle">Spider-Gazelle framework</a>,
     <a href="https://github.com/anykeyh/clear">Clear ORM</a> and PostgresDB.
   sourcecode_url: https://github.com/polonski/hello-spider-gazelle
@@ -1145,7 +1155,7 @@
     - jvm
     - javalin
     - gradle
-    
+
 "Kotlin / Ktor":
   description:
     Implementation using Kotlin and <a href="https://ktor.io">Ktor</a>. Items are stored in memory.
@@ -1250,7 +1260,7 @@
     - java
     - jvm
     - javaee
-    
+
 "Ruby / Hanami":
   description:
     A Ruby implementation using <a href="http://hanamirb.org/">Hanami</a>.
@@ -1340,7 +1350,7 @@
     - postgres
     - flyway
     - gradle
-    
+
 "Kotlin / Hexagon, MongoDb":
   description:
     Implementation using Kotlin and <a href="https://hexagonkt.com/">Hexagon</a> saving items to a mongoDb database
@@ -1382,7 +1392,7 @@
     - rstats
     - plumber
     - postgres
-    
+
 "Javalin / Java 11":
   description:
     A Java 11 implementation using the lightweight and fast <a href="https://javalin.io/">Javalin</a> framework.
@@ -1410,10 +1420,10 @@
     Nodejs using embbeded database NeDB. Feel free to follow <a href="https://github.com/mauriciolobo">Mauricio Lobo</a>.
   sourcecode_url: https://github.com/mauriciolobo/todo
   live_url: https://todobackend-challenge.herokuapp.com/
-  tags:    
+  tags:
     - nodejs
     - nedb
-    - expressjs    
+    - expressjs
     - javascript
 
 "Erlang / Cowboy":
@@ -1436,7 +1446,7 @@
     - gokit
     - gorm
     - postgres
-    
+
 "Clojure / Reitit / next-jdbc":
   description:
     A simple Clojure implementation storing to Posgres DB via <a href="https://github.com/seancorfield/next-jdbc">next.jdbc</a> courtesy of <a href="https://twitter.com/PrestanceDesign">Mike Salihi</a>.
