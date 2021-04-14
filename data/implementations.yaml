@@ -424,6 +424,18 @@
     - koin
     - jvm
     - gradle
+    
+"Kotlin / Ktor":
+  description:
+    Implementation using <a href="https://kotlinlang.org">Kotlin</a>, <a href="https://ktor.io">Ktor</a>, saving in Postgres DB.
+  sourcecode_url: https://github.com/LordRaydenMK/TodoBackend
+  live_url: https://todo-backend-stojan.herokuapp.com/
+  tags:
+    - kotlin
+    - ktor
+    - postgres
+    - jvm
+    - gradle
 
 "Node.js / Koa":
   description:
