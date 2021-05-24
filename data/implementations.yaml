@@ -29,6 +29,14 @@
     - perl
     - postgres
 
+"Racket":
+  description:
+    Simple implementation in Racket using a simple in-memory database.
+  sourcecode_url: https://github.com/FredrikMeyer/todo-backend-racket
+  live_url: https://todo-backend-racket.herokuapp.com/
+  tags:
+    - racket
+
 "Ruby / Sinatra":
   description:
     A simple ruby implementation using the lightweight <a href="http://www.sinatrarb.com/">Sinatra</a> web

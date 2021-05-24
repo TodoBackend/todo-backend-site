@@ -10,6 +10,8 @@
     logo: catalyst.png
   javascript:
     label: JavaScript
+  racket:
+    label: Racket
   ruby:
     label: Ruby
   sinatra:
