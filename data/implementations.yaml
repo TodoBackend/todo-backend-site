@@ -1178,6 +1178,14 @@
     - dotnet
     - csharp
     - docker
+"C# - .NET 6, ASP.NET Core, Minimal API":
+  description:
+    <a href="https://todobackend-aspnetcore.herokuapp.com/swagger/index.html">C# with ASP.NET Core 6</a> implementation using Minimal API approach, C#, and a simple in-memory Entity Framework provider for storage.
+  sourcecode_url: https://github.com/NikiforovAll/todo-backend-aspnetcore-minimal-api
+  live_url: https://todobackend-aspnetcore.herokuapp.com/api/todos
+  tags:
+   - csharp
+   - dotnet
 
 "PHP / Laravel":
   description:
