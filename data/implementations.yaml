@@ -228,6 +228,17 @@
     - jvm
     - mongodb
 
+"Java 17 / Spring WebFlux / R2DBC":
+  description:
+    An implementation in Java 17 with a non-blocking approach utilizing Spring WebFlux and R2DBC by <a href="https://github.com/Raveen87">Ola Skjaevesland</a>.
+  sourcecode_url: https://github.com/Raveen87/todo-backend
+  live_url: https://todo-backend-webflux.herokuapp.com/api/todo
+  tags:
+    - java
+    - jvm
+    - spring
+    - postgres
+
 "Java 8 with Spring 4 Boot":
   description:
     A version using Spring 4 Boot + Java 8 from <a href="https://github.com/jcsantosbr">Jefferson Santos</a>.
