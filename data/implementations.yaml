@@ -71,7 +71,7 @@
   description:
     Todo backend implemented with Node and Azure Functions. Database is Azure SQL.
   sourcecode_url: https://github.com/Azure-Samples/azure-sql-db-todo-backend-func-node
-  live_url: http://todobackend.com/client/index.html?https://dm-tdb-01.azurewebsites.net/api/ToDo
+  live_url: https://dm-tdb-01.azurewebsites.net/api/ToDo
   tags:
     - azurefunctions
     - nodejs
@@ -1476,3 +1476,14 @@
     - "spider-gazelle"
     - clear
     - postgres
+
+"C# / Azure Functions / Azure SQL":
+  description:
+    Todo backend implemented through Azure Functions in C# with Azure SQL bindings for Azure Functions.
+  sourcecode_url: https://github.com/Azure-Samples/azure-sql-binding-func-dotnet-todo
+  live_url: https://azuresqltodo.azurewebsites.net/api/ToDo
+  tags:
+    - azurefunctions
+    - dotnet
+    - csharp
+    - azuresql
