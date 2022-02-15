@@ -1,0 +1,153 @@
+openapi: 3.0.0
+info:
+  title: ToDo API
+  version: 1.0.0
+  description: ToDo App API
+
+components:
+  schemas:
+    ToDoItem:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        title:
+          type: string
+          example: "Learn OpenAPI"
+        description:
+          type: string
+          example: "Learn how to use OpenAPI to create a REST API"
+        completed:
+          type: boolean
+          example: false
+        createdAt:
+          type: string
+          format: date-time
+        updatedAt:
+          type: string
+          format: date-time
+paths:
+  /:
+    get:
+      summary: returns a list of the current ToDo items
+      description: give more information about return type
+      responses:
+        '200':
+          description: a json array of ToDo items
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/ToDoItem'
+    post:
+      summary: creates a new ToDo item
+      description: give more information about return type
+      requestBody:
+        description: the ToDo item to create
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ToDoItem'
+      responses:
+        '200':
+          description: the created ToDo item
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ToDoItem'
+    delete:
+      summary: deletes all ToDo items
+      description: give more information about return type
+      responses:
+        '204':
+          description: no content
+  /?id={id}:
+    get:
+      summary: returns a single ToDo item
+      description: give more information about return type
+      parameters:
+        - name: id
+          in: query
+          description: the id of the ToDo item
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: a json object of ToDo item
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ToDoItem'
+        '404':
+          description: ToDo item not found
+          content:
+            application/json:
+              schema:
+                type: array
+                properties:
+                  message:
+                    type: string
+                    example: "ToDo item not found"
+    patch:
+      summary: updates a ToDo item
+      description: give more information about return type
+      parameters:
+        - name: id
+          in: query
+          description: the id of the ToDo item
+          required: true
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ToDoItem'
+      responses:
+        '200':
+          description: the updated ToDo item
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ToDoItem'
+        '404':
+          description: ToDo item not found
+          content:
+            application/json:
+              schema:
+                type: array
+                properties:
+                  message:
+                    type: string
+                    example: "ToDo item not found"
+    delete:
+      summary: deletes a single ToDo item
+      description: give more information about return type
+      parameters:
+        - name: id
+          in: query
+          description: the id of the ToDo item
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '204':
+          description: no content
+        '404':
+          description: ToDo item not found
+          content:
+            application/json:
+              schema:
+                type: array
+                properties:
+                  message:
+                    type: string
+                    example: "ToDo item not found"
