@@ -15,23 +15,21 @@ components:
         title:
           type: string
           example: "Learn OpenAPI"
-        description:
-          type: string
-          example: "Learn how to use OpenAPI to create a REST API"
+        order:
+          type: integer
+          example: 2
         completed:
           type: boolean
           example: false
-        createdAt:
+        url:
           type: string
-          format: date-time
-        updatedAt:
-          type: string
-          format: date-time
+          format: uri
+          example: http://localhost:8080/todo?id=1234-5678-9012-3456
 paths:
   /:
     get:
-      summary: returns a list of the current ToDo items
-      description: give more information about return type
+      summary: retrieves a list of the current ToDo items
+      description: returns a list of the current ToDo items
       responses:
         '200':
           description: a json array of ToDo items
@@ -43,7 +41,7 @@ paths:
                   $ref: '#/components/schemas/ToDoItem'
     post:
       summary: creates a new ToDo item
-      description: give more information about return type
+      description: returns the created ToDo item
       requestBody:
         description: the ToDo item to create
         required: true
@@ -60,14 +58,20 @@ paths:
                 $ref: '#/components/schemas/ToDoItem'
     delete:
       summary: deletes all ToDo items
-      description: give more information about return type
+      description: returns the remaining ToDo items (none)
       responses:
-        '204':
-          description: no content
+        '200':
+          description: empty array of ToDo items
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/ToDoItem'
   /?id={id}:
     get:
-      summary: returns a single ToDo item
-      description: give more information about return type
+      summary: retrieve a single ToDo item specified by id
+      description: returns a single ToDo item
       parameters:
         - name: id
           in: query
@@ -85,17 +89,9 @@ paths:
                 $ref: '#/components/schemas/ToDoItem'
         '404':
           description: ToDo item not found
-          content:
-            application/json:
-              schema:
-                type: array
-                properties:
-                  message:
-                    type: string
-                    example: "ToDo item not found"
     patch:
       summary: updates a ToDo item
-      description: give more information about return type
+      description: return the updated ToDo item
       parameters:
         - name: id
           in: query
@@ -119,17 +115,9 @@ paths:
                 $ref: '#/components/schemas/ToDoItem'
         '404':
           description: ToDo item not found
-          content:
-            application/json:
-              schema:
-                type: array
-                properties:
-                  message:
-                    type: string
-                    example: "ToDo item not found"
     delete:
       summary: deletes a single ToDo item
-      description: give more information about return type
+      description: return the remaining ToDo items following the delete operation
       parameters:
         - name: id
           in: query
@@ -139,15 +127,13 @@ paths:
             type: string
             format: uuid
       responses:
-        '204':
-          description: no content
-        '404':
-          description: ToDo item not found
+        '200':
+          description: single ToDo item deleted, returns remaining ToDo items
           content:
             application/json:
               schema:
                 type: array
-                properties:
-                  message:
-                    type: string
-                    example: "ToDo item not found"
+                items:
+                  $ref: '#/components/schemas/ToDoItem'
+        '404':
+          description: ToDo item not found
