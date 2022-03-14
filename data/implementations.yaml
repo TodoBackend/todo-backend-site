@@ -673,6 +673,15 @@
     - python
     - flask
 
+"Python / Flask":
+  description:
+      Updated implementation written in Python with <a href="http://flask.pocoo.org/">Flask</a>.
+  live_url: https://todo-backend2-flask.herokuapp.com
+  sourcecode_url: https://github.com/staeff/todo-backend-flask
+  tags:
+    - python
+    - flask
+
 "Python / Circuits":
   description:
       Implementation written in Python with <a href="http://circuitsframework.com/">Circuits Framework</a>.
