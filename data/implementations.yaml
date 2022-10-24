@@ -1,3 +1,13 @@
+".NET 6 / Clean Architecture":
+  description:
+    This is an implementation of the todobackend to demonstrate (or even use as a template) for .NET Clean
+    Architecture projects.
+  sourcecode_url: https://github.com/thehaseebahmed/aspnetcore-clean-architecture
+  live_url: https://csharp-todo-backend.azurewebsites.net/api/v1/todo
+  tags:
+    - dotnet
+    - csharp
+    
 "Perl / Catalyst":
   description:
     todo backend implemented with perl and <a href="https://metacpan.org/pod/Catalyst">Catalyst</a>. Backed
