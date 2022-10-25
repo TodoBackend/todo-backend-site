@@ -1,0 +1,139 @@
+openapi: 3.0.0
+info:
+  title: ToDo API
+  version: 1.0.0
+  description: ToDo App API
+
+components:
+  schemas:
+    ToDoItem:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        title:
+          type: string
+          example: "Learn OpenAPI"
+        order:
+          type: integer
+          example: 2
+        completed:
+          type: boolean
+          example: false
+        url:
+          type: string
+          format: uri
+          example: http://localhost:8080/todo?id=1234-5678-9012-3456
+paths:
+  /:
+    get:
+      summary: retrieves a list of the current ToDo items
+      description: returns a list of the current ToDo items
+      responses:
+        '200':
+          description: a json array of ToDo items
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/ToDoItem'
+    post:
+      summary: creates a new ToDo item
+      description: returns the created ToDo item
+      requestBody:
+        description: the ToDo item to create
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ToDoItem'
+      responses:
+        '200':
+          description: the created ToDo item
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ToDoItem'
+    delete:
+      summary: deletes all ToDo items
+      description: returns the remaining ToDo items (none)
+      responses:
+        '200':
+          description: empty array of ToDo items
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/ToDoItem'
+  /?id={id}:
+    get:
+      summary: retrieve a single ToDo item specified by id
+      description: returns a single ToDo item
+      parameters:
+        - name: id
+          in: query
+          description: the id of the ToDo item
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: a json object of ToDo item
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ToDoItem'
+        '404':
+          description: ToDo item not found
+    patch:
+      summary: updates a ToDo item
+      description: return the updated ToDo item
+      parameters:
+        - name: id
+          in: query
+          description: the id of the ToDo item
+          required: true
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ToDoItem'
+      responses:
+        '200':
+          description: the updated ToDo item
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ToDoItem'
+        '404':
+          description: ToDo item not found
+    delete:
+      summary: deletes a single ToDo item
+      description: return the remaining ToDo items following the delete operation
+      parameters:
+        - name: id
+          in: query
+          description: the id of the ToDo item
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: single ToDo item deleted, returns remaining ToDo items
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/ToDoItem'
+        '404':
+          description: ToDo item not found
