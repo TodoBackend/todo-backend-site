@@ -348,3 +348,6 @@
   clear:
     label: "Clear"
     logo: clear.svg
+  smithy4s:
+     label: "Smithy4s"
+     logo: smithy4s-logo.svg
