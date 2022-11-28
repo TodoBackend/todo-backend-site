@@ -1486,3 +1486,14 @@
     - "spider-gazelle"
     - clear
     - postgres
+    
+ "Scala / Smithy4s / Http4s":
+  description: A <a href="https://disneystreaming.github.io/smithy4s/">Smithy4s</a> implementation using <a href="https://smithy.io/2.0/index.html">Smithy</a> as an IDL with an In memory implementation based using <a href="https://typelevel.org/cats-effect/docs/std/ref">Cats Ref</a>
+  sourcecode_url: https://github.com/yisraelU/Smithy4s-TodoBackend
+  live_url: https://todo-smithy4s.herokuapp.com/todo
+  tags:
+    - scala
+    - smithy
+    - smithy4s
+    - http4s
+    - swagger   
