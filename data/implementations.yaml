@@ -1486,3 +1486,17 @@
     - "spider-gazelle"
     - clear
     - postgres
+
+"Java 17 SpringBoot Spring Data Elasticsearch":
+  description: <a href="https://todo-spring-data-elasticsearch.herokuapp.com"> Java 17 Spring Data Elasticsearch</a> implementation using 
+    Java 17 Spring Boot 3.0 Spring Data Elasticsearch 5.0 Gradle 7.6
+  sourcecode_url: https://github.com/stewseo/todo-backend-spring-data-elasticsearch
+  live_url: https://todo-spring-data-elasticsearch.herokuapp.com:443/todos
+  tags:
+    - java
+    - jvm
+    - spring-boot
+    - spring-data-elasticsearch
+    - tomcat
+    - gradle
+
