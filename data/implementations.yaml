@@ -1486,3 +1486,11 @@
     - "spider-gazelle"
     - clear
     - postgres
+
+"NGINX / Lua":
+  description: A implementation using <a href="https://www.nginx.com/">NGINX</a> and <a href="https://www.lua.org/">Lua lang</a>.
+  sourcecode_url: https://github.com/mauricioabreu/todo-backend-lua-nginx
+  live_url: https://todo-backend-nginx-lua.herokuapp.com/
+  tags:
+    - nginx
+    - lua

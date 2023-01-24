@@ -348,3 +348,9 @@
   clear:
     label: "Clear"
     logo: clear.svg
+  lua:
+    label: Lua
+    logo: lua.png
+  nginx:
+    label: NGINX
+    logo: nginx.png
