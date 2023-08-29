@@ -1486,3 +1486,15 @@
     - "spider-gazelle"
     - clear
     - postgres
+
+"Scala / Http4s / Tagless Final":
+  description:
+    A <a href="http://www.scala-lang.org/">Scala</a> implementation using Scala 3, cats-effect 3, http4s, In-memory H2 database using tagless final style.
+  sourcecode_url: https://github.com/joaobaena/tagless-todo-backend
+  live_url: https://tagless-todo-backend-58e9c7283f79.herokuapp.com/todos
+  tags:
+    - scala
+    - scala3
+    - http4s
+    - cats
+    - taglessfinal
