@@ -1311,7 +1311,7 @@
     - scala
     - http4s
 
-"Scala 3 / sharaf":
+"Scala 3 / Sharaf":
   description:
     A Scala 3 implementation using Sharaf
   sourcecode_url: https://github.com/sake92/sharaf-todo-backend
